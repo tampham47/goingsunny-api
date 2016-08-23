@@ -3,16 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "keystone": "0.3.21",
     "async": "^1.5.0",
-    "underscore": "^1.8.3",
-    "moment": "^2.10.6",
     "cloudinary": "^1.2.4",
+    "dotenv": "^1.1.0",
     "express-handlebars": "^1.1.0",
+    "express-restify-mongoose": "^4.1.1",
     "handlebars": "^2.0.0",
+    "keystone": "https://github.com/keystonejs/keystone.git",
+    "moment": "^2.10.6",
     "node-sass": "^3.3.2",
-    "node-sass-middleware": "^0.9.7", 
-    "dotenv": "^1.1.0"
+    "node-sass-middleware": "^0.9.7",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "gulp": "^3.7.0",
@@ -21,7 +22,6 @@
     "gulp-shell": "^0.5.0",
     "gulp-watch": "^4.3.5",
     "gulp-sass": "^2.0.4"
-    
   },
   "engines": {
     "node": ">=0.10.22",
@@ -30,7 +30,7 @@
   "scripts": {
     "start": "node keystone.js",
     "togoingsunny": "ssh -i _deploy/goingsunny.pem centos@52.221.229.162",
-    "deploy_dev": "ssh -t -i _deploy/goingsunny.pem centos@52.221.229.162 'cd prod/gsun-datacenter && sudo git pull && sudo npm run build && pm2 startOrRestart pm2.json --env development'",
+    "deploy_dev": "ssh -t -i _deploy/goingsunny.pem centos@52.221.229.162 'cd prod/gsun-datacenter && sudo git pull && pm2 startOrRestart pm2.json --env development'",
     "deploy_dev_hard": "ssh -t -i _deploy/goingsunny.pem centos@52.221.229.162 'cd prod/gsun-datacenter && sudo git pull && sudo npm install && pm2 startOrRestart pm2.json --env development'",
     "deploy_prod": "ssh -t -i _deploy/goingsunny.pem centos@52.221.229.162 'cd prod/gsun-datacenter && sudo git pull && sudo npm run build && pm2 startOrRestart pm2.json --env production'"
   },

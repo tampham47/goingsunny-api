@@ -20,7 +20,9 @@
 
 var keystone = require('keystone');
 var middleware = require('./middleware');
+var restify = require('express-restify-mongoose');
 var importRoutes = keystone.importer(__dirname);
+var router = keystone.express.Router();
 
 // Common Middleware
 keystone.pre('routes', middleware.initLocals);
@@ -40,6 +42,14 @@ exports = module.exports = function(app) {
 	app.get('/blog/post/:post', routes.views.post);
 	app.get('/gallery', routes.views.gallery);
 	app.all('/contact', routes.views.contact);
+
+	restify.serve(router, keystone.mongoose.model('User'));
+	restify.serve(router, keystone.mongoose.model('Post'));
+	restify.serve(router, keystone.mongoose.model('PostCategory'), {
+		name: 'category'
+	});
+
+	app.use(router);
 	
 	// NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
 	// app.get('/protected', middleware.requireUser, routes.views.protected);
