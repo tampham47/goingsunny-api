@@ -29,10 +29,10 @@
   },
   "scripts": {
     "start": "node keystone.js",
-    "togoingsunny": "ssh -i _deploy/goingsunny.pem centos@52.221.229.162",
-    "deploy_dev": "ssh -t -i _deploy/goingsunny.pem centos@52.221.229.162 'cd prod/gsun-datacenter && sudo git pull && pm2 startOrRestart pm2.json --env development'",
-    "deploy_dev_hard": "ssh -t -i _deploy/goingsunny.pem centos@52.221.229.162 'cd prod/gsun-datacenter && sudo git pull && sudo npm install && pm2 startOrRestart pm2.json --env development'",
-    "deploy_prod": "ssh -t -i _deploy/goingsunny.pem centos@52.221.229.162 'cd prod/gsun-datacenter && sudo git pull && sudo npm run build && pm2 startOrRestart pm2.json --env production'"
+    "togoingsunny": "ssh -i _deploy/goingsunny.pem centos@52.77.217.160",
+    "deploy_dev": "ssh -t -i _deploy/goingsunny.pem centos@52.77.217.160 'cd prod/gsun-datacenter && sudo git pull && pm2 startOrRestart pm2.json --env development'",
+    "deploy_dev_hard": "ssh -t -i _deploy/goingsunny.pem centos@52.77.217.160 'cd prod/gsun-datacenter && sudo git pull && sudo npm install && pm2 startOrRestart pm2.json --env development'",
+    "deploy_prod": "ssh -t -i _deploy/goingsunny.pem centos@52.77.217.160 'cd prod/gsun-datacenter && sudo git pull && sudo npm run build && pm2 startOrRestart pm2.json --env production'"
   },
   "main": "keystone.js"
 }
