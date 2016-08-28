@@ -14,7 +14,7 @@ var UserInChannel = new keystone.List('UserInChannel', {
 UserInChannel.add({
 	userId: { type: Types.Relationship, ref: 'User', initial: true, index: true, required: true },
 	channelId: { type: Types.Relationship, ref: 'Channel', initial: true, index: true, required: true },
-	joinedAt: { type: Date, default: Date.now, noedit: true }
+	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
 
 

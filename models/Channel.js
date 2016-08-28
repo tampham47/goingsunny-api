@@ -10,7 +10,7 @@ var Channel = new keystone.List('Channel');
 
 Channel.add({
 	name: { type: Types.Text, required: true, index: true },
-	createdAt: { type: Date, default: Date.now, noedit: true }
+	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
 
 

@@ -14,6 +14,7 @@ User.add({
 	password: { type: Types.Password, initial: true, required: true },
 	provider: { type: String },
 	providerId: { type: String },
+	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
 	/* Additional Information */
 	avatar: { type: Types.CloudinaryImage, initial: true },
