@@ -23,5 +23,5 @@ Channel.add({
  * Registration
  */
 
-Channel.defaultColumns = 'name createdAt';
+Channel.defaultColumns = 'name, createdAt';
 Channel.register();
