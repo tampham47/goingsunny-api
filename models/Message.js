@@ -9,7 +9,8 @@ var Types = keystone.Field.Types;
 var Message = new keystone.List('Message');
 
 Message.add({
-	userInChannelId: { type: Types.Relationship, ref: 'UserInChannel', initial: true, index: true, required: true },
+	_user: { type: Types.Relationship, ref: 'User', index: true },
+	_channel: { type: Types.Relationship, ref: 'Channel', index: true },
 	content: { type: Types.Textarea, initial: true, required: true },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });

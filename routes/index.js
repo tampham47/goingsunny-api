@@ -45,9 +45,10 @@ exports = module.exports = function(app) {
 
 	restify.serve(router, keystone.mongoose.model('User'));
 	restify.serve(router, keystone.mongoose.model('Post'));
-	restify.serve(router, keystone.mongoose.model('PostCategory'), {
-		name: 'category'
-	});
+	restify.serve(router, keystone.mongoose.model('PostCategory'), {name: 'category'});
+	restify.serve(router, keystone.mongoose.model('Channel'));
+	restify.serve(router, keystone.mongoose.model('Message'));
+	restify.serve(router, keystone.mongoose.model('UserInChannel'));
 
 	app.use(router);
 	
