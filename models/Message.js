@@ -1,3 +1,7 @@
+/**
+ * 
+ */
+
 var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
@@ -15,6 +19,11 @@ Message.add({
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
 
+//Add
+Message.schema.add({ 
+	authUser: keystone.mongoose.Schema.Types.Mixed,
+	channelUrl: String
+});
 
 /**
  * Relationships
@@ -25,5 +34,5 @@ Message.add({
  * Registration
  */
 
-Message.defaultColumns = 'name, createdAt';
+Message.defaultColumns = '_channel, _user, content, createdAt';
 Message.register();
