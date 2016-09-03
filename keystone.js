@@ -15,8 +15,8 @@ var handlebars = require('express-handlebars');
 
 keystone.init({
 
-	'name': 'Goingsunny Api',
-	'brand': 'Goingsunny Api',
+	'name': 'GoingsunnyDatacenter',
+	'brand': 'GoingsunnyApi',
 	
 	'sass': 'public',
 	'static': 'public',
