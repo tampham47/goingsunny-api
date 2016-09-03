@@ -27,5 +27,5 @@ UserInChannel.add({
  * Registration
  */
 
-UserInChannel.defaultColumns = 'name createdAt';
+UserInChannel.defaultColumns = '_user, _channel createdAt';
 UserInChannel.register();

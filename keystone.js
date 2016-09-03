@@ -15,8 +15,8 @@ var handlebars = require('express-handlebars');
 
 keystone.init({
 
-	'name': 'GoingsunnyDatacenter',
-	'brand': 'GoingsunnyDatacenter',
+	'name': 'Goingsunny Api',
+	'brand': 'Goingsunny Api',
 	
 	'sass': 'public',
 	'static': 'public',
@@ -100,10 +100,11 @@ keystone.set('email tests', require('./routes/emails'));
 // Configure the navigation bar in Keystone's Admin UI
 
 keystone.set('nav', {
+	'channels': ['channels', 'messages', 'user-in-channels'],
+	'users': 'users',
 	'posts': ['posts', 'post-categories'],
 	'galleries': 'galleries',
-	'enquiries': 'enquiries',
-	'users': 'users'
+	'enquiries': 'enquiries'
 });
 
 // Start Keystone to connect to your database and initialise the web server
