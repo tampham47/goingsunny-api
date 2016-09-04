@@ -59,6 +59,7 @@ keystone.set('locals', {
 // Load your project's Routes
 
 keystone.set('routes', require('./routes'));
+keystone.set('cors allow origin', true);
 
 
 // Setup common locals for your emails. The following are required by Keystone's

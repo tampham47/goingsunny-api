@@ -43,6 +43,8 @@ exports = module.exports = function(app) {
 	app.get('/gallery', routes.views.gallery);
 	app.all('/contact', routes.views.contact);
 
+	app.all('/api/*', keystone.middleware.cors);
+
 	restify.serve(router, keystone.mongoose.model('User'));
 	restify.serve(router, keystone.mongoose.model('Post'));
 	restify.serve(router, keystone.mongoose.model('PostCategory'), {name: 'category'});
