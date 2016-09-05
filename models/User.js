@@ -10,15 +10,21 @@ var User = new keystone.List('User');
 
 User.add({
 	name: { type: Types.Name, required: true, index: true },
+	displayName: { type: String },
 	email: { type: Types.Email, initial: true, required: true, index: true },
 	password: { type: Types.Password, initial: true, required: true },
+	username: { type: String },
 	provider: { type: String },
 	providerId: { type: String },
+	profileUrl: { type: String },
+	avatar: { type: String },
+	accessToken: { type: String },
+	refreshToken: { type: String },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
 	/* Additional Information */
-	avatar: { type: Types.CloudinaryImage, initial: true },
-	gender: { type: Types.Boolean, initial: true },
+	avatarFileUpload: { type: Types.CloudinaryImage, initial: true },
+	gender: { type: String, initial: true },
 	birthDay: { type: Types.Date, initial: true },
 	bio: { type: Types.Textarea, initial: true }
 }, 'Permissions', {
