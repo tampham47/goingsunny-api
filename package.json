@@ -7,7 +7,7 @@
     "cloudinary": "^1.2.4",
     "dotenv": "^1.1.0",
     "express-handlebars": "^1.1.0",
-    "express-restify-mongoose": "^4.1.1",
+    "express-restify-mongoose": "3.2.0",
     "handlebars": "^2.0.0",
     "keystone": "https://github.com/keystonejs/keystone.git",
     "moment": "^2.10.6",
