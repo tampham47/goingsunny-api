@@ -45,9 +45,7 @@ exports = module.exports = function(app) {
 
 	app.all('/api/*', keystone.middleware.cors);
 
-	restify.serve(router, keystone.mongoose.model('User'), {
-		protected: ['password', 'userToken', 'refreshToken', 'email']
-	});
+	restify.serve(router, keystone.mongoose.model('User'));
 	restify.serve(router, keystone.mongoose.model('Post'));
 	restify.serve(router, keystone.mongoose.model('PostCategory'), {name: 'category'});
 	restify.serve(router, keystone.mongoose.model('Channel'));
