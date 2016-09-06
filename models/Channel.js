@@ -17,7 +17,7 @@ Channel.add({
 	url: { type: Types.Text, required: true, index: true, initial: true },
 	name: { type: Types.Text, required: true, index: true, initial: true },
 	state: { type: Types.Select, options: 'public, private', default: 'public', index: true },
-	brief: { type: Types.Html, wysiwyg: true, height: 150 },
+	description: { type: Types.Textarea, height: 150 },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
 
