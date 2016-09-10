@@ -14,12 +14,12 @@ User.add({
 	email: { type: Types.Email, initial: true, required: true, index: true },
 	password: { type: Types.Password, initial: true, required: true },
 	username: { type: String },
-	provider: { type: String },
-	providerId: { type: String },
-	profileUrl: { type: String },
-	avatar: { type: String },
-	accessToken: { type: String },
-	refreshToken: { type: String },
+	provider: { type: String, noedit: true },
+	providerId: { type: String, noedit: true },
+	profileUrl: { type: String, noedit: true },
+	avatar: { type: String, noedit: true },
+	accessToken: { type: String, noedit: true },
+	refreshToken: { type: String, noedit: true },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
 	/* Additional Information */
