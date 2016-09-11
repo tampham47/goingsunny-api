@@ -16,6 +16,7 @@ Message.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
 	_channel: { type: Types.Relationship, ref: 'Channel', index: true },
 	content: { type: Types.Textarea, initial: true, required: true },
+	type: { type: String },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
 
