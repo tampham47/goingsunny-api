@@ -5,11 +5,12 @@
   "dependencies": {
     "async": "^1.5.0",
     "cloudinary": "^1.2.4",
+    "debug": "^2.2.0",
     "dotenv": "^1.1.0",
     "express-handlebars": "^1.1.0",
     "express-restify-mongoose": "3.2.0",
     "handlebars": "^2.0.0",
-    "keystone": "https://github.com/keystonejs/keystone.git",
+    "keystone": "^4.0.0-beta.1",
     "moment": "^2.10.6",
     "node-sass": "^3.3.2",
     "node-sass-middleware": "^0.9.7",
