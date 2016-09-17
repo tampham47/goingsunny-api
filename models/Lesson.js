@@ -18,7 +18,7 @@ Lesson.add({
 	name: { type: Types.Text, required: true, index: true, initial: true },
 	state: { type: Types.Select, options: 'public, draft', default: 'draft', index: true },
 	content: { type: Types.Html, wysiwyg: true, height: 400 },
-	availableDate: { type: Types.Date},
+	availableDate: { type: Types.Date, format: 'YYYY-MM-DD'},
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
 
@@ -32,5 +32,5 @@ Lesson.add({
  * Registration
  */
 
-Lesson.defaultColumns = 'name, url, _user, createdAt';
+Lesson.defaultColumns = 'name, url, _user, _channel, createdAt';
 Lesson.register();
