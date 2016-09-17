@@ -38,5 +38,5 @@ Lesson.schema.pre('save', function(next) {
  * Registration
  */
 
-Lesson.defaultColumns = 'name, url, _user, _channel, createdAt';
+Lesson.defaultColumns = 'name, availableDateStr, _user, _channel, createdAt';
 Lesson.register();
