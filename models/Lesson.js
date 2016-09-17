@@ -19,7 +19,13 @@ Lesson.add({
 	state: { type: Types.Select, options: 'public, draft', default: 'draft', index: true },
 	content: { type: Types.Html, wysiwyg: true, height: 400 },
 	availableDate: { type: Types.Date, format: 'YYYY-MM-DD'},
+	availableDateStr: { type: String },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
+});
+
+Lesson.schema.pre('save', function(next) {
+	this.availableDateStr = this._.availableDate.format('YYYYMMDD');
+	next();
 });
 
 
