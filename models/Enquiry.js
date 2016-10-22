@@ -1,3 +1,7 @@
+/**
+ * 
+ */
+
 var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
@@ -13,9 +17,10 @@ var Enquiry = new keystone.List('Enquiry', {
 
 Enquiry.add({
 	_user: { type: Types.Relationship, ref: 'User', initial: true, index: true },
-	name: { type: String },
-	email: { type: Types.Email },
-	phone: { type: String },
+	// name: { type: String },
+	// email: { type: Types.Email },
+	// phone: { type: String },
+	message: { type: Types.Textarea, initial: true, required: true },
 	enquiryType: { 
 		type: Types.Select, options: [
 			{ value: 'message', label: 'Just leaving a message' },
@@ -24,7 +29,6 @@ Enquiry.add({
 		],
 		default: 'message'
 	},
-	message: { type: Types.Markdown, required: true },
 	createdAt: { type: Date, default: Date.now }
 });
 
