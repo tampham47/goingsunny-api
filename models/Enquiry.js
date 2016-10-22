@@ -12,14 +12,18 @@ var Enquiry = new keystone.List('Enquiry', {
 });
 
 Enquiry.add({
-	name: { type: Types.Name, required: true },
-	email: { type: Types.Email, required: true },
+	_user: { type: Types.Relationship, ref: 'User', initial: true, index: true },
+	name: { type: String },
+	email: { type: Types.Email },
 	phone: { type: String },
-	enquiryType: { type: Types.Select, options: [
-		{ value: 'message', label: 'Just leaving a message' },
-		{ value: 'question', label: 'I\'ve got a question' },
-		{ value: 'other', label: 'Something else...' }
-	] },
+	enquiryType: { 
+		type: Types.Select, options: [
+			{ value: 'message', label: 'Just leaving a message' },
+			{ value: 'question', label: 'I\'ve got a question' },
+			{ value: 'other', label: 'Something else...' }
+		],
+		default: 'message'
+	},
 	message: { type: Types.Markdown, required: true },
 	createdAt: { type: Date, default: Date.now }
 });

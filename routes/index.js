@@ -54,6 +54,7 @@ exports = module.exports = function(app) {
 	restify.serve(router, keystone.mongoose.model('Notification'));
 	restify.serve(router, keystone.mongoose.model('UserNotification'));
 	restify.serve(router, keystone.mongoose.model('Lesson'));
+	restify.serve(router, keystone.mongoose.model('Enquiry'));
 
 	app.use(router);
 	
