@@ -20,7 +20,8 @@ Enquiry.add({
 	// name: { type: String },
 	// email: { type: Types.Email },
 	// phone: { type: String },
-	message: { type: Types.Textarea, initial: true, required: true, height: 300 },
+	// message: { type: Types.Textarea, initial: true, required: true, height: 300 },
+	message: { type: Types.Html, wysiwyg: true, height: 300, initial: true, },
 	enquiryType: { 
 		type: Types.Select, options: [
 			{ value: 'message', label: 'Just leaving a message' },
