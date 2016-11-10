@@ -26,6 +26,7 @@ User.add({
 	refreshToken: { type: String, noedit: true },
 	avatar: { type: String, noedit: true },
 	
+	lastAccessedAt: { type: Types.Datetime, default: Date.now, noedit: true },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
 	/* Additional Information */
@@ -43,14 +44,5 @@ User.schema.virtual('canAccessKeystone').get(function() {
 });
 
 
-/**
- * Relationships
- */
-
-
-/**
- * Registration
- */
-
-User.defaultColumns = 'name, email|20%, birthDay|20%, gender|10%, isAdmin|10%';
+User.defaultColumns = 'name, email|20%, lastAccessedAt|20%, appearinLink|15%, isAdmin|5%';
 User.register();
