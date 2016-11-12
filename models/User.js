@@ -26,7 +26,7 @@ User.add({
 	refreshToken: { type: String, noedit: true },
 	avatar: { type: String, noedit: true },
 	
-	lastAccessedAt: { type: Types.Datetime, default: Date.now, noedit: true },
+	lastAccessedAt: { type: Types.Datetime, noedit: true },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
 	/* Additional Information */

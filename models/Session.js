@@ -15,6 +15,7 @@ var Session = new keystone.List('Session');
 Session.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
 	roomName: { type: Types.Text, initial: true },
+	sessionName: { type: Types.Text, initial: true },
 	isConfirmed: { type: Boolean, default: false },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
