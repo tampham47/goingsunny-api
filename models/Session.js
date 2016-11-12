@@ -29,5 +29,5 @@ Session.schema.pre('save', function(next) {
  * Relationships
  */
 
-Session.defaultColumns = '_user, roomName, isConfirmed, createdAt';
+Session.defaultColumns = '_user, roomName, sessionName, isConfirmed, createdAt';
 Session.register();
