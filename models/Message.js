@@ -10,7 +10,9 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
-var Message = new keystone.List('Message');
+var Message = new keystone.List('Message', {
+	defaultSort: '-createdAt'
+});
 
 Message.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },

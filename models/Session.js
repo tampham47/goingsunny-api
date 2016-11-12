@@ -10,7 +10,9 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
-var Session = new keystone.List('Session');
+var Session = new keystone.List('Session', {
+	defaultSort: '-createdAt'
+});
 
 Session.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },

@@ -10,7 +10,9 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
-var Channel = new keystone.List('Channel');
+var Channel = new keystone.List('Channel', {
+	defaultSort: '-createdAt'
+});
 
 Channel.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },

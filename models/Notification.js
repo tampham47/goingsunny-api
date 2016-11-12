@@ -10,7 +10,9 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
-var Notification = new keystone.List('Notification');
+var Notification = new keystone.List('Notification', {
+	defaultSort: '-createdAt'
+});
 
 Notification.add({
 	name: { type: Types.Text, required: true, index: true, initial: true },

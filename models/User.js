@@ -6,7 +6,9 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
-var User = new keystone.List('User');
+var User = new keystone.List('User', {
+	defaultSort: '-createdAt'
+});
 
 User.add({
 	name: { type: Types.Name, required: true, index: true },

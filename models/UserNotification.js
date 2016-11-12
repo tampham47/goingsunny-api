@@ -8,7 +8,8 @@ var Types = keystone.Field.Types;
 
 var UserNotification = new keystone.List('UserNotification', {
 	nocreate: true,
-	noedit: true
+	noedit: true,
+	defaultSort: '-createdAt'
 });
 
 UserNotification.add({

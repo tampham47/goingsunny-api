@@ -10,7 +10,9 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
-var Lesson = new keystone.List('Lesson');
+var Lesson = new keystone.List('Lesson', {
+	defaultSort: '-createdAt'
+});
 
 Lesson.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },

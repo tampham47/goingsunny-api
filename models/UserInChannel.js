@@ -8,7 +8,8 @@ var Types = keystone.Field.Types;
 
 var UserInChannel = new keystone.List('UserInChannel', {
 	nocreate: true,
-	noedit: true
+	noedit: true,
+	defaultSort: '-createdAt'
 });
 
 UserInChannel.add({
