@@ -103,6 +103,7 @@ keystone.set('email tests', require('./routes/emails'));
 keystone.set('nav', {
 	'channels': ['channels', 'messages', 'user-in-channels'],
 	'lessons': 'lessons',
+	'sessions': 'sessions',
 	'users': 'users',
 	'notifications': ['notifications', 'user-notifications' ],
 	'posts': ['posts', 'post-categories'],

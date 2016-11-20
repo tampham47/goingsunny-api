@@ -28,14 +28,6 @@ Message.schema.add({
 	authUser: keystone.mongoose.Schema.Types.Mixed,
 });
 
-/**
- * Relationships
- */
-
-
-/**
- * Registration
- */
 
 Message.defaultColumns = 'channelUrl, _user, content, createdAt';
 Message.register();

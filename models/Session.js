@@ -23,6 +23,9 @@ Session.add({
 });
 
 Session.schema.pre('save', function(next) {
+	if (!this._user) {
+		return next({message: 'User is required.'});
+	}
 	next();
 });
 
