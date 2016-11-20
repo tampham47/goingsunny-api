@@ -27,12 +27,18 @@ Lesson.add({
 	_channel: { type: Types.Relationship, ref: 'Channel', index: true },
 	state: { type: Types.Select, options: 'public, draft', default: 'draft', index: true },
 	name: { type: Types.Text, required: true, index: true, initial: true },
-	intro: { type: Types.Textarea, required: true, initial: true },
+
+	videoIntro: { type: Types.Textarea },
+	youtubeId: { type: Types.Text },
+	youtubeEmbedLink: { type: Types.Url },
+	
+	imageIntro: { type: Types.Textarea },
 	image01: { type: Types.File, storage: myStorage },
 	image02: { type: Types.File, storage: myStorage },
 	image03: { type: Types.File, storage: myStorage },
 	image04: { type: Types.File, storage: myStorage },
 	image05: { type: Types.File, storage: myStorage },
+	
 	content: { type: Types.Html, wysiwyg: true, height: 400 },
 	availableDate: { type: Types.Date, format: 'YYYY-MM-DD'},
 	availableDateStr: { type: String },
