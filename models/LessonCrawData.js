@@ -25,9 +25,10 @@ var myStorage = new keystone.Storage({
 LessonCrawData.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
 	_channel: { type: Types.Relationship, ref: 'Channel', index: true },
+	source: { type: Types.Url },
 	state: { type: Types.Select, options: 'public, draft', default: 'draft', index: true },
-	name: { type: Types.Text, required: true, index: true, initial: true },
 
+	name: { type: Types.Text, required: true, index: true, initial: true },
 	videoIntro: { type: Types.Textarea },
 	youtubeId: { type: Types.Text },
 	youtubeEmbedLink: { type: Types.Url },
@@ -41,10 +42,14 @@ LessonCrawData.add({
 
 	content: { type: Types.Html, wysiwyg: true, height: 400 },
 	vocabulary: { type: Types.Html, wysiwyg: true, height: 300 },
+
 	availableDate: { type: Types.Date, format: 'YYYY-MM-DD'},
 	availableDateStr: { type: String },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
+
+
+LessonCrawData.schema.add({ mixedData: keystone.mongoose.Schema.Types.Mixed });
 
 LessonCrawData.schema.pre('save', function(next) {
 	this.availableDateStr = this._.availableDate.format('YYYYMMDD');
