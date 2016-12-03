@@ -40,6 +40,7 @@ LessonCrawData.add({
 	image05: { type: Types.File, storage: myStorage },
 
 	content: { type: Types.Html, wysiwyg: true, height: 400 },
+	vocabulary: { type: Types.Html, wysiwyg: true, height: 300 },
 	availableDate: { type: Types.Date, format: 'YYYY-MM-DD'},
 	availableDateStr: { type: String },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
