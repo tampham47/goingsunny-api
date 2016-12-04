@@ -24,7 +24,7 @@ var myStorage = new keystone.Storage({
 
 Lesson.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
-	state: { type: Types.Select, options: 'published, public, draft', default: 'draft', index: true },
+	state: { type: Types.Select, options: 'published, draft', default: 'draft', index: true },
 	
 	name: { type: Types.Text, required: true, index: true, initial: true },
 	videoIntro: { type: Types.Textarea },
@@ -52,5 +52,5 @@ Lesson.schema.pre('save', function(next) {
 });
 
 
-Lesson.defaultColumns = 'name, intro, availableDateStr, _user, createdAt';
+Lesson.defaultColumns = 'name, state|15%, availableDateStr|15%, _user|15%, createdAt|20%';
 Lesson.register();

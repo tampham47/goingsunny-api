@@ -26,7 +26,7 @@ var myStorage = new keystone.Storage({
 LessonCrawData.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
 	source: { type: Types.Url },
-	state: { type: Types.Select, options: 'published, public, draft', default: 'draft', index: true },
+	state: { type: Types.Select, options: 'published, draft', default: 'draft', index: true },
 
 	name: { type: Types.Text, required: true, index: true, initial: true },
 	videoIntro: { type: Types.Textarea },
@@ -45,7 +45,7 @@ LessonCrawData.add({
 
 	availableDate: { type: Types.Date, format: 'YYYY-MM-DD'},
 	availableDateStr: { type: String },
-	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
+	createdAt: { type: Types.Datetime, default: Date.now, noedit: true, format: 'YYYY-MM-DD' }
 });
 
 
@@ -83,5 +83,5 @@ LessonCrawData.schema.pre('save', function(next) {
 });
 
 
-LessonCrawData.defaultColumns = 'name, intro, availableDateStr, _user, createdAt';
+LessonCrawData.defaultColumns = 'name, state|15%, availableDateStr|15%, _user|15%, createdAt|20%';
 LessonCrawData.register();
