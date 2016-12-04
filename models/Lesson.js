@@ -11,7 +11,7 @@ var Types = keystone.Field.Types;
  */
 
 var Lesson = new keystone.List('Lesson', {
-	defaultSort: '-createdAt'
+	defaultSort: 'availableDateStr'
 });
 
 var myStorage = new keystone.Storage({
@@ -24,10 +24,9 @@ var myStorage = new keystone.Storage({
 
 Lesson.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
-	_channel: { type: Types.Relationship, ref: 'Channel', index: true },
-	state: { type: Types.Select, options: 'public, draft', default: 'draft', index: true },
+	state: { type: Types.Select, options: 'published, public, draft', default: 'draft', index: true },
+	
 	name: { type: Types.Text, required: true, index: true, initial: true },
-
 	videoIntro: { type: Types.Textarea },
 	youtubeId: { type: Types.Text },
 	youtubeEmbedLink: { type: Types.Url },
@@ -40,6 +39,8 @@ Lesson.add({
 	image05: { type: Types.File, storage: myStorage },
 	
 	content: { type: Types.Html, wysiwyg: true, height: 400 },
+	vocabulary: { type: Types.Html, wysiwyg: true, height: 300 },
+	
 	availableDate: { type: Types.Date, format: 'YYYY-MM-DD'},
 	availableDateStr: { type: String },
 	createdAt: { type: Types.Datetime, default: Date.now, noedit: true }

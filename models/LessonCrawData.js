@@ -3,6 +3,7 @@
  */
 
 var keystone = require('keystone');
+var Lesson = keystone.mongoose.model('Lesson');
 var Types = keystone.Field.Types;
 
 /**
@@ -11,7 +12,7 @@ var Types = keystone.Field.Types;
  */
 
 var LessonCrawData = new keystone.List('LessonCrawData', {
-	defaultSort: '-createdAt'
+	defaultSort: 'availableDateStr'
 });
 
 var myStorage = new keystone.Storage({
@@ -24,9 +25,8 @@ var myStorage = new keystone.Storage({
 
 LessonCrawData.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
-	_channel: { type: Types.Relationship, ref: 'Channel', index: true },
 	source: { type: Types.Url },
-	state: { type: Types.Select, options: 'public, draft', default: 'draft', index: true },
+	state: { type: Types.Select, options: 'published, public, draft', default: 'draft', index: true },
 
 	name: { type: Types.Text, required: true, index: true, initial: true },
 	videoIntro: { type: Types.Textarea },
@@ -53,6 +53,32 @@ LessonCrawData.schema.add({ mixedData: keystone.mongoose.Schema.Types.Mixed });
 
 LessonCrawData.schema.pre('save', function(next) {
 	this.availableDateStr = this._.availableDate.format('YYYYMMDD');
+
+	if (this.state === 'published') {
+		var lesson = new Lesson({
+			_user: this._user,
+			state: this.state,
+			name: this.name,
+			videoIntro: this.videoIntro,
+			youtubeId: this.youtubeId,
+			youtubeEmbedLink: this.youtubeEmbedLink,
+			imageIntro: this.imageIntro,
+			image01: this.image01,
+			image02: this.image02,
+			image03: this.image03,
+			image04: this.image04,
+			image05: this.image05,
+			content: this.content,
+			vocabulary: this.vocabulary,
+			availableDate: this.availableDate,
+			availableDateStr: this.availableDateStr
+		});
+
+		lesson.save(function(err, data) {
+			console.log('Lesson new err', err);
+		});
+	}
+
 	next();
 });
 
