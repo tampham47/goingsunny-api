@@ -101,11 +101,11 @@ keystone.set('email tests', require('./routes/emails'));
 // Configure the navigation bar in Keystone's Admin UI
 
 keystone.set('nav', {
-	'channels': ['channels', 'messages', 'user-in-channels'],
 	'lessons': ['lessons', 'lesson-craw-data'],
 	'sessions': 'sessions',
 	'users': 'users',
 	'notifications': ['notifications', 'user-notifications' ],
+	'channels': ['channels', 'messages', 'user-in-channels'],
 	'posts': ['posts', 'post-categories'],
 	'galleries': 'galleries',
 	'enquiries': 'enquiries'
