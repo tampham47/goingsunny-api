@@ -26,6 +26,14 @@ Lesson.add({
 	_user: { type: Types.Relationship, ref: 'User', index: true },
 	state: { type: Types.Select, options: 'published, draft', default: 'draft', index: true },
 	
+	metaTitle: { type: Types.Text },
+	metaDescription: { type: Types.Textarea },
+	metaAuthor: { type: Types.Text },
+	metaImage: { type: Types.Url },
+	metaType: { type: Types.Text },
+	metaUrl: { type: Types.Url },
+	metaKeywords: { type: Types.Text },
+
 	name: { type: Types.Text, required: true, index: true, initial: true },
 	videoIntro: { type: Types.Textarea },
 	youtubeId: { type: Types.Text },
