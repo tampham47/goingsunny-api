@@ -30,37 +30,38 @@ keystone.pre('render', middleware.flashMessages);
 
 // Import Route Controllers
 var routes = {
-	views: importRoutes('./views')
+  views: importRoutes('./views')
 };
 
 // Setup Route Bindings
 exports = module.exports = function(app) {
-	
-	// Views
-	app.get('/', routes.views.index);
-	app.get('/blog/:category?', routes.views.blog);
-	app.get('/blog/post/:post', routes.views.post);
-	app.get('/gallery', routes.views.gallery);
-	app.all('/contact', routes.views.contact);
+  
+  // Views
+  app.get('/', routes.views.index);
+  app.get('/blog/:category?', routes.views.blog);
+  app.get('/blog/post/:post', routes.views.post);
+  app.get('/gallery', routes.views.gallery);
+  app.all('/contact', routes.views.contact);
 
-	app.all('/api/*', keystone.middleware.cors);
+  app.all('/api/*', keystone.middleware.cors);
 
-	restify.serve(router, keystone.mongoose.model('User'));
-	restify.serve(router, keystone.mongoose.model('Post'));
-	restify.serve(router, keystone.mongoose.model('PostCategory'), {name: 'category'});
-	restify.serve(router, keystone.mongoose.model('Channel'));
-	restify.serve(router, keystone.mongoose.model('Message'));
-	restify.serve(router, keystone.mongoose.model('UserInChannel'));
-	restify.serve(router, keystone.mongoose.model('Notification'));
-	restify.serve(router, keystone.mongoose.model('UserNotification'));
-	restify.serve(router, keystone.mongoose.model('Lesson'));
-	restify.serve(router, keystone.mongoose.model('Enquiry'));
-	restify.serve(router, keystone.mongoose.model('Session'));
-	restify.serve(router, keystone.mongoose.model('LessonCrawData'));
+  restify.serve(router, keystone.mongoose.model('User'));
+  restify.serve(router, keystone.mongoose.model('Post'));
+  restify.serve(router, keystone.mongoose.model('PostCategory'), {name: 'category'});
+  restify.serve(router, keystone.mongoose.model('Channel'));
+  restify.serve(router, keystone.mongoose.model('Message'));
+  restify.serve(router, keystone.mongoose.model('UserInChannel'));
+  restify.serve(router, keystone.mongoose.model('Notification'));
+  restify.serve(router, keystone.mongoose.model('UserNotification'));
+  restify.serve(router, keystone.mongoose.model('Lesson'));
+  restify.serve(router, keystone.mongoose.model('Enquiry'));
+  restify.serve(router, keystone.mongoose.model('Session'));
+  restify.serve(router, keystone.mongoose.model('LessonCrawData'));
+  restify.serve(router, keystone.mongoose.model('PinedPost'));
 
-	app.use(router);
-	
-	// NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
-	// app.get('/protected', middleware.requireUser, routes.views.protected);
-	
+  app.use(router);
+  
+  // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
+  // app.get('/protected', middleware.requireUser, routes.views.protected);
+  
 };
