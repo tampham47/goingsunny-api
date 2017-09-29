@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "start": "NODE_ENV=local PORT=5600 nodemon keystone.js",
-    "login_dev": "ssh -i _deploy/goingsunny-oregon.pem centos@35.162.241.129",
-    "deploy_dev": "ssh -t -i _deploy/goingsunny-oregon.pem centos@35.162.241.129 'cd prod/gsun-datacenter && git pull && pm2 startOrRestart pm2.json --env development'",
-    "deploy_dev_hard": "ssh -t -i _deploy/goingsunny-oregon.pem centos@35.162.241.129 'cd prod/gsun-datacenter && git pull && npm install && pm2 startOrRestart pm2.json --env development'",
-    "deploy_prod": "ssh -t -i _deploy/goingsunny-oregon.pem centos@35.162.241.129 'cd prod/gsun-datacenter && git pull && npm run build && pm2 startOrRestart pm2.json --env production'"
+
+    "login": "ssh -i _deploy/goingsunny-oregon.pem centos@35.162.241.129",
+    "deploy": "yarn run login 'cd prod/gsun-datacenter && git pull && pm2 startOrRestart pm2.json --env development'",
+    "deploy_prod": "yarn run login 'cd prod/gsun-datacenter && git pull && npm run build && pm2 startOrRestart pm2.json --env production'",
+
+    "postinstall": ""
   },
   "dependencies": {
     "async": "^1.5.0",
