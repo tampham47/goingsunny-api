@@ -7,15 +7,15 @@ var Types = keystone.Field.Types;
  */
 
 var UserInChannel = new keystone.List('UserInChannel', {
-	nocreate: true,
-	noedit: true,
-	defaultSort: '-createdAt'
+  nocreate: true,
+  noedit: true,
+  defaultSort: '-createdAt'
 });
 
 UserInChannel.add({
-	_user: { type: Types.Relationship, ref: 'User', initial: true, index: true, required: true },
-	_channel: { type: Types.Relationship, ref: 'Channel', initial: true, index: true, required: true },
-	createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
+  _user: { type: Types.Relationship, ref: 'User', initial: true, index: true, required: true },
+  _channel: { type: Types.Relationship, ref: 'Channel', initial: true, index: true, required: true },
+  createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
 
 

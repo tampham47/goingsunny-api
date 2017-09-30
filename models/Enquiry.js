@@ -11,64 +11,60 @@ var Types = keystone.Field.Types;
  */
 
 var Enquiry = new keystone.List('Enquiry', {
-	nocreate: true,
-	noedit: true,
-	defaultSort: '-createdAt'
+  nocreate: true,
+  noedit: true,
+  defaultSort: '-createdAt'
 });
 
 Enquiry.add({
-	_user: { type: Types.Relationship, ref: 'User', initial: true, index: true },
-	// name: { type: String },
-	// email: { type: Types.Email },
-	// phone: { type: String },
-	// message: { type: Types.Textarea, initial: true, required: true, height: 300 },
-	message: { type: Types.Html, wysiwyg: true, height: 300, initial: true, },
-	enquiryType: { 
-		type: Types.Select, options: [
-			{ value: 'message', label: 'Just leaving a message' },
-			{ value: 'question', label: 'I\'ve got a question' },
-			{ value: 'other', label: 'Something else...' }
-		],
-		default: 'message'
-	},
-	createdAt: { type: Date, default: Date.now }
+  _user: { type: Types.Relationship, ref: 'User', initial: true, index: true },
+  message: { type: Types.Html, wysiwyg: true, height: 300, initial: true, },
+  enquiryType: { 
+    type: Types.Select, options: [
+      { value: 'message', label: 'Just leaving a message' },
+      { value: 'question', label: 'I\'ve got a question' },
+      { value: 'other', label: 'Something else...' }
+    ],
+    default: 'message'
+  },
+  createdAt: { type: Date, default: Date.now }
 });
 
 Enquiry.schema.pre('save', function(next) {
-	this.wasNew = this.isNew;
-	next();
+  this.wasNew = this.isNew;
+  next();
 });
 
 Enquiry.schema.post('save', function() {
-	if (this.wasNew) {
-		this.sendNotificationEmail();
-	}
+  if (this.wasNew) {
+    this.sendNotificationEmail();
+  }
 });
 
 Enquiry.schema.methods.sendNotificationEmail = function(callback) {
-	
-	if ('function' !== typeof callback) {
-		callback = function() {};
-	}
-	
-	var enquiry = this;
-	
-	keystone.list('User').model.find().where('isAdmin', true).exec(function(err, admins) {
-		
-		if (err) return callback(err);
-		
-		new keystone.Email('enquiry-notification').send({
-			to: admins,
-			from: {
-				name: 'GoingsunnyDatacenter',
-				email: 'contact@goingsunnydatacenter.com'
-			},
-			subject: 'New Enquiry for GoingsunnyDatacenter',
-			enquiry: enquiry
-		}, callback);
-		
-	});
-	
+  
+  if ('function' !== typeof callback) {
+    callback = function() {};
+  }
+  
+  var enquiry = this;
+  
+  keystone.list('User').model.find().where('isAdmin', true).exec(function(err, admins) {
+    
+    if (err) return callback(err);
+    
+    new keystone.Email('enquiry-notification').send({
+      to: admins,
+      from: {
+        name: 'GoingsunnyDatacenter',
+        email: 'contact@goingsunnydatacenter.com'
+      },
+      subject: 'New Enquiry for GoingsunnyDatacenter',
+      enquiry: enquiry
+    }, callback);
+    
+  });
+  
 };
 
 Enquiry.defaultSort = '-createdAt';
