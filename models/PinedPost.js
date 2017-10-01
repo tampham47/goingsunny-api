@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 
 var keystone = require('keystone');
@@ -23,5 +23,5 @@ PinedPost.add({
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
 
-PinedPost.defaultColumns = 'name, url, _user, createdAt';
+PinedPost.defaultColumns = 'title|30%, url|20%, type|10%, state|10%, createdAt';
 PinedPost.register();
