@@ -16,7 +16,9 @@ User.add({
   email: { type: Types.Email, initial: true, required: true, index: true },
   password: { type: Types.Password, initial: true, required: true },
   username: { type: String },
-  
+
+  isMentor: { type: Boolean, label: 'Is Mentor', default: false },
+
   appearinLink: { type: String },
   skypeId: { type: String },
   phoneNumber: { type: String },
@@ -27,7 +29,7 @@ User.add({
   accessToken: { type: String, noedit: true },
   refreshToken: { type: String, noedit: true },
   avatar: { type: String, noedit: true },
-  
+
   lastAccessedAt: { type: Types.Datetime, noedit: true },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
