@@ -15,15 +15,16 @@ var Session = new keystone.List('Session', {
 });
 
 Session.add({
-  _user: { type: Types.Relationship, ref: 'User', index: true, initial: true },
+  _user: { type: Types.Relationship, ref: 'User', initial: true },
+  _messenger: { type: Types.Text, initial: true },
+
   sessionName: { type: Types.Text, initial: true },
   roomName: { type: Types.Text, default: '', initial: true },
-  isConfirmed: { type: Boolean, default: false, initial: true },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
 
 Session.schema.pre('save', function(next) {
-  if (!this._user) {
+  if (!this._user && !this._messenger) {
     return next(new Error('User is required.'));
   }
 
@@ -34,6 +35,7 @@ Session.schema.pre('save', function(next) {
   // only check for the new one
   keystone.list('Session').model.find({
     _user: this._user,
+    _messenger: this._messenger,
     sessionName: this.sessionName,
     roomName: '',
   }).exec(function(err, r) {
