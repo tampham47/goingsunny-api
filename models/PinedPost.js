@@ -27,8 +27,17 @@ var myStorage = new keystone.Storage({
 PinedPost.add({
   title: { type: Types.Text, required: true, initial: true },
   url: { type: Types.Url, required: true, initial: true },
-  type: { type: Types.Select, options: 'link, pdf, youtube', default: 'link', initial: true },
-  state: { type: Types.Select, options: 'public, archive', default: 'public' },
+  type: {
+    type: Types.Select,
+    options: 'link, pdf, youtube, note',
+    default: 'link',
+    initial: true,
+  },
+  state: {
+    type: Types.Select,
+    options: 'public, archive',
+    default: 'public'
+  },
   description: { type: Types.Textarea, height: 150 },
   cover: { type: Types.File, storage: myStorage },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
