@@ -3,10 +3,10 @@ var Session = keystone.list('Session').model;
 var moment = require('moment');
 var fetch = require('node-fetch');
 
-const botId = '59f28d26e4b0640c0cdc9930';
-const apiToken = 'mELtlMAHYqR0BvgEiMq8zVek3uYUK3OJMbtyrdNPTrQB9ndV0fM7lWTFZbM4MZvD';
-const blockFailId = '59f4498be4b0640c16ce4135';
-const blockSuccessId = '59f4414be4b0640c16a2b060';
+const botId = '59fc4cb4e4b02606ed00dbb5';
+const apiToken = '97pemuDTh2tINlcezl86IAF2O6ZXdnmddM0CenJGUr90D5XdSAuFT0IP8c1g9Rdf';
+const blockFailId = '59fc4cb5e4b02606ed00de38';
+const blockSuccessId = '59fc4cb5e4b02606ed00de34';
 
 const sendSuccess = (messengerId) => {
   return fetch(`https://api.chatfuel.com/bots/${botId}/users/${messengerId}/send?chatfuel_token=${apiToken}&chatfuel_block_id=${blockSuccessId}`, {
