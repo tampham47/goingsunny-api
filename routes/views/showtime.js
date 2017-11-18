@@ -32,8 +32,7 @@ exports = module.exports = function (req, res) {
   if (20 <= moment && moment <= 22) { // in time
     sendSuccess(messengerId);
   } else {
-    sendSuccess(messengerId);
-    // sendFail(messengerId);
+    sendFail(messengerId);
   }
 
   res.send({ data: 'ok' });
