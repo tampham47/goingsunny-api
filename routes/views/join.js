@@ -7,9 +7,10 @@ const botId = '59fc4cb4e4b02606ed00dbb5';
 const apiToken = '97pemuDTh2tINlcezl86IAF2O6ZXdnmddM0CenJGUr90D5XdSAuFT0IP8c1g9Rdf';
 const blockFailId = '59fc4cb5e4b02606ed00de38';
 const blockSuccessId = '59fc4cb5e4b02606ed00de34';
+const apiPath = 'https://api.chatfuel.com/bots/';
 
 const sendSuccess = (messengerId) => {
-  return fetch(`https://api.chatfuel.com/bots/${botId}/users/${messengerId}/send?chatfuel_token=${apiToken}&chatfuel_block_id=${blockSuccessId}`, {
+  return fetch(`${apiPath}${botId}/users/${messengerId}/send?chatfuel_token=${apiToken}&chatfuel_block_id=${blockSuccessId}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -17,7 +18,7 @@ const sendSuccess = (messengerId) => {
   });
 };
 const sendFail = (messengerId) => {
-  return fetch(`https://api.chatfuel.com/bots/${botId}/users/${messengerId}/send?chatfuel_token=${apiToken}&chatfuel_block_id=${blockFailId}`, {
+  return fetch(`${apiPath}${botId}/users/${messengerId}/send?chatfuel_token=${apiToken}&chatfuel_block_id=${blockFailId}`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
