@@ -6,7 +6,6 @@
     "start": "NODE_ENV=local PORT=5600 nodemon keystone.js",
     "login": "ssh -i _deploy/goingsunny-oregon.pem centos@35.162.241.129",
     "deploy": "yarn run login 'cd prod/gsun-datacenter && git pull && pm2 startOrRestart pm2.json --env development'",
-    "deploy_prod": "yarn run login 'cd prod/gsun-datacenter && git pull && npm run build && pm2 startOrRestart pm2.json --env production'",
     "postinstall": ""
   },
   "dependencies": {

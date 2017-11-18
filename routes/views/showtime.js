@@ -29,12 +29,11 @@ exports = module.exports = function (req, res) {
   const messengerId = req.query['messenger user id'];
   const currentHour = Number(moment().format('HH'));
 
-  console.log('messenger', messengerId);
-
   if (20 <= moment && moment <= 22) { // in time
     sendSuccess(messengerId);
   } else {
-    sendFail(messengerId);
+    sendSuccess(messengerId);
+    // sendFail(messengerId);
   }
 
   res.send({ data: 'ok' });
