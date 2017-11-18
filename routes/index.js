@@ -57,6 +57,7 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Session'));
   restify.serve(router, keystone.mongoose.model('LessonCrawData'));
   restify.serve(router, keystone.mongoose.model('PinedPost'));
+  restify.serve(router, keystone.mongoose.model('Subscribe'));
 
   app.use(router);
 
