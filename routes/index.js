@@ -60,7 +60,7 @@ exports = module.exports = function(app) {
 
   restify.serve(router, keystone.mongoose.model('Subscribe'), {
     preCreate: (req, res, next) => {
-      console.log('body', req.body);
+      console.log('body', req);
       req.body._messenger = req.body._messenger || req.body['messenger user id'];
       next();
     }
