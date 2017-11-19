@@ -61,6 +61,7 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Subscribe'), {
     preMiddleware: (req, res, next) => {
       console.log('preMiddleware req', req.body);
+      next();
     },
     preCreate: (req, res, next) => {
       console.log('preCreate body', req.body);
