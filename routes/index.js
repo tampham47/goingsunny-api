@@ -43,7 +43,7 @@ exports = module.exports = function(app) {
 
   app.get('/api/v1/join', routes.views.join);
   app.get('/api/v1/showtime', routes.views.showtime);
-  app.post('/api/v1/subscribe', routes.views.subscribe);
+  // app.post('/api/v1/subscribe', routes.views.subscribe);
 
   restify.serve(router, keystone.mongoose.model('User'));
   restify.serve(router, keystone.mongoose.model('Post'));
@@ -59,17 +59,21 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('LessonCrawData'));
   restify.serve(router, keystone.mongoose.model('PinedPost'));
 
-  // restify.serve(router, keystone.mongoose.model('Subscribe'), {
-  //   preMiddleware: (req, res, next) => {
-  //     console.log('preMiddleware req', req.body);
-  //     next();
-  //   },
-  //   preCreate: (req, res, next) => {
-  //     console.log('preCreate body', req.body);
-  //     req.body._messenger = req.body._messenger || req.body['messenger user id'];
-  //     next();
-  //   }
-  // });
+  restify.serve(router, keystone.mongoose.model('Subscribe'), {
+    preMiddleware: (req, res, next) => {
+      console.log('preMiddleware req', req.body);
+      next();
+    },
+    preCreate: (req, res, next) => {
+      console.log('preCreate body', req.body);
+      req.body._messenger = req.body._messenger || req.body['messenger user id'];
+      next();
+    },
+    onError: (err, req, res, next) => {
+      console.log('err', err);
+      next();
+    },
+  });
 
   app.use(router);
 
