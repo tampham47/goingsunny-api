@@ -59,8 +59,11 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('PinedPost'));
 
   restify.serve(router, keystone.mongoose.model('Subscribe'), {
+    preMiddleware: (req, res, next) => {
+      console.log('preMiddleware req', req.body);
+    },
     preCreate: (req, res, next) => {
-      console.log('body', req.body);
+      console.log('preCreate body', req.body);
       req.body._messenger = req.body._messenger || req.body['messenger user id'];
       next();
     }
