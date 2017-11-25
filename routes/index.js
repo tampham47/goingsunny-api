@@ -57,17 +57,14 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Session'));
   restify.serve(router, keystone.mongoose.model('LessonCrawData'));
   restify.serve(router, keystone.mongoose.model('PinedPost'));
+  restify.serve(router, keystone.mongoose.model('Oxford'));
 
   restify.serve(router, keystone.mongoose.model('Subscribe'), {
     preCreate: (req, res, next) => {
-      console.log('preCreate');
       req.body._messenger = req.body._messenger || req.body['messenger user id'];
       next();
     },
-    postCreate: (req, res, next) => {
-      console.log('postCreate');
-      next();
-    },
+    postCreate: (req, res, next) => { next(); },
     onError: (err, req, res, next) => {
       res.json(err);
     },

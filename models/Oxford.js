@@ -16,14 +16,13 @@ var myStorage = new keystone.Storage({
 var Oxford = new keystone.List('Oxford', {});
 
 Oxford.add({
-  word: { type: String, required: true },
+  word: { type: String, required: true, initial: true, default: '' },
   state: {
     type: Types.Select,
     options: 'draft, published', default: 'published'
   },
   image: { type: Types.File, storage: myStorage },
   example: { type: Types.Html, wysiwyg: true, height: 400 },
-  category: { type: String, required: true },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
 
