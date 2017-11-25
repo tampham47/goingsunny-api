@@ -29,9 +29,7 @@ exports = module.exports = function (req, res) {
   const messengerId = req.query['messenger user id'];
   const currentHour = Number(moment().tz('Asia/Ho_Chi_Minh').format('HH'));
 
-  console.log('currentHour', currentHour);
-
-  if (20 <= moment) { // in time
+  if (currentHour >= 20) { // in time
     sendSuccess(messengerId);
   } else {
     sendFail(messengerId);
