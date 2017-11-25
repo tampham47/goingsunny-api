@@ -43,7 +43,6 @@ exports = module.exports = function(app) {
 
   app.get('/api/v1/join', routes.views.join);
   app.get('/api/v1/showtime', routes.views.showtime);
-  // app.post('/api/v1/subscribe', routes.views.subscribe);
 
   restify.serve(router, keystone.mongoose.model('User'));
   restify.serve(router, keystone.mongoose.model('Post'));
@@ -70,7 +69,7 @@ exports = module.exports = function(app) {
       next();
     },
     onError: (err, req, res, next) => {
-      console.log('onError');
+      console.log('onError', err);
       next();
     },
   });
