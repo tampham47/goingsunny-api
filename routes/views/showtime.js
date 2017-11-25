@@ -1,5 +1,5 @@
 var keystone = require('keystone');
-var moment = require('moment');
+var moment = require('moment-timezone');
 var fetch = require('node-fetch');
 
 const botId = '59fc4cb4e4b02606ed00dbb5';
@@ -27,7 +27,7 @@ const sendFail = (messengerId) => {
 
 exports = module.exports = function (req, res) {
   const messengerId = req.query['messenger user id'];
-  const currentHour = Number(moment().format('HH'));
+  const currentHour = Number(moment().tz('Asia/Ho_Chi_Minh').format('HH'));
 
   if (20 <= moment) { // in time
     sendSuccess(messengerId);
