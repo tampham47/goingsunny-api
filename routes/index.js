@@ -70,7 +70,7 @@ exports = module.exports = function(app) {
       next();
     },
     onError: (err, req, res, next) => {
-      console.log('onError');
+      console.log('onError', err);
       res.json(err);
     },
   });
