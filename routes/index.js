@@ -71,7 +71,8 @@ exports = module.exports = function(app) {
     },
     onError: (err, req, res, next) => {
       console.log('onError', err);
-      res.json(err);
+      next();
+      // res.json(err);
     },
   });
 
