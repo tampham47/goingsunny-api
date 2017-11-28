@@ -101,16 +101,11 @@ keystone.set('email tests', require('./routes/emails'));
 // Configure the navigation bar in Keystone's Admin UI
 
 keystone.set('nav', {
-  'sessions': ['sessions', 'subscribes'],
+  'howdy': ['howdy-lessons', 'sessions', 'subscribes'],
   'oxford': 'oxfords',
   'pined-post': 'pined-posts',
   'users': 'users',
   'lessons': ['lessons', 'lesson-craw-data'],
-  'notifications': ['notifications', 'user-notifications' ],
-  'channels': ['channels', 'messages', 'user-in-channels'],
-  'posts': ['posts', 'post-categories'],
-  'galleries': 'galleries',
-  'enquiries': 'enquiries'
 });
 
 // Start Keystone to connect to your database and initialise the web server
