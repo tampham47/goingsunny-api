@@ -33,8 +33,8 @@ exports = module.exports = function (req, res) {
   if (currentHour >= 20) { // in time
     sendSuccess(messengerId);
   } else {
-    sendSuccess(messengerId);
-    // sendFail(messengerId);
+    // sendSuccess(messengerId);
+    sendFail(messengerId);
   }
 
   res.send({ data: 'ok' });
