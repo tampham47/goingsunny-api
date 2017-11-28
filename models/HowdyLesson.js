@@ -23,7 +23,7 @@ var myStorage = new keystone.Storage({
 });
 
 var vocabDefined = {
-  word: { type: String, required: true, initial: '---' },
+  word: { type: String },
   pron: { type: String },
   example: { type: String },
   audio: { type: Types.File, storage: myStorage },

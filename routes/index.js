@@ -58,6 +58,7 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('LessonCrawData'));
   restify.serve(router, keystone.mongoose.model('PinedPost'));
   restify.serve(router, keystone.mongoose.model('Oxford'));
+  restify.serve(router, keystone.mongoose.model('HowdyLesson'));
 
   restify.serve(router, keystone.mongoose.model('Subscribe'), {
     preCreate: (req, res, next) => {
