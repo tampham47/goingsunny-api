@@ -25,6 +25,7 @@ var myStorage = new keystone.Storage({
 var vocabDefined = {
   word: { type: String },
   pron: { type: String },
+  define: { type: String },
   example: { type: String },
   audio: { type: Types.File, storage: myStorage },
 };
@@ -47,6 +48,7 @@ HowdyLesson.add({
   brainstorming: { type: Types.Html, wysiwyg: true, height: 250 },
   content: { type: Types.Html, wysiwyg: true, height: 250 },
 
+  vocab00: vocabDefined,
   vocab01: vocabDefined,
   vocab02: vocabDefined,
   vocab03: vocabDefined,
@@ -56,7 +58,6 @@ HowdyLesson.add({
   vocab07: vocabDefined,
   vocab08: vocabDefined,
   vocab09: vocabDefined,
-  vocab10: vocabDefined,
 
   availableDateStr: { type: String, noedit: true },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
