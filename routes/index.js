@@ -72,7 +72,7 @@ exports = module.exports = function(app) {
     },
     onError: (err, req, res, next) => {
       console.log('Messenger onError', JSON.stringify(err));
-      res.send(JSON.stringify(err));
+      next();
     },
   });
 
@@ -83,7 +83,7 @@ exports = module.exports = function(app) {
     },
     onError: (err, req, res, next) => {
       console.log('Subscribe onError', JSON.stringify(err));
-      res.send(JSON.stringify(err));
+      next();
     },
   });
 

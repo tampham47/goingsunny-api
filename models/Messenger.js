@@ -20,19 +20,16 @@ Messenger.add({
 });
 
 Messenger.schema.pre('save', next => {
-  console.log('this', this);
+  console.log('Messenger', this);
 
   keystone.list('Messenger').model.find({
     messengerId: this.messengerId
   }).exec(function (err, r) {
     if (err) { return next(new Error(err)); }
 
-    console.log('r', r);
-
     if (r.length) {
       // Update info for current user
       const data = JSON.parse(JSON.stringify(this));
-      console.log('data', data);
       keystone.list('Messenger').model
         .findOneAndUpdate({ messengerId: data.messengerId }, data, r => {});
     } else {
