@@ -60,16 +60,30 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Oxford'));
   restify.serve(router, keystone.mongoose.model('HowdyLesson'));
 
-  restify.serve(router, keystone.mongoose.model('Subscribe'), {
+  restify.serve(router, keystone.mongoose.model('Messenger'), {
     preCreate: (req, res, next) => {
-      req.body._messenger = req.body._messenger || req.body['messenger user id'];
-      next();
-    },
-    postCreate: (req, res, next) => {
+      req.body.messengerId = req.body['messenger user id'];
+      req.body.firstName = req.body['first name'];
+      req.body.lastName = req.body['last name'];
+      req.body.gender = req.body['gender'];
+      req.body.profileUrl = req.body['profile pic url'];
+      console.log('body', req.body);
       next();
     },
     onError: (err, req, res, next) => {
+      console.log('Messenger onError', JSON.stringify(err));
+      res.send(JSON.stringify(err));
+    },
+  });
+
+  restify.serve(router, keystone.mongoose.model('Subscribe'), {
+    preCreate: (req, res, next) => {
+      req.body._messenger = req.body['messenger user id'];
       next();
+    },
+    onError: (err, req, res, next) => {
+      console.log('Subscribe onError', JSON.stringify(err));
+      res.send(JSON.stringify(err));
     },
   });
 

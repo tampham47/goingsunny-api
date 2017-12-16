@@ -21,7 +21,7 @@ Subscribe.add({
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
 
-Subscribe.schema.pre('save', function (next) {
+Subscribe.schema.pre('save', function(next) {
   this.subscribeName = moment().format('YYYYMMDD');
 
   if (!this._messenger) {
