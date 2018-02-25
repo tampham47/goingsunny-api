@@ -23,6 +23,7 @@ var middleware = require('./middleware');
 var restify = require('express-restify-mongoose');
 var importRoutes = keystone.importer(__dirname);
 var router = keystone.express.Router();
+import graphqlRoutes from '../graphql';
 
 // Common Middleware
 keystone.pre('routes', middleware.initLocals);
@@ -88,6 +89,7 @@ exports = module.exports = function(app) {
   });
 
   app.use(router);
+  app.use(graphqlRoutes);
 
   // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
   // app.get('/protected', middleware.requireUser, routes.views.protected);
