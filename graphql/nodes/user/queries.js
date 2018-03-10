@@ -11,7 +11,7 @@ const user = {
     username: { type: GraphQLString },
     email: { type: GraphQLString },
   },
-  resolve: (root, args, { UserLoader }) => UserLoader.load(args._id),
+  resolve: (root, args) => User.findById(args._id).then(r => r),
 };
 
 const users = {
@@ -20,7 +20,7 @@ const users = {
     username: { type: GraphQLString },
     email: { type: GraphQLString },
   },
-  resolve: (root, args) => User.find(args).then(result => result),
+  resolve: (root, args) => User.find(args).then(r => r),
 };
 
 export default {

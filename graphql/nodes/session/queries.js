@@ -9,13 +9,13 @@ const session = {
   args: {
     _id: { type: GraphQLString },
   },
-  resolve: (root, args, { SessionLoader }) => SessionLoader.load(args._id),
+  resolve: (root, args) => Session.findById(args._id).then(r => r),
 };
 
 const sessions = {
   type: new GraphQLList(SessionType),
   args: {},
-  resolve: (root, args) => Session.find(args).then(result => result),
+  resolve: (root, args) => Session.find(args).then(r => r),
 };
 
 export default {

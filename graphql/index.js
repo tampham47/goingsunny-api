@@ -4,7 +4,7 @@ import { Router } from 'express';
 
 import schema from './schema';
 
-import UserLoader from './loaders/user.loader';
+// import UserLoader from './loaders/user.loader';
 
 const helperMiddleware = [
   bodyParser.json(),
@@ -25,7 +25,7 @@ graphqlRouter.use('/graphql',
     schema,
     graphiql: true,
     context: {
-      UserLoader,
+      // UserLoader,
     },
   }));
 
