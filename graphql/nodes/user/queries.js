@@ -1,8 +1,7 @@
 import { GraphQLString, GraphQLList } from 'graphql';
 import keystone from 'keystone';
+import UserType from './type';
 
-// import User from '../../../models/user';
-import UserType from './user.type';
 const User = keystone.list('User').model;
 
 const user = {

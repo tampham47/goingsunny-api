@@ -4615,6 +4615,10 @@ mongoose-detective@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/mongoose-detective/-/mongoose-detective-0.1.1.tgz#853b05e2fc100c1cfae6d52171f62626de681fce"
 
+mongoose-schema-to-graphql@^2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/mongoose-schema-to-graphql/-/mongoose-schema-to-graphql-2.7.2.tgz#8b439add190c61309a6c18da3ad2799a5abfa4b1"
+
 mongoose@4.5.10:
   version "4.5.10"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-4.5.10.tgz#6c109119e7b274b4e53e2f092176e4c7db7eccd6"

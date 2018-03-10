@@ -1,10 +1,9 @@
-import userQueries from './user/user.queries';
-
-// import userMutations from './user/user.mutations';
-
+import userQueries from './user/queries';
+import sessionQueries from './session/queries';
 
 export default {
   queries: {
     ...userQueries,
+    ...sessionQueries,
   },
 };
