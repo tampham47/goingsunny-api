@@ -101,7 +101,7 @@ keystone.set('email tests', require('./routes/emails'));
 // Configure the navigation bar in Keystone's Admin UI
 
 keystone.set('nav', {
-  'howdy': ['howdy-lessons', 'sessions', 'subscribes'],
+  'howdy': ['howdy-lessons', 'sessions', 'subscribes', 'blogs'],
   'oxford': 'oxfords',
   'pined-post': 'pined-posts',
   'users': 'users',
