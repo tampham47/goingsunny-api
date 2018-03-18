@@ -2,17 +2,17 @@ var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
 /**
- * Blog Model
+ * Event Model
  * ==========
  */
 
-var Blog = new keystone.List('Blog', {
+var Event = new keystone.List('Event', {
   map: { name: 'title' },
   autokey: { path: 'slug', from: 'title', unique: true },
   defaultSort: '-createdAt'
 });
 
-Blog.add({
+Event.add({
   title: { type: String, required: true },
   state: {
     type: Types.Select,
@@ -20,17 +20,17 @@ Blog.add({
     default: 'draft',
     index: true,
   },
-  author: { type: Types.Relationship, ref: 'User', index: true },
-  publishedDate: {
-    type: Types.Date,
+  author: {
+    type: Types.Relationship,
+    ref: 'User',
     index: true,
-    dependsOn: {
-      state: 'published',
-    },
   },
+  dateStr: { type: String },
+  date: { type: Types.Datetime },
+  place: { type: String },
+  link: { type: String },
   image: { type: Types.CloudinaryImage },
-  brief: { type: Types.Html, wysiwyg: true, height: 150 },
-  desc: { type: Types.Html, wysiwyg: true, height: 400 },
+  desc: { type: Types.Html, wysiwyg: true, height: 300 },
   createdAt: {
     type: Types.Datetime,
     default: Date.now,
@@ -38,9 +38,9 @@ Blog.add({
   },
 });
 
-Blog.schema.virtual('content.full').get(function() {
+Event.schema.virtual('content.full').get(function() {
   return this.content.extended || this.content.brief;
 });
 
-Blog.defaultColumns = 'title, state|20%, author|20%, publishedDate|20%';
-Blog.register();
+Event.defaultColumns = 'title, state|20%, author|20%, publishedDate|20%';
+Event.register();
