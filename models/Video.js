@@ -40,5 +40,5 @@ Video.schema.virtual('content.full').get(function() {
   return this.content.extended || this.content.brief;
 });
 
-Video.defaultColumns = 'title, state|20%, author|20%, publishedDate|20%';
+Video.defaultColumns = 'title, link|20%, state|20%, author|20%, createdAt|20%';
 Video.register();
