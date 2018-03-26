@@ -31,6 +31,11 @@ Blog.add({
   image: { type: Types.CloudinaryImage },
   brief: { type: Types.Html, wysiwyg: true, height: 150 },
   desc: { type: Types.Html, wysiwyg: true, height: 400 },
+  categories: {
+    type: Types.Relationship,
+    ref: 'BlogCategory',
+    many: true
+  },
   createdAt: {
     type: Types.Datetime,
     default: Date.now,
