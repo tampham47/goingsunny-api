@@ -1,3 +1,4 @@
+var moment = require('moment');
 var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
@@ -25,11 +26,13 @@ Entry.add({
     index: true,
   },
   content: { type: Types.Textarea, height: 400 },
+  dateStr: { type: String, noedit: true },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
 
-Entry.schema.virtual('content.full').get(function() {
-  return this.content.extended || this.content.brief;
+Entry.schema.pre('save', function(next) {
+  this.dateStr = moment().format('YYYYMMDD');
+  next();
 });
 
 Entry.defaultColumns = 'title, topic|20%, author|20%, createdAt|20%';

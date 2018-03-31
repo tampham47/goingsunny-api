@@ -13,7 +13,7 @@ var Types = keystone.Field.Types;
 var Topic = new keystone.List('Topic', {
   map: { name: 'title' },
   autokey: { path: 'slug', from: 'title', unique: true },
-  defaultSort: 'availableDateStr'
+  defaultSort: 'dateStr'
 });
 
 var myStorage = new keystone.Storage({
@@ -28,11 +28,12 @@ var myStorage = new keystone.Storage({
 
 Topic.add({
   title: { type: Types.Text, required: true, index: true, initial: true },
+  cover: { type: Types.File, storage: myStorage },
   topic: { type: Types.Textarea, height: 200 },
   availableDate: { type: Types.Date, format: 'YYYY-MM-DD' },
   author: { type: Types.Relationship, ref: 'User', index: true },
   state: { type: Types.Select, options: 'published, draft', default: 'draft', index: true },
-  cover: { type: Types.File, storage: myStorage },
+  img: { type: Types.File, storage: myStorage },
   example: { type: Types.Textarea, height: 400 },
 
   youtubeId: { type: Types.Text },
@@ -47,15 +48,14 @@ Topic.add({
   metaUrl: { type: Types.Url },
   metaKeywords: { type: Types.Text },
 
-  availableDateStr: { type: String, noedit: true },
+  dateStr: { type: String, noedit: true },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true }
 });
 
 Topic.schema.pre('save', function(next) {
-  this.availableDateStr = this._.availableDate.format('YYYYMMDD');
+  this.dateStr = this._.availableDate.format('YYYYMMDD');
   next();
 });
 
-
-Topic.defaultColumns = 'title, state|15%, availableDateStr|15%, author|15%, createdAt|20%';
+Topic.defaultColumns = 'title, state|15%, dateStr|15%, author|15%, createdAt|20%';
 Topic.register();

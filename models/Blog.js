@@ -6,6 +6,16 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
+var myStorage = new keystone.Storage({
+  adapter: keystone.Storage.Adapters.FS,
+  fs: {
+    // required; path where the files should be stored
+    path: keystone.expandPath('./public/uploads'),
+    // path where files will be served
+    publicPath: '/public/uploads',
+  }
+});
+
 var Blog = new keystone.List('Blog', {
   map: { name: 'title' },
   autokey: { path: 'slug', from: 'title', unique: true },
@@ -28,7 +38,7 @@ Blog.add({
       state: 'published',
     },
   },
-  image: { type: Types.CloudinaryImage },
+  image: { type: Types.File, storage: myStorage },
   brief: { type: Types.Html, wysiwyg: true, height: 150 },
   desc: { type: Types.Html, wysiwyg: true, height: 400 },
   categories: {
