@@ -24,7 +24,7 @@ Entry.add({
     ref: 'Topic',
     index: true,
   },
-  content: { type: Types.Html, wysiwyg: true, height: 400 },
+  content: { type: Types.Textarea, height: 400 },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 });
 
