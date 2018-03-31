@@ -15,6 +15,8 @@ var Entry = new keystone.List('Entry', {
 
 Entry.add({
   title: { type: String, required: true },
+  email: { type: Types.Email },
+  phone: { type: String },
   author: {
     type: Types.Relationship,
     ref: 'User',
