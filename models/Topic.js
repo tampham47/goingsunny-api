@@ -28,12 +28,12 @@ var myStorage = new keystone.Storage({
 
 Topic.add({
   title: { type: Types.Text, required: true, index: true, initial: true },
-  topic: { type: Types.Html, wysiwyg: true, height: 200 },
+  topic: { type: Types.Textarea, height: 200 },
   availableDate: { type: Types.Date, format: 'YYYY-MM-DD' },
   author: { type: Types.Relationship, ref: 'User', index: true },
   state: { type: Types.Select, options: 'published, draft', default: 'draft', index: true },
   cover: { type: Types.File, storage: myStorage },
-  example: { type: Types.Html, wysiwyg: true, height: 400 },
+  example: { type: Types.Textarea, height: 400 },
 
   youtubeId: { type: Types.Text },
   youtubeEmbedLink: { type: Types.Url },
