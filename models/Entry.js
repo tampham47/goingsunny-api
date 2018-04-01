@@ -22,6 +22,12 @@ Entry.add({
     ref: 'User',
     index: true,
   },
+  state: {
+    type: Types.Select,
+    options: 'draft, published',
+    default: 'draft',
+    index: true,
+  },
   topic: {
     type: Types.Relationship,
     ref: 'Topic',
@@ -34,8 +40,12 @@ Entry.add({
 
 Entry.schema.pre('save', function(next) {
   this.dateStr = moment().tz('Asia/Ho_Chi_Minh').format('YYYYMMDD');
+  // auto turn status to published when the word count is large than 120
+  if (this.content.split(' ').length > 120) {
+    this.state = 'published';
+  }
   next();
 });
 
-Entry.defaultColumns = 'title, topic|20%, author|20%, createdAt|20%';
+Entry.defaultColumns = 'author|15%, topic|30%, state|15% createdAt|20%';
 Entry.register();
