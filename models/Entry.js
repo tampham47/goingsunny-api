@@ -1,4 +1,4 @@
-var moment = require('moment');
+var moment = require('moment-timezone');
 var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
@@ -33,7 +33,7 @@ Entry.add({
 });
 
 Entry.schema.pre('save', function(next) {
-  this.dateStr = moment().format('YYYYMMDD');
+  this.dateStr = moment().tz('Asia/Ho_Chi_Minh').format('YYYYMMDD');
   next();
 });
 
