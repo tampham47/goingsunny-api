@@ -38,9 +38,7 @@ exports = module.exports = function(app) {
 
   // Views
   app.get('/', routes.views.index);
-
   app.all('/api/*', keystone.middleware.cors);
-
   app.get('/api/v1/join', routes.views.join);
   app.get('/api/v1/showtime', routes.views.showtime);
 
@@ -64,6 +62,10 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Video'));
   restify.serve(router, keystone.mongoose.model('Topic'));
   restify.serve(router, keystone.mongoose.model('Entry'));
+
+  restify.serve(router, keystone.mongoose.model('KUnit'));
+  restify.serve(router, keystone.mongoose.model('KEssay'));
+  restify.serve(router, keystone.mongoose.model('KVocab'));
 
   restify.serve(router, keystone.mongoose.model('Messenger'), {
     preCreate: (req, res, next) => {
@@ -96,5 +98,4 @@ exports = module.exports = function(app) {
 
   // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
   // app.get('/protected', middleware.requireUser, routes.views.protected);
-
 };
