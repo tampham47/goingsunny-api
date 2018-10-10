@@ -11,15 +11,22 @@ KEssay.add({
   unit: {
     type: Types.Relationship,
     ref: 'KUnit',
+    initial: true,
   },
   unitName: {
     type: String,
     required: true,
-    initial: '-',
+    initial: true,
   },
   title: {
     type: String,
     required: true,
+    initial: true,
+  },
+  content: {
+    type: Types.Html,
+    wysiwyg: true,
+    height: 400,
   },
   state: {
     type: Types.Select,
@@ -29,11 +36,6 @@ KEssay.add({
   publishedDate: {
     type: Types.Date,
     dependsOn: { state: 'published' },
-  },
-  content: {
-    type: Types.Html,
-    wysiwyg: true,
-    height: 400,
   },
   author: {
     type: Types.Relationship,

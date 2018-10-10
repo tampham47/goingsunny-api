@@ -9,11 +9,12 @@ KVocab.add({
   unit: {
     type: Types.Relationship,
     ref: 'KUnit',
+    initial: true,
   },
   unitName: {
     type: String,
     required: true,
-    initial: '-',
+    initial: true,
   },
   word: {
     type: String,
@@ -24,6 +25,7 @@ KVocab.add({
     type: Types.Select,
     options: 'verb, noun, adj, adv',
     default: 'verb',
+    initial: true,
   },
   pronounce: {
     type: String,

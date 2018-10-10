@@ -11,11 +11,12 @@ KUnit.add({
   unitName: {
     type: String,
     required: true,
-    initial: '-',
+    initial: true,
   },
   title: {
     type: String,
     required: true,
+    initial: true,
   },
   state: {
     type: Types.Select,
