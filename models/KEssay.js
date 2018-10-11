@@ -28,6 +28,16 @@ KEssay.add({
     wysiwyg: true,
     height: 400,
   },
+  actualList: {
+    type: String,
+  },
+  goalList: {
+    type: String,
+  },
+  percentOfGoal: {
+    type: Number,
+    default: 0,
+  },
   state: {
     type: Types.Select,
     options: 'draft, published, archived',
