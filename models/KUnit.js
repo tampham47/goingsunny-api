@@ -3,7 +3,6 @@ var Types = keystone.Field.Types;
 
 var KUnit = new keystone.List('KUnit', {
   map: { name: 'title' },
-  autokey: { path: 'slug', from: 'title', unique: true },
   defaultSort: '-createdAt'
 });
 
