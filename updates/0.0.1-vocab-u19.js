@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'adopt', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'allow', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'anniverary', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'celebrate', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'compare', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'cozy', type: 'adj' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'engaged', type: 'adj' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'family', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'groom', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'housekeeper', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'housewife', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'husband', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'instinct', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'landlord', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'member', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'neighbor', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'owner', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'receive', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'relate', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'ruin', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'settle', type: 'verb' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'spouse', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'stranger', type: 'noun' },
+    { unit: '5bbccdfe5b0b20064cf7a725', unitName: 'unit19', word: 'wife', type: 'noun' },
+  ]
+};
