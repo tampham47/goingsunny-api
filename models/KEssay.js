@@ -3,7 +3,7 @@ var Types = keystone.Field.Types;
 
 var KEssay = new keystone.List('KEssay', {
   map: { name: 'title' },
-  autokey: { path: 'slug', from: 'title', unique: true },
+  autokey: { path: 'slug', from: 'title', unique: true, fixed: true },
   defaultSort: '-createdAt'
 });
 
