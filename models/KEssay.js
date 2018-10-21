@@ -44,7 +44,7 @@ KEssay.add({
     default: 'draft',
   },
   publishedDate: {
-    type: Types.Date,
+    type: Types.Datetime,
     dependsOn: { state: 'published' },
   },
   author: {

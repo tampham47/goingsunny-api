@@ -14,7 +14,7 @@ User.add({
   name: { type: Types.Name, required: true, index: true },
   displayName: { type: String },
   email: { type: Types.Email, initial: true, required: true, index: true },
-  password: { type: Types.Password, initial: true, required: true },
+  password: { type: Types.Password, initial: true, required: true, access: 'protected' },
   username: { type: String },
   phoneNumber: { type: String },
 
@@ -24,8 +24,8 @@ User.add({
   provider: { type: String, noedit: true },
   providerId: { type: String, noedit: true },
   profileUrl: { type: String, noedit: true },
-  accessToken: { type: String, noedit: true },
-  refreshToken: { type: String, noedit: true },
+  accessToken: { type: String, noedit: true, access: 'protected' },
+  refreshToken: { type: String, noedit: true, access: 'protected' },
   avatar: { type: String, noedit: true },
 
   lastAccessedAt: { type: Types.Datetime, noedit: true },
@@ -37,7 +37,7 @@ User.add({
   birthDay: { type: Types.Date, initial: true },
   bio: { type: Types.Textarea, initial: true }
 }, 'Permissions', {
-  isAdmin: { type: Boolean, label: 'Can access Keystone', index: true }
+  isAdmin: { type: Boolean, label: 'Can access Keystone', index: true, access: 'protected' }
 });
 
 // Provide access to Keystone
