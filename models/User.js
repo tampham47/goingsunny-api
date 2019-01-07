@@ -14,7 +14,7 @@ User.add({
   name: { type: Types.Name, required: true, index: true },
   displayName: { type: String },
   email: { type: Types.Email, initial: true, required: true, index: true },
-  password: { type: Types.Password, initial: true, required: true, access: 'protected' },
+  password: { type: Types.Password, initial: true, required: true, default: 'nopass', access: 'protected' },
   username: { type: String },
   phoneNumber: { type: String },
 
