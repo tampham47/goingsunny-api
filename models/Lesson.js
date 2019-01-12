@@ -17,8 +17,10 @@ var Lesson = new keystone.List('Lesson', {
 var myStorage = new keystone.Storage({
   adapter: keystone.Storage.Adapters.FS,
   fs: {
-    path: keystone.expandPath('./public/uploads'), // required; path where the files should be stored
-    publicPath: '/public/uploads', // path where files will be served
+    // required; path where the files should be stored
+    path: keystone.expandPath('./public/uploads'),
+    // path where files will be served
+    publicPath: '/public/uploads',
   }
 });
 

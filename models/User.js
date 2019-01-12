@@ -14,20 +14,18 @@ User.add({
   name: { type: Types.Name, required: true, index: true },
   displayName: { type: String },
   email: { type: Types.Email, initial: true, required: true, index: true },
-  password: { type: Types.Password, initial: true, required: true },
+  password: { type: Types.Password, initial: true, required: true, default: 'nopass', access: 'protected' },
   username: { type: String },
-
-  isMentor: { type: Boolean, label: 'Is Mentor', default: false },
-
-  appearinLink: { type: String },
-  skypeId: { type: String },
   phoneNumber: { type: String },
+
+  joinedHackNao: { type: Boolean, label: 'Tham Gia Hack Nao 1500' },
+  joiningDate: { type: Types.Date },
 
   provider: { type: String, noedit: true },
   providerId: { type: String, noedit: true },
   profileUrl: { type: String, noedit: true },
-  accessToken: { type: String, noedit: true },
-  refreshToken: { type: String, noedit: true },
+  accessToken: { type: String, noedit: true, access: 'protected' },
+  refreshToken: { type: String, noedit: true, access: 'protected' },
   avatar: { type: String, noedit: true },
 
   lastAccessedAt: { type: Types.Datetime, noedit: true },
@@ -39,7 +37,7 @@ User.add({
   birthDay: { type: Types.Date, initial: true },
   bio: { type: Types.Textarea, initial: true }
 }, 'Permissions', {
-  isAdmin: { type: Boolean, label: 'Can access Keystone', index: true }
+  isAdmin: { type: Boolean, label: 'Can access Keystone', index: true, access: 'protected' }
 });
 
 // Provide access to Keystone
@@ -47,6 +45,9 @@ User.schema.virtual('canAccessKeystone').get(function() {
   return this.isAdmin;
 });
 
+User.schema.pre('save', function(next) {
+  next();
+});
 
 User.defaultColumns = 'name, email|20%, lastAccessedAt|20%, appearinLink|15%, isAdmin|5%';
 User.register();
