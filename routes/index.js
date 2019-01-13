@@ -39,9 +39,6 @@ exports = module.exports = function(app) {
   // Views
   app.get('/', routes.views.index);
   app.all('/api/*', keystone.middleware.cors);
-  app.get('/api/v1/join', routes.views.join);
-  app.get('/api/v1/showtime', routes.views.showtime);
-  app.get('/api/v1/updateVocab', routes.views.updateVocab);
 
   restify.serve(router, keystone.mongoose.model('User'));
   restify.serve(router, keystone.mongoose.model('Post'));
@@ -68,35 +65,5 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('KEssay'));
   restify.serve(router, keystone.mongoose.model('KVocab'));
 
-  restify.serve(router, keystone.mongoose.model('Messenger'), {
-    preCreate: (req, res, next) => {
-      req.body.messengerId = req.body['messenger user id'];
-      req.body.firstName = req.body['first name'];
-      req.body.lastName = req.body['last name'];
-      req.body.gender = req.body['gender'];
-      req.body.profileUrl = req.body['profile pic url'];
-      console.log('body', req.body);
-      next();
-    },
-    onError: (err, req, res, next) => {
-      console.log('Messenger onError', JSON.stringify(err));
-      next();
-    },
-  });
-
-  restify.serve(router, keystone.mongoose.model('Subscribe'), {
-    preCreate: (req, res, next) => {
-      req.body._messenger = req.body['messenger user id'];
-      next();
-    },
-    onError: (err, req, res, next) => {
-      console.log('Subscribe onError', JSON.stringify(err));
-      next();
-    },
-  });
-
   app.use(router);
-
-  // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
-  // app.get('/protected', middleware.requireUser, routes.views.protected);
 };
