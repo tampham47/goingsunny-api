@@ -33,6 +33,9 @@ KVocab.add({
   hint: {
     type: String,
   },
+  meaning: {
+    type: String,
+  },
   createdAt: {
     type: Types.Datetime,
     default: Date.now,
@@ -40,5 +43,5 @@ KVocab.add({
   },
 });
 
-KVocab.defaultColumns = 'word, type|10%, pronounce|20%, unit|20%, createdAt|20%';
+KVocab.defaultColumns = 'word, type|10%, pronounce|20%, meaning|20%, hint|20%';
 KVocab.register();

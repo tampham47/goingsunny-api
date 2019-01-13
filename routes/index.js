@@ -41,6 +41,7 @@ exports = module.exports = function(app) {
   app.all('/api/*', keystone.middleware.cors);
   app.get('/api/v1/join', routes.views.join);
   app.get('/api/v1/showtime', routes.views.showtime);
+  app.get('/api/v1/updateVocab', routes.views.updateVocab);
 
   restify.serve(router, keystone.mongoose.model('User'));
   restify.serve(router, keystone.mongoose.model('Post'));
