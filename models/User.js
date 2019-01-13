@@ -18,9 +18,6 @@ User.add({
   username: { type: String },
   phoneNumber: { type: String },
 
-  joinedHackNao: { type: Boolean, label: 'Tham Gia Hack Nao 1500' },
-  joiningDate: { type: Types.Date },
-
   provider: { type: String, noedit: true },
   providerId: { type: String, noedit: true },
   profileUrl: { type: String, noedit: true },
@@ -49,5 +46,5 @@ User.schema.pre('save', function(next) {
   next();
 });
 
-User.defaultColumns = 'name, email|20%, lastAccessedAt|20%, appearinLink|15%, isAdmin|5%';
+User.defaultColumns = 'name, email|20%, lastAccessedAt|20%';
 User.register();
