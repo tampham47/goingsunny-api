@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "NODE_ENV=local PORT=5600 node keystone.js",
+    "dev": "NODE_ENV=local PORT=5600 nodemon keystone.js",
     "login": "ssh -i _deploy/goingsunny-oregon.pem centos@35.162.241.129",
     "deploy": "yarn run login 'cd prod/gsun-datacenter && git pull && pm2 startOrRestart pm2.json --env production'",
     "postinstall": ""
@@ -27,7 +28,8 @@
     "gulp-sass": "4.0.2",
     "gulp-shell": "0.6.5",
     "gulp-watch": "5.0.1",
-    "jshint-stylish": "2.2.1"
+    "jshint-stylish": "2.2.1",
+    "nodemon": "^1.18.9"
   },
   "engines": {
     "node": ">=0.10.22",
