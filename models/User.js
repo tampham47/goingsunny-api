@@ -10,7 +10,6 @@ var myStorage = new keystone.Storage({
       const extReg = /\.[0-9a-z]+$/i;
       const { originalname } = item;
       let ext = originalname.match(extReg);
-      console.log('ext', ext);
       return `${item.filename}${ext}`;
     }
   },
