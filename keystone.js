@@ -90,11 +90,11 @@ keystone.set('email tests', require('./routes/emails'));
 keystone.set('nav', {
   'hacknao': ['kessays', 'kunits', 'kvocabs'],
   'users': 'users',
+  'lessons': ['lessons', 'lesson-craw-data'],
+  'oxford': 'oxfords',
   'howdy': ['topics', 'entries', 'events', 'blogs', 'videos'],
   'goingsunny': ['howdy-lessons', 'sessions', 'subscribes'],
-  'oxford': 'oxfords',
   'pined-post': 'pined-posts',
-  'lessons': ['lessons', 'lesson-craw-data'],
 });
 
 // Start Keystone to connect to your database and initialise the web server
