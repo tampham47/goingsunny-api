@@ -44,6 +44,10 @@ exports = module.exports = function(app) {
   app.get('/api/v1/updateVocab', routes.views.updateVocab);
 
   restify.serve(router, keystone.mongoose.model('User'));
+  restify.serve(router, keystone.mongoose.model('KUnit'));
+  restify.serve(router, keystone.mongoose.model('KVocab'));
+  restify.serve(router, keystone.mongoose.model('KEssay'));
+
   restify.serve(router, keystone.mongoose.model('Post'));
   restify.serve(router, keystone.mongoose.model('PostCategory'), {name: 'category'});
   restify.serve(router, keystone.mongoose.model('Channel'));
@@ -51,7 +55,6 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('UserInChannel'));
   restify.serve(router, keystone.mongoose.model('Notification'));
   restify.serve(router, keystone.mongoose.model('UserNotification'));
-  restify.serve(router, keystone.mongoose.model('Lesson'));
   restify.serve(router, keystone.mongoose.model('Enquiry'));
   restify.serve(router, keystone.mongoose.model('Session'));
   restify.serve(router, keystone.mongoose.model('LessonCrawData'));
@@ -63,36 +66,13 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Video'));
   restify.serve(router, keystone.mongoose.model('Topic'));
   restify.serve(router, keystone.mongoose.model('Entry'));
-
-  restify.serve(router, keystone.mongoose.model('KUnit'));
-  restify.serve(router, keystone.mongoose.model('KEssay'));
-  restify.serve(router, keystone.mongoose.model('KVocab'));
-
-  restify.serve(router, keystone.mongoose.model('Messenger'), {
-    preCreate: (req, res, next) => {
-      req.body.messengerId = req.body['messenger user id'];
-      req.body.firstName = req.body['first name'];
-      req.body.lastName = req.body['last name'];
-      req.body.gender = req.body['gender'];
-      req.body.profileUrl = req.body['profile pic url'];
-      console.log('body', req.body);
+  restify.serve(router, keystone.mongoose.model('Messenger'));
+  restify.serve(router, keystone.mongoose.model('Subscribe'));
+  restify.serve(router, keystone.mongoose.model('Lesson'), {
+    preRead: (req, res, next) => {
+      console.log('Lesson preRead', req.user);
       next();
-    },
-    onError: (err, req, res, next) => {
-      console.log('Messenger onError', JSON.stringify(err));
-      next();
-    },
-  });
-
-  restify.serve(router, keystone.mongoose.model('Subscribe'), {
-    preCreate: (req, res, next) => {
-      req.body._messenger = req.body['messenger user id'];
-      next();
-    },
-    onError: (err, req, res, next) => {
-      console.log('Subscribe onError', JSON.stringify(err));
-      next();
-    },
+    }
   });
 
   app.use(router);
