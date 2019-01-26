@@ -28,6 +28,8 @@ User.add({
   phoneNumber: { type: String },
   roles: { type: Types.TextArray }, // `tutor,admin`
   facebookProfile: { type: Types.Url },
+  hacknaoPoint: { type: Number },
+  hacknaoRanking: { type: Number },
 
   provider: { type: String, noedit: true },
   providerId: { type: String, noedit: true },

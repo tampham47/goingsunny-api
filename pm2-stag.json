@@ -2,7 +2,7 @@
   "apps": [
     {
       "exec_mode": "fork_mode",
-      "name": "gsun-api-stag",
+      "name": "gapi-stag",
       "script": "keystone.js",
       "watch": false,
       "ignore_watch": [
