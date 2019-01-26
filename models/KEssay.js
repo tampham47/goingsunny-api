@@ -28,7 +28,7 @@ KEssay.add({
     wysiwyg: true,
     height: 400,
   },
-  isEnglish: {
+  is100English: {
     type: Boolean,
     default: false,
   },
