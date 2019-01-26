@@ -28,6 +28,10 @@ KEssay.add({
     wysiwyg: true,
     height: 400,
   },
+  is100English: {
+    type: Boolean,
+    default: false,
+  },
   actualList: {
     type: String,
   },
