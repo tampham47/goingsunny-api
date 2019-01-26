@@ -1,10 +1,19 @@
 var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
-/**
- * User Model
- * ==========
- */
+var myStorage = new keystone.Storage({
+  adapter: keystone.Storage.Adapters.FS,
+  fs: {
+    path: keystone.expandPath('./public/uploads'),
+    publicPath: '/public/uploads',
+    generateFilename: (item, file) => {
+      const extReg = /\.[0-9a-z]+$/i;
+      const { originalname } = item;
+      let ext = originalname.match(extReg);
+      return `${item.filename}${ext}`;
+    }
+  },
+});
 
 var User = new keystone.List('User', {
   defaultSort: '-lastAccessedAt'
@@ -17,6 +26,10 @@ User.add({
   password: { type: Types.Password, initial: true, required: true, default: 'nopass', access: 'protected' },
   username: { type: String },
   phoneNumber: { type: String },
+  roles: { type: Types.TextArray }, // `tutor,admin`
+  facebookProfile: { type: Types.Url },
+  hacknaoPoint: { type: Number },
+  hacknaoRanking: { type: Number },
 
   provider: { type: String, noedit: true },
   providerId: { type: String, noedit: true },
@@ -29,7 +42,10 @@ User.add({
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
   /* Additional Information */
-  avatarFileUpload: { type: Types.CloudinaryImage, initial: true },
+  avatarFileUpload: {
+    type: Types.File,
+    storage: myStorage,
+  },
   gender: { type: String, initial: true },
   birthDay: { type: Types.Date, initial: true },
   bio: { type: Types.Textarea, initial: true }
