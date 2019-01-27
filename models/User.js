@@ -20,10 +20,10 @@ var User = new keystone.List('User', {
 });
 
 User.add({
-  name: { type: Types.Name, required: true, index: true },
-  displayName: { type: String },
-  email: { type: Types.Email, initial: true, required: true, index: true },
+  name: { type: Types.Name, required: true, default: 'Thành viên mới', index: true },
+  email: { type: Types.Email, initial: true, required: true, default: 'noemail@com.com', index: true },
   password: { type: Types.Password, initial: true, required: true, default: 'nopass', access: 'protected' },
+  displayName: { type: String, default: 'Thành viên mới' },
   username: { type: String },
   phoneNumber: { type: String },
   roles: { type: Types.TextArray }, // `tutor,admin`
@@ -62,5 +62,5 @@ User.schema.pre('save', function(next) {
   next();
 });
 
-User.defaultColumns = 'name, email|20%, lastAccessedAt|20%';
+User.defaultColumns = 'name, displayName, hacknaoPoint|15%, roles|15%, lastAccessedAt|20%';
 User.register();
