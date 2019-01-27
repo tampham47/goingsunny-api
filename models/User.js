@@ -22,8 +22,8 @@ var User = new keystone.List('User', {
 User.add({
   name: { type: Types.Name, required: true, default: 'Thành viên mới', index: true },
   email: { type: Types.Email, initial: true, required: true, default: 'noemail@com.com', index: true },
-  displayName: { type: String, required: true, default: 'Thành viên mới' },
   password: { type: Types.Password, initial: true, required: true, default: 'nopass', access: 'protected' },
+  displayName: { type: String, default: 'Thành viên mới' },
   username: { type: String },
   phoneNumber: { type: String },
   roles: { type: Types.TextArray }, // `tutor,admin`
