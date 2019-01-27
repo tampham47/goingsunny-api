@@ -91,10 +91,6 @@ keystone.set('nav', {
   'hacknao': ['kessays', 'kvocabs', 'kunits'],
   'users': 'users',
   'lessons': ['lessons', 'lesson-craw-data'],
-  'oxford': 'oxfords',
-  'howdy': ['topics', 'entries', 'events', 'blogs', 'videos'],
-  'goingsunny': ['howdy-lessons', 'sessions', 'subscribes'],
-  'pined-post': 'pined-posts',
 });
 
 // Start Keystone to connect to your database and initialise the web server

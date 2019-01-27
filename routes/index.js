@@ -35,45 +35,18 @@ var routes = {
 
 // Setup Route Bindings
 exports = module.exports = function(app) {
-
   // Views
   app.get('/', routes.views.index);
   app.all('/api/*', keystone.middleware.cors);
-  app.get('/api/v1/join', routes.views.join);
-  app.get('/api/v1/showtime', routes.views.showtime);
   app.get('/api/v1/updateVocab', routes.views.updateVocab);
+  app.get('/api/v1/updateRanking', routes.views.updateRanking);
 
+  // restify mongoose
   restify.serve(router, keystone.mongoose.model('User'));
   restify.serve(router, keystone.mongoose.model('KUnit'));
   restify.serve(router, keystone.mongoose.model('KVocab'));
   restify.serve(router, keystone.mongoose.model('KEssay'));
-
-  restify.serve(router, keystone.mongoose.model('Post'));
-  restify.serve(router, keystone.mongoose.model('PostCategory'), {name: 'category'});
-  restify.serve(router, keystone.mongoose.model('Channel'));
-  restify.serve(router, keystone.mongoose.model('Message'));
-  restify.serve(router, keystone.mongoose.model('UserInChannel'));
-  restify.serve(router, keystone.mongoose.model('Notification'));
-  restify.serve(router, keystone.mongoose.model('UserNotification'));
-  restify.serve(router, keystone.mongoose.model('Enquiry'));
-  restify.serve(router, keystone.mongoose.model('Session'));
-  restify.serve(router, keystone.mongoose.model('LessonCrawData'));
-  restify.serve(router, keystone.mongoose.model('PinedPost'));
-  restify.serve(router, keystone.mongoose.model('Oxford'));
-  restify.serve(router, keystone.mongoose.model('HowdyLesson'));
-  restify.serve(router, keystone.mongoose.model('Blog'));
-  restify.serve(router, keystone.mongoose.model('Event'));
-  restify.serve(router, keystone.mongoose.model('Video'));
-  restify.serve(router, keystone.mongoose.model('Topic'));
-  restify.serve(router, keystone.mongoose.model('Entry'));
-  restify.serve(router, keystone.mongoose.model('Messenger'));
-  restify.serve(router, keystone.mongoose.model('Subscribe'));
-  restify.serve(router, keystone.mongoose.model('Lesson'), {
-    preRead: (req, res, next) => {
-      console.log('Lesson preRead', req.user);
-      next();
-    }
-  });
+  restify.serve(router, keystone.mongoose.model('Lesson'));
 
   app.use(router);
 
