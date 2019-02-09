@@ -60,11 +60,6 @@
       "git add"
     ]
   },
-  // "husky": {
-  //   "hooks": {
-  //     "pre-commit": "lint-staged"
-  //   }
-  // },
   "engines": {
     "node": ">=0.10.22",
     "npm": ">=1.3.14"
