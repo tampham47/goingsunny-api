@@ -8,6 +8,9 @@
     "login": "ssh -i _deploy/goingsunny-oregon.pem centos@35.162.241.129",
     "deploy_prod": "npm run login 'cd prod/gsun-datacenter && git checkout master && git pull && npm install && pm2 startOrRestart pm2-prod.json --env production'",
     "deploy_stag": "npm run login 'cd stag/goingsunny-api && git checkout develop && git pull && npm install && pm2 startOrRestart pm2-stag.json --env production'",
+    "eslint": "eslint --ext .jsx,.js ./",
+    "fix-eslint": "eslint --ext .jsx,.js ./ --fix",
+    "prettier": "prettier --ignore-path ./.eslintignore ./**/*.{js,jsx,json,css,scss,md}",
     "postinstall": ""
   },
   "dependencies": {
@@ -24,14 +27,44 @@
     "underscore": "1.9.1"
   },
   "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "babel-jest": "^22.0.4",
+    "babel-loader": "8.0.0-beta.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.12",
+    "eslint": "^4.14.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-import-resolver-node": "^0.3.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.4.0",
+    "eslint-plugin-react": "^7.12.4",
     "gulp": "4.0.0",
     "gulp-jshint": "2.1.0",
     "gulp-sass": "4.0.2",
     "gulp-shell": "0.6.5",
     "gulp-watch": "5.0.1",
+    "husky": "^1.3.1",
     "jshint-stylish": "2.2.1",
-    "nodemon": "^1.18.9"
+    "lint-staged": "^8.1.3",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.16.4"
   },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{css,scss,sass,json,md,graphql}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  // "husky": {
+  //   "hooks": {
+  //     "pre-commit": "lint-staged"
+  //   }
+  // },
   "engines": {
     "node": ">=0.10.22",
     "npm": ">=1.3.14"
