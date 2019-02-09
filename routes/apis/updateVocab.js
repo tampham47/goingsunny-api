@@ -1,6 +1,6 @@
 var keystone = require('keystone');
 var KVocab = keystone.list('KVocab');
-var data = require('./update-vocab-data.json');
+var data = require('./updateVocabData.json');
 
 exports = module.exports = function (req, res) {
   data.forEach(element => {

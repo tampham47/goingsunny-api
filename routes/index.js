@@ -21,25 +21,35 @@
 var keystone = require('keystone');
 var middleware = require('./middleware');
 var restify = require('express-restify-mongoose');
+var expressJwt = require('express-jwt');
 var importRoutes = keystone.importer(__dirname);
 var router = keystone.express.Router();
 
-// Common Middleware
-keystone.pre('routes', middleware.initLocals);
-keystone.pre('render', middleware.flashMessages);
-
 // Import Route Controllers
-var routes = {
-  views: importRoutes('./views')
-};
+var views = importRoutes('./views');
+var apis = importRoutes('./apis');
 
 // Setup Route Bindings
 exports = module.exports = function(app) {
-  // Views
-  app.get('/', routes.views.index);
+  // middleware
+  app.use(
+    expressJwt({
+      secret: 'this is a secret key',
+      credentialsRequired: false,
+      getToken: function fromHeaderOrQuerystring(req) {
+        if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') {
+          return req.headers.authorization.split(' ')[1];
+        } else if (req.query && req.query.token) {
+          return req.query.token;
+        }
+        return null;
+      }
+    }),
+  );
   app.all('/api/*', keystone.middleware.cors);
-  app.get('/api/v1/updateVocab', routes.views.updateVocab);
-  app.get('/api/v1/updateRanking', routes.views.updateRanking);
+
+  // index
+  app.get('/', views.index);
 
   // restify mongoose
   restify.serve(router, keystone.mongoose.model('User'));
@@ -47,9 +57,12 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('KVocab'));
   restify.serve(router, keystone.mongoose.model('KEssay'));
   restify.serve(router, keystone.mongoose.model('Lesson'));
-
   app.use(router);
 
-  // NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
-  // app.get('/protected', middleware.requireUser, routes.views.protected);
+  // custom apis
+  app.get('/api/v1/updateVocab', apis.updateVocab);
+  app.get('/api/v1/updateRanking', apis.updateRanking);
+
+  // protected
+  app.get('/api/v1/getQuizByUnit', middleware.requireUser, apis.getQuizByUnit);
 };
