@@ -8,7 +8,6 @@ const QuizModel = keystone.list('KQuiz').model;
 exports = module.exports = function(req, res) {
   const unitName = req.query.unitName;
   const userId = req.user._id;
-  console.log('unit', unitName, userId);
 
   const fetchVocab = () => new Promise((resolve, reject) => {
     VocabModel.find({ unitName }).lean().exec((err, data) => {
@@ -20,7 +19,7 @@ exports = module.exports = function(req, res) {
   });
 
   const fetchQuiz = () => new Promise((resolve, reject) => {
-    QuizModel.find({ unitName }).lean().exec((err, data) => {
+    QuizModel.find({ unitName, author: userId }).lean().exec((err, data) => {
       if (err) {
         reject(err);
       }

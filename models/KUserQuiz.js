@@ -1,11 +1,11 @@
 var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
-var KQuiz = new keystone.List('KQuiz', {
+var KUserQuiz = new keystone.List('KUserQuiz', {
   defaultSort: '-createdAt'
 });
 
-KQuiz.add({
+KUserQuiz.add({
   author: {
     type: Types.Relationship,
     ref: 'User',
@@ -17,21 +17,15 @@ KQuiz.add({
     ref: 'KUnit',
     initial: true,
   },
-  vocab: {
-    type: Types.Relationship,
-    ref: 'KVocab',
-    require: true,
-    initial: true,
-  },
   // optimize querying
   unitName: {
     type: String,
     required: true,
     initial: true,
   },
-  status: {
-    type: Boolean,
-    default: false,
+  amount: {
+    type: Number,
+    default: 0,
   },
   createdAt: {
     type: Types.Datetime,
@@ -40,5 +34,5 @@ KQuiz.add({
   },
 });
 
-KQuiz.defaultColumns = 'author, unit|10%, vocab|20%, status|20%, createdAt|20%';
-KQuiz.register();
+KUserQuiz.defaultColumns = 'author, unit|10%, amount|20%, createdAt|20%';
+KUserQuiz.register();
