@@ -56,6 +56,8 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('KUnit'));
   restify.serve(router, keystone.mongoose.model('KVocab'));
   restify.serve(router, keystone.mongoose.model('KEssay'));
+  restify.serve(router, keystone.mongoose.model('KQuiz'));
+  restify.serve(router, keystone.mongoose.model('KUserQuiz'));
   restify.serve(router, keystone.mongoose.model('Lesson'));
   app.use(router);
 
