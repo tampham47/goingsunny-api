@@ -23,7 +23,11 @@ KUserQuiz.add({
     required: true,
     initial: true,
   },
-  amount: {
+  amountOfCorrectAnswer: {
+    type: Number,
+    default: 0,
+  },
+  total: {
     type: Number,
     default: 0,
   },
@@ -34,5 +38,5 @@ KUserQuiz.add({
   },
 });
 
-KUserQuiz.defaultColumns = 'author, unit|10%, amount|20%, createdAt|20%';
+KUserQuiz.defaultColumns = 'author, unit|15%, amount|15%, createdAt|20%';
 KUserQuiz.register();
