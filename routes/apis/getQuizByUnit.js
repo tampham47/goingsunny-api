@@ -10,7 +10,7 @@ function shuffle(arra1) {
 
   // While there are elements in the array
   while (ctr > 0) {
-  // Pick a random index
+    // Pick a random index
     index = Math.floor(Math.random() * ctr);
     // Decrease ctr by 1
     ctr--;
