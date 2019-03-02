@@ -73,6 +73,7 @@ exports = module.exports = function(req, res) {
       });
 
       return {
+        quizId: quiz._id,
         ...quiz,
         ...i,
         optionList: shuffle(optionList),
