@@ -75,7 +75,7 @@ exports = module.exports = function(req, res) {
       return {
         ...quiz,
         ...i,
-        optionList,
+        optionList: shuffle(optionList),
       };
     })
     res.send(userQuiz);
