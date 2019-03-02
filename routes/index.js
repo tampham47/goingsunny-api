@@ -32,6 +32,11 @@ var apis = importRoutes('./apis');
 // Setup Route Bindings
 exports = module.exports = function(app) {
   // middleware
+  app.all('/api/*', keystone.middleware.cors);
+  app.options('/api*', function(req, res) {
+    res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    res.sendStatus(200);
+ });
   app.use(
     expressJwt({
       secret: 'this is a secret key',
@@ -46,7 +51,6 @@ exports = module.exports = function(app) {
       }
     }),
   );
-  app.all('/api/*', keystone.middleware.cors);
 
   // index
   app.get('/', views.index);
