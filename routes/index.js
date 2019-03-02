@@ -32,11 +32,13 @@ var apis = importRoutes('./apis');
 // Setup Route Bindings
 exports = module.exports = function(app) {
   // middleware
+  app.all('/api/*', keystone.middleware.cors);
   app.use(
     expressJwt({
       secret: 'this is a secret key',
       credentialsRequired: false,
       getToken: function fromHeaderOrQuerystring(req) {
+        console.log('getToken', req.headers.authorization);
         if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') {
           return req.headers.authorization.split(' ')[1];
         } else if (req.query && req.query.token) {
@@ -46,7 +48,6 @@ exports = module.exports = function(app) {
       }
     }),
   );
-  app.all('/api/*', keystone.middleware.cors);
 
   // index
   app.get('/', views.index);
