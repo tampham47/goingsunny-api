@@ -1,0 +1,11 @@
+service: goingsunny-update-ranking
+provider:
+  name: aws
+  runtime: nodejs8.10
+functions:
+  trigger:
+    handler: handler.trigger
+    events:
+    - schedule:
+        rate: cron(*/15 * * * ? *)
+        enabled: true
