@@ -62,5 +62,10 @@ KEssay.add({
   },
 });
 
+KEssay.schema.pre('save', function(next) {
+  this.publishedDate = Date.now();
+  return next();
+});
+
 KEssay.defaultColumns = 'title, state|20%, author|20%, createdAt|20%';
 KEssay.register();

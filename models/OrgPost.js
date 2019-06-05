@@ -2,7 +2,7 @@ var keystone = require('keystone');
 var Types = keystone.Field.Types;
 
 /**
- * Blog Model
+ * OrgPost Model
  * ==========
  */
 
@@ -16,13 +16,13 @@ var myStorage = new keystone.Storage({
   }
 });
 
-var Blog = new keystone.List('Blog', {
+var OrgPost = new keystone.List('OrgPost', {
   map: { name: 'title' },
   autokey: { path: 'slug', from: 'title', unique: true },
   defaultSort: '-createdAt'
 });
 
-Blog.add({
+OrgPost.add({
   title: { type: String, required: true },
   state: {
     type: Types.Select,
@@ -30,8 +30,8 @@ Blog.add({
     default: 'draft',
     index: true,
   },
-  publishedDate: {
-    type: Types.Date,
+  publishedAt: {
+    type: Types.Datetime,
     index: true,
     dependsOn: {
       state: 'published',
@@ -39,13 +39,10 @@ Blog.add({
   },
   author: { type: Types.Relationship, ref: 'User', index: true },
   image: { type: Types.File, storage: myStorage },
+  banner: { type: Types.Url },
   brief: { type: Types.Html, wysiwyg: true, height: 150 },
-  desc: { type: Types.Html, wysiwyg: true, height: 400 },
-  categories: {
-    type: Types.Relationship,
-    ref: 'BlogCategory',
-    many: true
-  },
+  content: { type: Types.Html, wysiwyg: true, height: 400, require: true },
+  tags: { type: Types.TextArray }, // `tutor,admin`
   createdAt: {
     type: Types.Datetime,
     default: Date.now,
@@ -53,9 +50,10 @@ Blog.add({
   },
 });
 
-Blog.schema.virtual('content.full').get(function() {
-  return this.content.extended || this.content.brief;
+OrgPost.schema.pre('save', function(next) {
+  this.publishedAt = Date.now();
+  return next();
 });
 
-Blog.defaultColumns = 'title, state|20%, author|20%, publishedDate|20%';
-Blog.register();
+OrgPost.defaultColumns = 'title, state|20%, author|20%, createdAt|20%';
+OrgPost.register();
