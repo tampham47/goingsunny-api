@@ -43,6 +43,14 @@ OrgPost.add({
   brief: { type: Types.Html, wysiwyg: true, height: 150 },
   content: { type: Types.Html, wysiwyg: true, height: 400, require: true },
   tags: { type: Types.TextArray }, // `tutor,admin`
+  numberOfReaction: {
+    type: Number,
+    default: 0,
+  },
+  numberOfComment: {
+    type: Number,
+    default: 0,
+  },
   createdAt: {
     type: Types.Datetime,
     default: Date.now,

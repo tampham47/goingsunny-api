@@ -90,7 +90,7 @@ keystone.set('email tests', require('./routes/emails'));
 keystone.set('nav', {
   'hacknao': ['kessays', 'kvocabs', 'kunits', 'kquizzes', 'kuser-quizzes'],
   'org': ['org-posts', 'org-members', 'orgs'],
-  'users': 'users',
+  'users': ['users', 'user-comments', 'user-reactions'],
   'lessons': ['lessons', 'lesson-craw-data'],
 });
 

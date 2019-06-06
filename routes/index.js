@@ -63,6 +63,12 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('KQuiz'));
   restify.serve(router, keystone.mongoose.model('KUserQuiz'));
   restify.serve(router, keystone.mongoose.model('Lesson'));
+
+  restify.serve(router, keystone.mongoose.model('Org'));
+  restify.serve(router, keystone.mongoose.model('OrgMember'));
+  restify.serve(router, keystone.mongoose.model('OrgPost'));
+  restify.serve(router, keystone.mongoose.model('UserComment'));
+  restify.serve(router, keystone.mongoose.model('UserReaction'));
   app.use(router);
 
   // custom apis
