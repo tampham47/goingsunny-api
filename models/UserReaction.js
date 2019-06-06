@@ -45,5 +45,5 @@ UserReaction.add({
   },
 });
 
-UserReaction.defaultColumns = 'user, target, number, createdAt';
+UserReaction.defaultColumns = 'user, target, post, essay, createdAt';
 UserReaction.register();
