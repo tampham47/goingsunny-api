@@ -6,16 +6,6 @@ var Types = keystone.Field.Types;
  * ==========
  */
 
-var myStorage = new keystone.Storage({
-  adapter: keystone.Storage.Adapters.FS,
-  fs: {
-    // required; path where the files should be stored
-    path: keystone.expandPath('./public/uploads'),
-    // path where files will be served
-    publicPath: '/public/uploads',
-  }
-});
-
 var OrgPost = new keystone.List('OrgPost', {
   map: { name: 'title' },
   autokey: { path: 'slug', from: 'title', unique: true },
@@ -37,8 +27,20 @@ OrgPost.add({
       state: 'published',
     },
   },
-  author: { type: Types.Relationship, ref: 'User', index: true },
-  image: { type: Types.File, storage: myStorage },
+  author: {
+    type: Types.Relationship,
+    ref: 'User',
+    initial: true,
+    index: true,
+    required: true,
+  },
+  org: {
+    type: Types.Relationship,
+    ref: 'Org',
+    initial: true,
+    index: true,
+    required: true,
+  },
   banner: { type: Types.Url },
   brief: { type: Types.Html, wysiwyg: true, height: 150 },
   content: { type: Types.Html, wysiwyg: true, height: 400, require: true },
