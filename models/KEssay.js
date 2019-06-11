@@ -42,6 +42,14 @@ KEssay.add({
     type: Number,
     default: 0,
   },
+  numberOfReaction: {
+    type: Number,
+    default: 0,
+  },
+  numberOfComment: {
+    type: Number,
+    default: 0,
+  },
   state: {
     type: Types.Select,
     options: 'draft, published, archived',
@@ -60,6 +68,11 @@ KEssay.add({
     default: Date.now,
     noedit: true,
   },
+});
+
+KEssay.schema.pre('save', function(next) {
+  this.publishedDate = Date.now();
+  return next();
 });
 
 KEssay.defaultColumns = 'title, state|20%, author|20%, createdAt|20%';

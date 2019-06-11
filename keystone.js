@@ -89,7 +89,8 @@ keystone.set('email tests', require('./routes/emails'));
 // Configure the navigation bar in Keystone's Admin UI
 keystone.set('nav', {
   'hacknao': ['kessays', 'kvocabs', 'kunits', 'kquizzes', 'kuser-quizzes'],
-  'users': 'users',
+  'org': ['org-posts', 'org-members', 'orgs'],
+  'users': ['users', 'user-comments', 'user-reactions'],
   'lessons': ['lessons', 'lesson-craw-data'],
 });
 

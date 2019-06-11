@@ -30,7 +30,6 @@ Blog.add({
     default: 'draft',
     index: true,
   },
-  author: { type: Types.Relationship, ref: 'User', index: true },
   publishedDate: {
     type: Types.Date,
     index: true,
@@ -38,6 +37,7 @@ Blog.add({
       state: 'published',
     },
   },
+  author: { type: Types.Relationship, ref: 'User', index: true },
   image: { type: Types.File, storage: myStorage },
   brief: { type: Types.Html, wysiwyg: true, height: 150 },
   desc: { type: Types.Html, wysiwyg: true, height: 400 },
