@@ -86,9 +86,9 @@ exports = module.exports = function(app) {
       const essayFeed = client.feed('essay', essayId);
       const notificationFeed = client.feed('notification', userId);
       const activity = {
-        actor: userId,
+        actor: req.user,
         verb: 'comment',
-        object: essayId,
+        object: req.body,
       };
 
       notificationFeed.follow('essay', essayId);
