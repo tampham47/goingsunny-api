@@ -22,12 +22,20 @@ var keystone = require('keystone');
 var middleware = require('./middleware');
 var restify = require('express-restify-mongoose');
 var expressJwt = require('express-jwt');
+var stream = require('getstream');
+
 var importRoutes = keystone.importer(__dirname);
 var router = keystone.express.Router();
 
 // Import Route Controllers
 var views = importRoutes('./views');
 var apis = importRoutes('./apis');
+
+const client = stream.connect(
+  'df5c5f4u33fn',
+  'dej3nmnkctchbre2sbdfsm2bs739md8rfu7g68nvbtrnncvsrh7bbqvwwbpkjqf3',
+  '53752',
+);
 
 // Setup Route Bindings
 exports = module.exports = function(app) {
@@ -70,7 +78,7 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('UserReaction'));
   restify.serve(router, keystone.mongoose.model('UserComment'), {
     preCreate: (req, res, next) => {
-      console.log('preCreate');
+      console.log('preCreate', req.user);
       next();
     }
   });

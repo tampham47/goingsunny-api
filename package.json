@@ -7,7 +7,7 @@
     "dev": "NODE_ENV=local PORT=5600 nodemon keystone.js",
     "login": "ssh -i _deploy/goingsunny-oregon.pem centos@35.162.241.129",
     "deploy_prod": "npm run login 'cd prod/gsun-datacenter && git checkout master && git pull && npm install && pm2 startOrRestart pm2-prod.json --env production'",
-    "deploy_stag": "npm run login 'cd stag/goingsunny-api && git fetch && git checkout develop && git pull && npm install && pm2 startOrRestart pm2-stag.json --env production'",
+    "deploy_stag": "npm run login 'cd stag/goingsunny-api && git fetch && git checkout add-notification && git pull && npm install && pm2 startOrRestart pm2-stag.json --env production'",
     "postinstall": ""
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "express-handlebars": "3.0.0",
     "express-jwt": "^5.3.1",
     "express-restify-mongoose": "5.0.0",
+    "getstream": "^4.2.2",
     "handlebars": "4.0.12",
     "keystone": "4.0.0",
     "moment": "2.23.0",
