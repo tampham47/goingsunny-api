@@ -67,8 +67,13 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Org'));
   restify.serve(router, keystone.mongoose.model('OrgMember'));
   restify.serve(router, keystone.mongoose.model('OrgPost'));
-  restify.serve(router, keystone.mongoose.model('UserComment'));
   restify.serve(router, keystone.mongoose.model('UserReaction'));
+  restify.serve(router, keystone.mongoose.model('UserComment'), {
+    preCreate: (req, res, next) => {
+      console.log('preCreate');
+      next();
+    }
+  });
   app.use(router);
 
   // custom apis
