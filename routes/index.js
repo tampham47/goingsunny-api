@@ -80,8 +80,27 @@ exports = module.exports = function(app) {
     preCreate: (req, res, next) => {
       console.log('preCreate', req.user);
       console.log('preCreate body', req.body);
+
       const userId = req.user._id;
-      // const streamUser = client.feed()
+      const essayId = req.body.essay;
+      const essayFeed = client.feed('essay', essayId);
+      const notificationFeed = client.feed('notification', userId);
+      const activity = {
+        actor: userId,
+        verb: 'comment',
+        object: essayId,
+      };
+
+      notificationFeed.follow('essay', essayId);
+      essayFeed
+        .addActivity(activity)
+        .then(data => {
+          console.log('data', data);
+        })
+        .catch(reason => {
+          console.log('faild', reason);
+        });
+
       next();
     }
   });
