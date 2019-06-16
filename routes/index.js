@@ -84,9 +84,9 @@ exports = module.exports = function(app) {
       const userId = req.user._id;
       const essayId = req.body.essay;
       const essayFeed = client.feed('essay', essayId);
-      const notificationFeed = client.feed('aggregated', userId);
+      const notificationFeed = client.feed('notification', userId);
       const activity = {
-        verb: 'comment 123',
+        verb: `comment:${essayId}`,
         actor: userId,
         object: essayId,
         author: req.user,
