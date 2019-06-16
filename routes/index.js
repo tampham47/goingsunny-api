@@ -79,6 +79,9 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('UserComment'), {
     preCreate: (req, res, next) => {
       console.log('preCreate', req.user);
+      console.log('preCreate body', req.body);
+      const userId = req.user._id;
+      const streamUser = client.feed()
       next();
     }
   });
