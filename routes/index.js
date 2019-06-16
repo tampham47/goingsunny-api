@@ -81,7 +81,7 @@ exports = module.exports = function(app) {
       console.log('preCreate', req.user);
       console.log('preCreate body', req.body);
       const userId = req.user._id;
-      const streamUser = client.feed()
+      // const streamUser = client.feed()
       next();
     }
   });
