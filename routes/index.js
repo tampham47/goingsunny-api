@@ -89,7 +89,6 @@ exports = module.exports = function(app) {
         object: essayId,
         author: getEssentialUserInfo(req.user),
         body: body,
-        to: [`notification:${essayOwnerId}`],
       };
 
       const notificationFeed = client.feed('notification', userId);
@@ -98,6 +97,7 @@ exports = module.exports = function(app) {
       // the user who leave a comment on an essay will follow the essay
       // the owner of the essay dont need to follow
       if (userId !== essayOwnerId) {
+        activity.to = [`notification:${essayOwnerId}`];
         notificationFeed.follow('essay', essayId);
       }
       // add an activity to trigger notification to all followers
