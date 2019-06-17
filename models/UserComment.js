@@ -46,5 +46,5 @@ UserComment.add({
   },
 });
 
-UserComment.defaultColumns = 'user, content, essay|10, post|10, createdAt';
+UserComment.defaultColumns = 'user, essay, post, createdAt';
 UserComment.register();
