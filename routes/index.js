@@ -79,13 +79,8 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('UserReaction'));
   restify.serve(router, keystone.mongoose.model('UserComment'), {
     preCreate: (req, res, next) => {
-      console.log('preCreate', req.user);
-      console.log('preCreate body', req.body);
-
       const userId = req.user._id;
       const essayId = req.body.essay;
-      const essayFeed = client.feed('essay', essayId);
-      const notificationFeed = client.feed('notification', userId);
       const activity = {
         verb: `comment:${essayId}`,
         actor: userId,
@@ -94,14 +89,19 @@ exports = module.exports = function(app) {
         body: req.body,
       };
 
+      const notificationFeed = client.feed('notification', userId);
+      const essayFeed = client.feed('essay', essayId);
+
+      // the user who leave a comment on an essay will follow the essay
       notificationFeed.follow('essay', essayId);
+      // add an activity to trigger notification to all followers
       essayFeed
         .addActivity(activity)
-        .then(data => {
-          console.log('data', data);
+        .then(body => {
+          console.log('An activity has been added', body);
         })
         .catch(reason => {
-          console.log('faild', reason);
+          console.log('It is failed adding an activity', reason);
         });
 
       next();
