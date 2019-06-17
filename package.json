@@ -16,6 +16,7 @@
     "express-handlebars": "3.0.0",
     "express-jwt": "^5.3.1",
     "express-restify-mongoose": "5.0.0",
+    "getstream": "^4.2.2",
     "handlebars": "4.0.12",
     "keystone": "4.0.0",
     "moment": "2.23.0",

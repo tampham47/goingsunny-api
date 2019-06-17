@@ -22,12 +22,21 @@ var keystone = require('keystone');
 var middleware = require('./middleware');
 var restify = require('express-restify-mongoose');
 var expressJwt = require('express-jwt');
+var stream = require('getstream');
+var getEssentialUserInfo = require('./utils/getEssentialUserInfo');
+
 var importRoutes = keystone.importer(__dirname);
 var router = keystone.express.Router();
 
 // Import Route Controllers
 var views = importRoutes('./views');
 var apis = importRoutes('./apis');
+
+const client = stream.connect(
+  'df5c5f4u33fn',
+  'dej3nmnkctchbre2sbdfsm2bs739md8rfu7g68nvbtrnncvsrh7bbqvwwbpkjqf3',
+  '53752',
+);
 
 // Setup Route Bindings
 exports = module.exports = function(app) {
@@ -67,8 +76,37 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Org'));
   restify.serve(router, keystone.mongoose.model('OrgMember'));
   restify.serve(router, keystone.mongoose.model('OrgPost'));
-  restify.serve(router, keystone.mongoose.model('UserComment'));
   restify.serve(router, keystone.mongoose.model('UserReaction'));
+  restify.serve(router, keystone.mongoose.model('UserComment'), {
+    preCreate: (req, res, next) => {
+      const userId = req.user._id;
+      const essayId = req.body.essay;
+      const activity = {
+        verb: `comment:${essayId}`,
+        actor: userId,
+        object: essayId,
+        author: getEssentialUserInfo(req.user),
+        body: req.body,
+      };
+
+      const notificationFeed = client.feed('notification', userId);
+      const essayFeed = client.feed('essay', essayId);
+
+      // the user who leave a comment on an essay will follow the essay
+      notificationFeed.follow('essay', essayId);
+      // add an activity to trigger notification to all followers
+      essayFeed
+        .addActivity(activity)
+        .then(body => {
+          console.log('An activity has been added', body);
+        })
+        .catch(reason => {
+          console.log('It is failed adding an activity', reason);
+        });
+
+      next();
+    }
+  });
   app.use(router);
 
   // custom apis
