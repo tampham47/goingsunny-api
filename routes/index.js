@@ -23,6 +23,7 @@ var middleware = require('./middleware');
 var restify = require('express-restify-mongoose');
 var expressJwt = require('express-jwt');
 var stream = require('getstream');
+var getEssentialUserInfo = require('./utils/getEssentialUserInfo');
 
 var importRoutes = keystone.importer(__dirname);
 var router = keystone.express.Router();
@@ -89,7 +90,7 @@ exports = module.exports = function(app) {
         verb: `comment:${essayId}`,
         actor: userId,
         object: essayId,
-        author: req.user,
+        author: getEssentialUserInfo(req.user),
         body: req.body,
       };
 
