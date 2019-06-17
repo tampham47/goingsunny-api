@@ -86,7 +86,7 @@ exports = module.exports = function(app) {
         actor: userId,
         object: essayId,
         author: getEssentialUserInfo(req.user),
-        // body: req.body,
+        body: req.body,
       };
 
       const notificationFeed = client.feed('notification', userId);
