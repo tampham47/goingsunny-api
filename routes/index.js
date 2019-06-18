@@ -90,26 +90,24 @@ exports = module.exports = function(app) {
         body: body,
       };
 
-      console.log('activity', activity);
+      const notificationFeed = client.feed('notification', userId);
+      const essayFeed = client.feed('essay', essayId);
 
-      // const notificationFeed = client.feed('notification', userId);
-      // const essayFeed = client.feed('essay', essayId);
-
-      // // the user who leave a comment on an essay will follow the essay
-      // // the owner of the essay dont need to follow
-      // if (userId !== essayOwnerId) {
-      //   activity.to = [`notification:${essayOwnerId}`];
-      //   notificationFeed.follow('essay', essayId);
-      // }
-      // // add an activity to trigger notification to all followers
-      // essayFeed
-      //   .addActivity(activity)
-      //   .then(body => {
-      //     console.log('An activity has been added', body);
-      //   })
-      //   .catch(reason => {
-      //     console.log('It is failed adding an activity', reason);
-      //   });
+      // the user who leave a comment on an essay will follow the essay
+      // the owner of the essay dont need to follow
+      if (userId !== essayOwnerId) {
+        activity.to = [`notification:${essayOwnerId}`];
+        notificationFeed.follow('essay', essayId);
+      }
+      // add an activity to trigger notification to all followers
+      essayFeed
+        .addActivity(activity)
+        .then(body => {
+          console.log('An activity has been added', body);
+        })
+        .catch(reason => {
+          console.log('It is failed adding an activity', reason);
+        });
 
       next();
     },
