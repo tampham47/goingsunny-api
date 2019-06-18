@@ -76,7 +76,44 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Org'));
   restify.serve(router, keystone.mongoose.model('OrgMember'));
   restify.serve(router, keystone.mongoose.model('OrgPost'));
-  restify.serve(router, keystone.mongoose.model('UserReaction'));
+  restify.serve(router, keystone.mongoose.model('UserReaction'), {
+    preCreate: (req, res, next) => {
+      const userId = req.user._id;
+      const essayId = req.body.essay;
+      const body = req.body;
+      const essayOwnerId = body.orgObject.author._id;
+      const activity = {
+        verb: `like:${essayId}`,
+        actor: userId,
+        object: essayId,
+        author: getEssentialUserInfo(req.user),
+        body: body,
+      };
+
+      console.log('activity', activity);
+
+      // const notificationFeed = client.feed('notification', userId);
+      // const essayFeed = client.feed('essay', essayId);
+
+      // // the user who leave a comment on an essay will follow the essay
+      // // the owner of the essay dont need to follow
+      // if (userId !== essayOwnerId) {
+      //   activity.to = [`notification:${essayOwnerId}`];
+      //   notificationFeed.follow('essay', essayId);
+      // }
+      // // add an activity to trigger notification to all followers
+      // essayFeed
+      //   .addActivity(activity)
+      //   .then(body => {
+      //     console.log('An activity has been added', body);
+      //   })
+      //   .catch(reason => {
+      //     console.log('It is failed adding an activity', reason);
+      //   });
+
+      next();
+    },
+  });
   restify.serve(router, keystone.mongoose.model('UserComment'), {
     preCreate: (req, res, next) => {
       const userId = req.user._id;
@@ -111,7 +148,7 @@ exports = module.exports = function(app) {
         });
 
       next();
-    }
+    },
   });
   app.use(router);
 
