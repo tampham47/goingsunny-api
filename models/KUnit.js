@@ -18,10 +18,17 @@ KUnit.add({
     required: true,
     initial: true,
   },
+  unit: {
+    type: Number,
+    required: true,
+    initial: true,
+  },
   type: {
     type: Types.Select,
     options: 'hack_a, hack_b, ielts_a, ielts_b',
     default: 'hack_a',
+    required: true,
+    initial: true,
   },
   state: {
     type: Types.Select,
