@@ -18,6 +18,11 @@ KUnit.add({
     required: true,
     initial: true,
   },
+  type: {
+    type: Types.Select,
+    options: 'hack_a, hack_b, ielts_a, ielts_b',
+    default: 'hack_a',
+  },
   state: {
     type: Types.Select,
     options: 'published, draft, archived',
@@ -30,5 +35,5 @@ KUnit.add({
   },
 });
 
-KUnit.defaultColumns = 'title, unitName|20%, state|20%, createdAt|20%';
+KUnit.defaultColumns = 'title, unitName|20%, type|15%, state|15%, createdAt|20%';
 KUnit.register();
