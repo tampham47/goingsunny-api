@@ -42,5 +42,5 @@ KUnit.add({
   },
 });
 
-KUnit.defaultColumns = 'title, unitName|15%, unit|15, type|15%, createdAt|20%';
+KUnit.defaultColumns = 'title, unitName|15%, unit|15%, type|15%, createdAt|20%';
 KUnit.register();
