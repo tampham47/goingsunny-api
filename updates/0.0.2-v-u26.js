@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb26', word: 'quite', type: 'adv', meaning: 'hoàn toàn', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'hard', type: 'adj', meaning: 'khó', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'detective', type: 'noun', meaning: 'thám tử', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'stressful', type: 'adj', meaning: 'gây căng thẳng', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'break', type: 'noun', meaning: 'giờ nghỉ', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'forget', type: 'verb', meaning: 'quên', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'noon', type: 'noun', meaning: 'buổi trưa', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'lie', type: 'verb', meaning: 'nằm', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'defeat', type: 'verb', meaning: 'đánh bại', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'calm', type: 'adj', meaning: 'bình tĩnh', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'obsess', type: 'verb', meaning: 'ám ảnh', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'waste', type: 'verb', meaning: 'phí phạm', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'relaxation', type: 'noun', meaning: 'sự nghỉ ngơi', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'active', type: 'adj', meaning: 'đang hoạt động', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'proper', type: 'adj', meaning: 'hợp lý', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'sleep', type: 'noun', meaning: 'giấc ngủ', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'through', type: 'adv', meaning: 'xuyên suốt', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'dream', type: 'noun', meaning: 'giấc mơ', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'imagine', type: 'verb', meaning: 'tưởng tượng', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'meditate', type: 'verb', meaning: 'thiền', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'free', type: 'adj', meaning: 'rảnh rỗi', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'silent', type: 'adj', meaning: 'yên lặng', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'rest', type: 'verb', meaning: 'nghỉ ngơi', unit: '5d09b95b0805b64d5d33fc86' },
+    { unitName: 'hkb26', word: 'lazy', type: 'adj', meaning: 'lười biếng', unit: '5d09b95b0805b64d5d33fc86' },
+  ]
+};

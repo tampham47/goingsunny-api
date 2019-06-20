@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb29', word: 'worse', type: 'adj', meaning: 'tệ hơn', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'annoyed', type: 'adj', meaning: 'khó chịu', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'traffic', type: 'noun', meaning: 'giao thông', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'light', type: 'adj', meaning: 'nhẹ', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'fast', type: 'adj', meaning: 'nhanh', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'heavy', type: 'adj', meaning: 'mật độ cao', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'patient', type: 'adj', meaning: 'kiên nhẫn', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'pass', type: 'verb', meaning: 'vượt qua', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'quickly', type: 'adv', meaning: 'nhanh chóng', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'hole', type: 'noun', meaning: 'lỗ', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'push', type: 'verb', meaning: 'đẩy', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'crazy', type: 'adj', meaning: 'điên rồ', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'carefully', type: 'adv', meaning: 'một cách cẩn thận', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'safely', type: 'adv', meaning: 'một cách an toàn', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'accident', type: 'noun', meaning: 'tai nạn', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'pedestrian', type: 'noun', meaning: 'người đi bộ', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'cyclist', type: 'noun', meaning: 'người đi xe đạp', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'speed', type: 'noun', meaning: 'tốc độ', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'fuel', type: 'noun', meaning: 'nhiên liệu', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'fine', type: 'noun', meaning: 'phí phạt', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'honk', type: 'noun', meaning: 'tiếng còi xe', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'station', type: 'noun', meaning: 'trạm', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'passenger', type: 'noun', meaning: 'hành khách', unit: '5d09b95b0805b64d5d33fc89' },
+    { unitName: 'hkb29', word: 'officer', type: 'noun', meaning: 'sĩ quan cảnh sát', unit: '5d09b95b0805b64d5d33fc89' },
+  ]
+};

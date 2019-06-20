@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb24', word: 'fear', type: 'noun', meaning: 'nỗi sợ', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'injure', type: 'verb', meaning: 'gây thương tích', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'seriously', type: 'adv', meaning: 'một cách nghiêm trọng', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'bleed', type: 'verb', meaning: 'chảy máu', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'hurt', type: 'verb', meaning: 'làm bị đau', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'headache', type: 'noun', meaning: 'cơn đau đầu', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'check', type: 'noun', meaning: 'đợt khám', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'disease', type: 'noun', meaning: 'bệnh tật', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'cold', type: 'noun', meaning: 'cơn cảm lạnh', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'cough', type: 'noun', meaning: 'cơn ho', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'pain', type: 'noun', meaning: 'cảm giác đau', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'suffer', type: 'verb', meaning: 'chịu đựng', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'cancer', type: 'noun', meaning: 'bệnh ung thư', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'diabetes', type: 'noun', meaning: 'bệnh tiểu đường', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'curable', type: 'adj', meaning: 'có thể chữa được', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'ease', type: 'verb', meaning: 'xoa dịu', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'prescription', type: 'noun', meaning: 'đơn thuốc', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'autism', type: 'noun', meaning: 'bệnh tự kỷ', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'sore', type: 'adj', meaning: 'đau nhức', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'flu', type: 'noun', meaning: 'cơn cảm cúm', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'throat', type: 'noun', meaning: 'cổ họng', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'ill', type: 'adj', meaning: 'bị ốm', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'drop', type: 'noun', meaning: 'giọt', unit: '5d09b95b0805b64d5d33fc84' },
+    { unitName: 'hkb24', word: 'ache', type: 'noun', meaning: 'đau nhức', unit: '5d09b95b0805b64d5d33fc84' },
+  ]
+};

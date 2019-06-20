@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb27', word: 'strong', type: 'adj', meaning: 'mạnh mẽ', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'athlete', type: 'noun', meaning: 'vận động viên', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'badminton', type: 'noun', meaning: 'môn cầu lông', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'compete', type: 'verb', meaning: 'thi đấu', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'match', type: 'noun', meaning: 'trận đấu', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'captain', type: 'noun', meaning: 'đội trưởng', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'team', type: 'noun', meaning: 'đội', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'pratice', type: 'noun', meaning: 'giờ tập luyện', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'argue', type: 'verb', meaning: 'tranh cãi', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'contest', type: 'noun', meaning: 'cuộc thi', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'cup', type: 'noun', meaning: 'cúp', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'supporter', type: 'noun', meaning: 'cổ động viên', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'tournament', type: 'noun', meaning: 'giải đấu', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'win', type: 'verb', meaning: 'thắng', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'competitor', type: 'noun', meaning: 'đối thủ', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'racquet', type: 'noun', meaning: 'vợt', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'loser', type: 'noun', meaning: 'người thua cuộc', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'sportman', type: 'noun', meaning: 'người chơi thể thao', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'footballer', type: 'noun', meaning: 'cầu thủ bóng đá', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'winner', type: 'noun', meaning: 'người thắng cuộc', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'coach', type: 'noun', meaning: 'huấn luyện viên', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'final', type: 'noun', meaning: 'trận chung kết', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'score', type: 'noun', meaning: 'tỷ số', unit: '5d09b95b0805b64d5d33fc87' },
+    { unitName: 'hkb27', word: 'weak', type: 'adj', meaning: 'yếu', unit: '5d09b95b0805b64d5d33fc87' },
+  ]
+};

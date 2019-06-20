@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb22', word: 'fishing', type: 'noun', meaning: 'câu cá', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'coast', type: 'noun', meaning: 'bờ biển', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'surround', type: 'verb', meaning: 'bao quanh', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'gorgeous', type: 'adj', meaning: 'tuyệt đẹp', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'scenery', type: 'noun', meaning: 'phong cảnh', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'island', type: 'noun', meaning: 'hòn đảo', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'map', type: 'noun', meaning: 'bản đồ', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'mountain', type: 'noun', meaning: 'núi', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'bay', type: 'noun', meaning: 'vịnh', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'lake', type: 'noun', meaning: 'hồ', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'waterfall', type: 'noun', meaning: 'thác nước', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'forest', type: 'noun', meaning: 'khu rừng', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'rough', type: 'adj', meaning: 'gồ ghề', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'cave', type: 'noun', meaning: 'hang động', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'icy', type: 'adj', meaning: 'băng giá', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'lighter', type: 'noun', meaning: 'bật lửa', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'spider', type: 'noun', meaning: 'con nhện', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'surprisingly', type: 'adv', meaning: 'một cách bất ngờ', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'sunbathe', type: 'verb', meaning: 'tắm nắng', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'wonder', type: 'noun', meaning: 'kỳ quan', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'wildlife', type: 'noun', meaning: 'động vật hoang dã', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'sanctuary', type: 'noun', meaning: 'khu bảo tồn', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'bamboo', type: 'noun', meaning: 'cây tre', unit: '5d09b95b0805b64d5d33fc82' },
+    { unitName: 'hkb22', word: 'cliff', type: 'noun', meaning: 'vách đá', unit: '5d09b95b0805b64d5d33fc82' },
+  ]
+};

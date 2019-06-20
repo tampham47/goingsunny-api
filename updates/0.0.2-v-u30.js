@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb30', word: 'motobike', type: 'noun', meaning: 'xe máy', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'tricycle', type: 'noun', meaning: 'xe đạp ba bánh', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'regularly', type: 'adv', meaning: 'một cách đều đặn', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'navigate', type: 'verb', meaning: 'định hướng', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'shortcut', type: 'noun', meaning: 'đường tắt', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'lost', type: 'adj', meaning: 'lạc đường', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'suddenly', type: 'adv', meaning: 'một cách đột ngột', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'mechanic', type: 'noun', meaning: 'thợ sửa xe', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'lift', type: 'noun', meaning: 'chuyến đi nhờ', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'hit', type: 'verb', meaning: 'va mạnh', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'brake', type: 'noun', meaning: 'cái phanh', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'full', type: 'adj', meaning: 'chật', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'bicycle', type: 'noun', meaning: 'xe đạp', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'boat', type: 'noun', meaning: 'thuyền', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'nightmare', type: 'noun', meaning: 'ác mộng', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'truck', type: 'noun', meaning: 'xe tải', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'fare', type: 'noun', meaning: 'tiền vé', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'charge', type: 'verb', meaning: 'tính giá', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'fix', type: 'verb', meaning: 'sửa', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'wheel', type: 'noun', meaning: 'bánh xe', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'smoke', type: 'noun', meaning: 'khói', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'engine', type: 'noun', meaning: 'động cơ', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'turn', type: 'verb', meaning: 'rẽ hướng', unit: '5d09b95b0805b64d5d33fc8a' },
+    { unitName: 'hkb30', word: 'garage', type: 'noun', meaning: 'nhà để xe', unit: '5d09b95b0805b64d5d33fc8a' },
+  ]
+};
