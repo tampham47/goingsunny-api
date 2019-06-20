@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb2', word: 'kindergarten', type: 'noun', meaning: 'mẫu giáo', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'primary', type: 'adj', meaning: 'tiểu học', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'secondary', type: 'adj', meaning: 'trung học cơ sở', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'mathematics', type: 'noun', meaning: 'toán học', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'engineering', type: 'noun', meaning: 'ngành kỹ sư', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'subject', type: 'noun', meaning: 'môn học', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'science', type: 'noun', meaning: 'khoa học', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'popular', type: 'adj', meaning: 'thịnh hành', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'absent', type: 'adj', meaning: 'vắng mặt', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'art', type: 'noun', meaning: 'nghệ thuật', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'attend', type: 'verb', meaning: 'tham dự', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'term', type: 'noun', meaning: 'học kỳ', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'grade', type: 'noun', meaning: 'điểm số', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'countinue', type: 'verb', meaning: 'tiếp tục', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'announce', type: 'verb', meaning: 'thông báo', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'nervous', type: 'adj', meaning: 'lo lắng', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'revise', type: 'verb', meaning: 'ôn tập', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'assignment', type: 'noun', meaning: 'bài tập', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'enroll', type: 'verb', meaning: 'nhập học', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'succeed', type: 'verb', meaning: 'thành công', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'uniform', type: 'noun', meaning: 'đồng phục', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'memorise', type: 'verb', meaning: 'học thuộc', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'curriculum', type: 'noun', meaning: 'chương trình giảng dạy', unit: '5d09b44c7aaa6b49d7db8f1a' },
+    { unitName: 'hkb2', word: 'dropout', type: 'noun', meaning: 'người bỏ học', unit: '5d09b44c7aaa6b49d7db8f1a' },
+  ]
+};
