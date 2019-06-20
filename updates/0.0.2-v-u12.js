@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb12', word: 'route', type: 'noun', meaning: 'tuyến đường', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'mausoleum', type: 'noun', meaning: 'lăng tẩm', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'history', type: 'noun', meaning: 'lịch sử', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'hidden', type: 'adj', meaning: 'bị ẩn giấu', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'guide', type: 'noun', meaning: 'hướng dẫn', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'church', type: 'noun', meaning: 'nhà thờ', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'temple', type: 'noun', meaning: 'đền', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'pagoda', type: 'noun', meaning: 'chùa', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'war', type: 'noun', meaning: 'chiến tranh', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'touristy', type: 'adj', meaning: 'quá đông du khách', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'lover', type: 'noun', meaning: 'tình nhân', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'lovely', type: 'adj', meaning: 'đáng yêu', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'try', type: 'verb', meaning: 'thử', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'recommend', type: 'verb', meaning: 'đề xuất', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'taste', type: 'verb', meaning: 'nếm thử', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'local', type: 'adj', meaning: 'địa phương', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'option', type: 'noun', meaning: 'sự lựa chọn', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'sightseeing', type: 'noun', meaning: 'ngắm cảnh', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'market', type: 'noun', meaning: 'chợ', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'resort', type: 'noun', meaning: 'khu nghỉ dưỡng', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'campsite', type: 'noun', meaning: 'khu cắm trại', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'homestay', type: 'noun', meaning: 'dịch vụ nghỉ tại nhà dân', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'leisure', type: 'noun', meaning: 'thời gian rảnh', unit: '5d09b95b0805b64d5d33fc78' },
+    { unitName: 'hkb12', word: 'hike', type: 'verb', meaning: 'đi bộ đường dài', unit: '5d09b95b0805b64d5d33fc78' },
+  ]
+};

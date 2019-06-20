@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb17', word: 'detox', type: 'noun', meaning: 'chế độ thải độc', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'coffee', type: 'noun', meaning: 'cà phê', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'thirsty', type: 'adj', meaning: 'khát nước', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'alcohol', type: 'noun', meaning: 'đồ uống có cồn', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'drinking', type: 'noun', meaning: 'việc nhậu nhẹt', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'beer', type: 'noun', meaning: 'bia', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'cheers', type: 'noun', meaning: 'chúc mừng, dzô', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'bottle', type: 'noun', meaning: 'chai', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'wine', type: 'noun', meaning: 'rượu', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'pour', type: 'verb', meaning: 'rót', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'shot', type: 'noun', meaning: 'chén rượu', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'smoothie', type: 'noun', meaning: 'sinh tố', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'tipsy', type: 'adj', meaning: 'ngà ngà say', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'useless', type: 'adj', meaning: 'vô dụng', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'handover', type: 'noun', meaning: 'dư âm sau cơn say', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'sparkling', type: 'adj', meaning: 'có ga', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'stir', type: 'verb', meaning: 'khuấy', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'cream', type: 'noun', meaning: 'kem', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'energy', type: 'noun', meaning: 'năng lượng', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'glass', type: 'noun', meaning: 'cốc thuỷ tinh', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'litre', type: 'noun', meaning: 'lít', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'bucket', type: 'noun', meaning: 'xô', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'pub', type: 'noun', meaning: 'quán rượu', unit: '5d09b95b0805b64d5d33fc7d' },
+    { unitName: 'hkb17', word: 'habit', type: 'noun', meaning: 'thói quen', unit: '5d09b95b0805b64d5d33fc7d' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb13', word: 'priest', type: 'noun', meaning: 'linh mục', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'generally', type: 'adv', meaning: 'nhìn chung thì', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'celebration', type: 'noun', meaning: 'sự ăn mừng', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'pray', type: 'verb', meaning: 'cầu nguyện', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'party', type: 'verb', meaning: 'tiệc tùng', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'wedding', type: 'noun', meaning: 'lễ cưới', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'occasion', type: 'noun', meaning: 'dịp đặc biệt', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'relative', type: 'noun', meaning: 'họ hàng', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'guest', type: 'noun', meaning: 'khách', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'festival', type: 'noun', meaning: 'lễ hội', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'firework', type: 'noun', meaning: 'pháo hoa', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'ceremony', type: 'noun', meaning: 'buổi lễ', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'offering', type: 'noun', meaning: 'lễ vật', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'welcome', type: 'verb', meaning: 'hoan nghênh', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'luck', type: 'noun', meaning: 'vận may', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'holiday', type: 'noun', meaning: 'ngày lễ', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'national', type: 'adj', meaning: 'toàn quốc', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'congratulations', type: 'noun', meaning: 'chúc mừng', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'tidy', type: 'verb', meaning: 'dọn dẹp', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'exchange', type: 'verb', meaning: 'trao đổi', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'public', type: 'noun', meaning: 'công chúng', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'anniversary', type: 'noun', meaning: 'ngày kỷ niệm', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'lantern', type: 'noun', meaning: 'đèn lồng', unit: '5d09b95b0805b64d5d33fc79' },
+    { unitName: 'hkb13', word: 'peace', type: 'noun', meaning: 'sự bình yên', unit: '5d09b95b0805b64d5d33fc79' },
+  ]
+};

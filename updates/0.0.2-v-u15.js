@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb15', word: 'beginning', type: 'noun', meaning: 'sự khởi đầu', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'rainy', type: 'adj', meaning: 'nhiều mưa', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'season', type: 'noun', meaning: 'mùa', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'pleasant', type: 'adj', meaning: 'dễ chịu', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'shower', type: 'noun', meaning: 'mưa rào', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'drizzle', type: 'noun', meaning: 'mưa phùn', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'cloud', type: 'noun', meaning: 'đám mây', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'approach', type: 'verb', meaning: 'tiếp cận', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'sunny', type: 'adj', meaning: 'nhiều nắng', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'nasty', type: 'adj', meaning: 'gây khó chịu', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'flood', type: 'noun', meaning: 'lũ lụt', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'awful', type: 'adj', meaning: 'kinh khủng', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'middle', type: 'noun', meaning: 'giữa', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'temperature', type: 'noun', meaning: 'nhiệt độ', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'end', type: 'noun', meaning: 'sự kết thúc', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'forecast', type: 'verb', meaning: 'dự báo', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'typical', type: 'adj', meaning: 'điển hình', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'period', type: 'noun', meaning: 'khoảng thời gian ', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'typhoon', type: 'noun', meaning: 'bão nhiệt đới ', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'climate', type: 'noun', meaning: 'khí hậu ', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'celious', type: 'noun', meaning: 'độ c ', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'humid', type: 'adj', meaning: 'ẩm', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'last', type: 'verb', meaning: 'kéo dài ', unit: '5d09b95b0805b64d5d33fc7b' },
+    { unitName: 'hkb15', word: 'breeze', type: 'noun', meaning: 'cơn gió nhẹ', unit: '5d09b95b0805b64d5d33fc7b' },
+  ]
+};
