@@ -43,5 +43,5 @@ KVocab.add({
   },
 });
 
-KVocab.defaultColumns = 'word, type|10%, pronounce|20%, meaning|20%, hint|20%';
+KVocab.defaultColumns = 'word, type|10%, pronounce|20%, meaning|20%, unitName|10%';
 KVocab.register();
