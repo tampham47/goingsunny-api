@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb36', word: 'judge', type: 'verb', meaning: 'đánh giá', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'type', type: 'noun', meaning: 'kiểu', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'result', type: 'noun', meaning: 'kết quả', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'funny', type: 'adj', meaning: 'vui tính', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'sociable', type: 'adj', meaning: 'hoà đồng', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'attitude', type: 'noun', meaning: 'thái độ', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'cruel', type: 'adj', meaning: 'tàn nhẫn', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'warm-hearted', type: 'adj', meaning: 'nhân hậu', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'kind', type: 'adj', meaning: 'tốt bụng', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'pushover', type: 'noun', meaning: 'người dễ dụ', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'develop', type: 'verb', meaning: 'phát triển', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'trust', type: 'verb', meaning: 'tin tưởng', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'distance', type: 'verb', meaning: 'tạo khoảng cách', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'rude', type: 'adj', meaning: 'thô lỗ', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'short-tempered', type: 'adj', meaning: 'nóng tính', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'neat', type: 'adj', meaning: 'gọn gàng', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'girly', type: 'adj', meaning: 'nữ tính', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'enthusiast', type: 'noun', meaning: 'người say mê', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'playful', type: 'adj', meaning: 'hay bông đùa', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'joyful', type: 'adj', meaning: 'vui vẻ', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'lonely', type: 'adj', meaning: 'cô đơn', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'hyper', type: 'adj', meaning: 'thừa năng lượng', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'esay-going', type: 'adj', meaning: 'dễ tính', unit: '5d09b95b0805b64d5d33fc90' },
+    { unitName: 'hkb36', word: 'mad', type: 'adj', meaning: 'điên', unit: '5d09b95b0805b64d5d33fc90' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb32', word: 'artist', type: 'noun', meaning: 'nghệ sĩ', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'well-know', type: 'adj', meaning: 'nổi tiếng', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'create', type: 'verb', meaning: 'tạo ra', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'photography', type: 'noun', meaning: 'nhiếp ảnh', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'drawing', type: 'noun', meaning: 'vẽ tranh', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'frequently', type: 'adv', meaning: 'một cách thường xuyên', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'painter', type: 'noun', meaning: 'hoạ sĩ', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'artistic', type: 'adj', meaning: 'mang tính nghệ thuật', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'painting', type: 'noun', meaning: 'tranh vẽ', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'personally', type: 'adv', meaning: 'về mặt cá nhân', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'shout', type: 'verb', meaning: 'hét', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'immerse', type: 'verb', meaning: 'chìm vào', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'technique', type: 'noun', meaning: 'kỹ thuật', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'inventive', type: 'adj', meaning: 'nhiều sáng kiến', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'value', type: 'verb', meaning: 'trị giá', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'literature', type: 'noun', meaning: 'văn học', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'fantastic', type: 'adj', meaning: 'vô cùng tuyệt vời', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'artwork', type: 'noun', meaning: 'tác phẩm nghệ thuật', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'theatre', type: 'noun', meaning: 'rạp hát', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'sculpture', type: 'noun', meaning: 'tác phẩm điêu khắc', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'remember', type: 'verb', meaning: 'nhớ', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'concert', type: 'noun', meaning: 'buổi hoà nhạc', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'exhibition', type: 'noun', meaning: 'buổi triển lãm', unit: '5d09b95b0805b64d5d33fc8c' },
+    { unitName: 'hkb32', word: 'beauty', type: 'noun', meaning: 'cái đẹp', unit: '5d09b95b0805b64d5d33fc8c' },
+  ]
+};

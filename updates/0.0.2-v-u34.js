@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb34', word: 'socially', type: 'adv', meaning: 'mang tính xã hội', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'user', type: 'noun', meaning: 'người dùng', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'page', type: 'noun', meaning: 'trang thông tin', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'attention', type: 'noun', meaning: 'sự chú ý', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'blogger', type: 'noun', meaning: 'người viết blog', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'attract', type: 'verb', meaning: 'thu hút', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'viral', type: 'adj', meaning: 'lan truyền nhanh', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'advertisement', type: 'noun', meaning: 'quảng cáo', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'reliable', type: 'adj', meaning: 'đáng tin', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'profitable', type: 'adj', meaning: 'đem lại lợi nhuận', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'website', type: 'noun', meaning: 'trang web', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'trend', type: 'noun', meaning: 'trào lưu', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'post', type: 'verb', meaning: 'đăng bài', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'complain', type: 'verb', meaning: 'phàn nàn', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'unnecessary', type: 'adj', meaning: 'không cần  thiết', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'opinion', type: 'noun', meaning: 'ý kiến', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'status', type: 'noun', meaning: 'dòng trạng thái', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'access', type: 'noun', meaning: 'quyền truy cập', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'swipe', type: 'verb', meaning: 'lướt màn hình', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'unfriend', type: 'verb', meaning: 'huỷ kết bạn', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'feed', type: 'noun', meaning: 'bảng tin', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'chat', type: 'verb', meaning: 'gửi tin nhắn', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'upload', type: 'verb', meaning: 'đăng tải', unit: '5d09b95b0805b64d5d33fc8e' },
+    { unitName: 'hkb34', word: 'download', type: 'verb', meaning: 'tải xuống', unit: '5d09b95b0805b64d5d33fc8e' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb31', word: 'musician', type: 'noun', meaning: 'nhạc sĩ', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'style', type: 'noun', meaning: 'phong cách', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'flute', type: 'noun', meaning: 'sáo', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'guitar', type: 'noun', meaning: 'đàn ghita', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'perform', type: 'verb', meaning: 'biểu diễn', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'live', type: 'adj', meaning: 'trực tiếp', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'catchy', type: 'adj', meaning: 'bắt tai', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'upbeat', type: 'adj', meaning: 'lạc quan', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'play', type: 'verb', meaning: 'chơi đàn', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'instrument', type: 'noun', meaning: 'nhạc cụ', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'loud', type: 'adj', meaning: 'tiếng kêu to', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'remind', type: 'verb', meaning: 'nhắc nhở', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'cry', type: 'noun', meaning: 'tiếng khóc', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'volume', type: 'noun', meaning: 'âm lượng', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'quietly', type: 'adv', meaning: 'lặng lẽ', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'record', type: 'verb', meaning: 'thu âm', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'clap', type: 'verb', meaning: 'vỗ tay', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'tune', type: 'noun', meaning: 'giai điệu', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'classical', type: 'adj', meaning: 'cổ điển', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'electronic', type: 'adj', meaning: 'điện tử', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'drum', type: 'noun', meaning: 'trống', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'lyrics', type: 'noun', meaning: 'lời bài hát', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'encourage', type: 'verb', meaning: 'khuyến khích', unit: '5d09b95b0805b64d5d33fc8b' },
+    { unitName: 'hkb31', word: 'singer', type: 'noun', meaning: 'ca sĩ', unit: '5d09b95b0805b64d5d33fc8b' },
+  ]
+};

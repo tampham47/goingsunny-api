@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb16', word: 'boil', type: 'verb', meaning: 'luộc', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'bacon', type: 'noun', meaning: 'ba chỉ xông khói', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'grill', type: 'verb', meaning: 'nướng', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'yummy', type: 'adj', meaning: 'ngon', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'hotpot', type: 'noun', meaning: 'lẩu', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'crispy', type: 'adj', meaning: 'giòn', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'sauce', type: 'noun', meaning: 'sốt', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'sweet', type: 'adj', meaning: 'ngọt', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'savoury', type: 'adj', meaning: 'có vị ngọt', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'vegetarian', type: 'adj', meaning: 'chay', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'prepare', type: 'verb', meaning: 'chuẩn bị', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'beef', type: 'noun', meaning: 'thịt bò', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'pork', type: 'noun', meaning: 'thịt lợn', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'stir-fry', type: 'verb', meaning: 'xào', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'stomach', type: 'noun', meaning: 'dạ dày', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'soup', type: 'noun', meaning: 'canh', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'chilly', type: 'noun', meaning: 'ớt', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'oily', type: 'adj', meaning: 'nhiều dầu mỡ', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'dry', type: 'adj', meaning: 'khô', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'serve', type: 'verb', meaning: 'phục vụ', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'groceries', type: 'noun', meaning: 'thực phẩm', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'stove', type: 'noun', meaning: 'cái bếp', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'hangry', type: 'adj', meaning: 'cáu vì đói', unit: '5d09b95b0805b64d5d33fc7c' },
+    { unitName: 'hkb16', word: 'spicy', type: 'adj', meaning: 'cay', unit: '5d09b95b0805b64d5d33fc7c' },
+  ]
+};

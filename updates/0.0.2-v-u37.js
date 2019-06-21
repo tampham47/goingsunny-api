@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb37', word: 'orinary', type: 'adj', meaning: 'bình thường', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'attractive', type: 'adj', meaning: 'hấp dẫn', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'slim', type: 'adj', meaning: 'thon thả', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'chubby', type: 'adj', meaning: 'mũm mĩm', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'polotely', type: 'adv', meaning: 'một cách lịch sự', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'show', type: 'verb', meaning: 'cho thấy', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'especially', type: 'adv', meaning: 'đặc biệt là', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'classy', type: 'adj', meaning: 'quý phái', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'tatoo', type: 'noun', meaning: 'hình xăm', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'figure', type: 'noun', meaning: 'hình thể', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'tanned', type: 'adj', meaning: 'rám nắng', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'skin', type: 'noun', meaning: 'làn da', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'good-looking', type: 'adj', meaning: 'ưa nhìn', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'curvy', type: 'adj', meaning: 'đầy đặn', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'dress', type: 'verb', meaning: 'mặc quần áo', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'tidy', type: 'adj', meaning: 'gọn gàng', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'messy', type: 'adj', meaning: 'bừa bộn', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'wear', type: 'verb', meaning: 'mặc', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'dirty', type: 'adj', meaning: 'bẩn', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'outside', type: 'adj', meaning: 'bên ngoài', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'skinny', type: 'adj', meaning: 'gầy gò', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'piercing', type: 'noun', meaning: 'lỗ xở khuyên', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'curly', type: 'adj', meaning: 'xoăn', unit: '5d09b95b0805b64d5d33fc91' },
+    { unitName: 'hkb37', word: 'shave', type: 'verb', meaning: 'cạo', unit: '5d09b95b0805b64d5d33fc91' },
+  ]
+};

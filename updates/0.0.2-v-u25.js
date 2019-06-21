@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb25', word: 'pill', type: 'noun', meaning: 'viên thuốc', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'nightmare', type: 'noun', meaning: 'ác mộng', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'consider', type: 'verb', meaning: 'cân nhắc', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'explain', type: 'verb', meaning: 'giải thích', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'patient', type: 'noun', meaning: 'bệnh nhân', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'effect', type: 'noun', meaning: 'tác dụng', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'dehydrated', type: 'adj', meaning: 'bị thiếu nước', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'admit', type: 'verb', meaning: 'thừa nhận', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'slowly', type: 'adv', meaning: 'một cách từ từ', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'exhausted', type: 'adj', meaning: 'kiệt sức', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'lose', type: 'verb', meaning: 'mất', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'packet', type: 'noun', meaning: 'gói hàng', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'capsule', type: 'noun', meaning: 'viên con nhộng', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'pharmacy', type: 'noun', meaning: 'hiệu thuốc', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'fit', type: 'adj', meaning: 'săn chắc', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'emergency', type: 'noun', meaning: 'ca cấp cứu', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'painkiller', type: 'noun', meaning: 'thuốc giảm đau', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'speedy', type: 'adj', meaning: 'nhanh chóng', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'recover', type: 'verb', meaning: 'hồi phục', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'painful', type: 'adj', meaning: 'đau', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'repair', type: 'verb', meaning: 'sửa', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'remove', type: 'verb', meaning: 'loại bỏ', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'medicine', type: 'noun', meaning: 'y học', unit: '5d09b95b0805b64d5d33fc85' },
+    { unitName: 'hkb25', word: 'chemist', type: 'noun', meaning: 'nhà hoá học', unit: '5d09b95b0805b64d5d33fc85' },
+  ]
+};
