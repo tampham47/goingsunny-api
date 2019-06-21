@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb39', word: 'human', type: 'noun', meaning: 'con người', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'feeling', type: 'noun', meaning: 'cảm xúc', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'laugh', type: 'verb', meaning: 'cười', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'sadness', type: 'noun', meaning: 'sự buồn bã', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'feed', type: 'verb', meaning: 'cho ăn', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'jealous', type: 'adj', meaning: 'ghen tuông', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'confused', type: 'adj', meaning: 'bối rối', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'pamper', type: 'verb', meaning: 'chiều chuộng', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'homesick', type: 'adj', meaning: 'nhớ nhà', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'dull', type: 'adj', meaning: 'nhàm chán', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'moody', type: 'adj', meaning: 'tâm trạng thất thường', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'serious', type: 'adj', meaning: 'nghiêm túc', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'grateful', type: 'adj', meaning: 'biết ơn', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'mood', type: 'noun', meaning: 'tâm trạng', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'depressed', type: 'adj', meaning: 'trầm cảm', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'enough', type: 'adj', meaning: 'đủ', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'happiness', type: 'noun', meaning: 'sự hạnh phúc', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'helpful', type: 'adj', meaning: 'có ích', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'lie', type: 'verb', meaning: 'nói dối', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'willing', type: 'adj', meaning: 'sẵn lòng', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'fault', type: 'noun', meaning: 'lỗi', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'gloomy', type: 'adj', meaning: 'ũ rũ', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'delighted', type: 'adj', meaning: 'hài lòng', unit: '5d09b95b0805b64d5d33fc93' },
+    { unitName: 'hkb39', word: 'ashamed', type: 'adj', meaning: 'xấu hổ', unit: '5d09b95b0805b64d5d33fc93' },
+  ]
+};

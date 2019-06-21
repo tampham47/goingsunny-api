@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb23', word: 'condition', type: 'noun', meaning: 'tình trạng', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'care', type: 'verb', meaning: 'quan tâm', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'health', type: 'noun', meaning: 'sức khoẻ', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'exercise', type: 'verb', meaning: 'tập thể dục', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'anxious', type: 'adj', meaning: 'lo lắng', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'awake', type: 'adj', meaning: 'tỉnh', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'curious', type: 'adj', meaning: 'tò mò', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'mind', type: 'noun', meaning: 'trí óc', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'body', type: 'noun', meaning: 'cơ thể', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'brain', type: 'noun', meaning: 'não bộ', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'damage', type: 'verb', meaning: 'phá hỏng', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'muscular', type: 'adj', meaning: 'vạm vỡ', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'mindful', type: 'adj', meaning: 'để tâm', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'extraordinary', type: 'adj', meaning: 'phi thường', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'obviously', type: 'adv', meaning: 'hiển nhiên', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'unlikely', type: 'adj', meaning: 'khó xảy ra', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'embarrassed', type: 'adj', meaning: 'ngượng', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'dentist', type: 'noun', meaning: 'nha sĩ', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'heartbeat', type: 'noun', meaning: 'nhịp tim', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'prevent', type: 'verb', meaning: 'phòng tránh', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'remain', type: 'verb', meaning: 'giữ nguyên', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'blood', type: 'noun', meaning: 'máu', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'sight', type: 'noun', meaning: 'thị lực', unit: '5d09b95b0805b64d5d33fc83' },
+    { unitName: 'hkb23', word: 'weight', type: 'noun', meaning: 'cân nặng', unit: '5d09b95b0805b64d5d33fc83' },
+  ]
+};

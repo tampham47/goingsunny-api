@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb43', word: 'wardrobe', type: 'noun', meaning: 'tủ quần áo', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'raincoat', type: 'noun', meaning: 'áo mưa', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'loose', type: 'adj', meaning: 'rộng', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'pocket', type: 'noun', meaning: 'túi', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'pattern', type: 'noun', meaning: 'hoạ tiết', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'match', type: 'verb', meaning: 'hợp', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'leather', type: 'noun', meaning: 'da thuộc', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'eye-catching', type: 'adj', meaning: 'bắt mắt', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'jacket', type: 'noun', meaning: 'áo khoác', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'outfit', type: 'noun', meaning: 'bộ đồ', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'unzip', type: 'verb', meaning: 'mở khoá áo', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'fashion', type: 'noun', meaning: 'thời trang', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'jeans', type: 'noun', meaning: 'quần bò', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'hoodie', type: 'noun', meaning: 'áo mũ trùm', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'silk', type: 'noun', meaning: 'vải lụa', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'cotton', type: 'noun', meaning: 'vải cotton', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'underwear', type: 'noun', meaning: 'đồ lót', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'tailor-made', type: 'adj', meaning: 'may đo', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'old-fashioned', type: 'adj', meaning: 'lỗi thời', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'mend', type: 'verb', meaning: 'sửa', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'undress', type: 'verb', meaning: 'cởi đồ', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'sleeve', type: 'noun', meaning: 'tay áo', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'collar', type: 'noun', meaning: 'cổ áo', unit: '5d09b95b0805b64d5d33fc97' },
+    { unitName: 'hkb43', word: 'shorts', type: 'noun', meaning: 'quần short', unit: '5d09b95b0805b64d5d33fc97' },
+  ]
+};

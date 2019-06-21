@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb5', word: 'jobless', type: 'adj', meaning: 'thất nghiệp', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'application', type: 'noun', meaning: 'đơn yêu cầu', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'file', type: 'noun', meaning: 'cặp đựng tài liệu', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'interview', type: 'noun', meaning: 'buổi phòng vấn', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'career', type: 'noun', meaning: 'sự nghiệp', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'secretary', type: 'noun', meaning: 'thư ký', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'bank teller', type: 'noun', meaning: 'giao dịch viên', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'filmmaker', type: 'noun', meaning: 'nhà làm phim', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'musician', type: 'noun', meaning: 'nhạc sĩ', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'reporter', type: 'noun', meaning: 'phóng viên', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'photographer', type: 'noun', meaning: 'nhiếp ảnh gia', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'document', type: 'noun', meaning: 'tài liệu', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'prepare', type: 'verb', meaning: 'chuẩn bị', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'arrange', type: 'verb', meaning: 'sắp xếp', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'qualified', type: 'adj', meaning: 'đủ khả năng', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'customer', type: 'noun', meaning: 'khách hàng', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'designer', type: 'noun', meaning: 'nhà thiết kế', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'tool', type: 'noun', meaning: 'công cụ', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'expert', type: 'noun', meaning: 'chuyên gia', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'nurse', type: 'noun', meaning: 'y tá', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'builder', type: 'noun', meaning: 'thợ xây', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'employed', type: 'adj', meaning: 'có việc để làm', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'freelancer', type: 'noun', meaning: 'người hành nghề tự do', unit: '5d09b4a47aaa6b49d7db8f1d' },
+    { unitName: 'hkb5', word: 'contract', type: 'noun', meaning: 'hợp đồng', unit: '5d09b4a47aaa6b49d7db8f1d' },
+  ]
+};

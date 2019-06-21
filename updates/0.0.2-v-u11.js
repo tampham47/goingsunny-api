@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb11', word: 'tourist', type: 'noun', meaning: 'du khách', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'nowadays', type: 'adv', meaning: 'ngày nay', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'book', type: 'verb', meaning: 'đặt chỗ', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'flight', type: 'noun', meaning: 'chuyến bay', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'tour', type: 'noun', meaning: 'chuyến du lịch', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'destination', type: 'noun', meaning: 'điểm đến', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'escape', type: 'verb', meaning: 'trốn khỏi', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'experience', type: 'verb', meaning: 'trải nghiệm', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'moment', type: 'noun', meaning: 'khoảnh khắc', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'journey', type: 'noun', meaning: 'cuộc hành trình', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'adventure', type: 'noun', meaning: 'cuộc phiêu lưu', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'excited', type: 'adj', meaning: 'hào hứng', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'reception', type: 'noun', meaning: 'quầy tiếp tân', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'stay', type: 'noun', meaning: 'thời gian ở', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'huge', type: 'adj', meaning: 'đồ sộ', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'amazing', type: 'adj', meaning: 'đáng kinh ngạc', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'postcard', type: 'noun', meaning: 'bưu thiếp', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'visa', type: 'noun', meaning: 'thị thực', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'travelling', type: 'noun', meaning: 'du lịch', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'chance', type: 'noun', meaning: 'cơ hội', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'memory', type: 'noun', meaning: 'kỷ niệm', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'delay', type: 'noun', meaning: 'sự trì hoãn', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'disapointed', type: 'adj', meaning: 'thất vọng', unit: '5d09b95b0805b64d5d33fc77' },
+    { unitName: 'hkb11', word: 'discover', type: 'verb', meaning: 'khám phá', unit: '5d09b95b0805b64d5d33fc77' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb49', word: 'start-up', type: 'noun', meaning: 'công ty khởi nghiệp', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'loan', type: 'noun', meaning: 'khoản vay', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'research', type: 'noun', meaning: 'nghiên cứu', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'customer', type: 'noun', meaning: 'khách hàng', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'business', type: 'noun', meaning: 'việc kinh doanh', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'discussion', type: 'noun', meaning: 'cuộc thảo luận', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'situation', type: 'noun', meaning: 'tình huống', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'hopeless', type: 'adj', meaning: 'vô vọng', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'unemployment', type: 'noun', meaning: 'sự thất nghiệp', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'trade', type: 'noun', meaning: 'buôn bán', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'abroad', type: 'adv', meaning: 'ở nước ngoài', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'recover', type: 'verb', meaning: 'phục hồi', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'possible', type: 'adj', meaning: 'có thể', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'average', type: 'adj', meaning: 'trung bình', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'professional', type: 'adj', meaning: 'chuyên nghiệp', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'advice', type: 'noun', meaning: 'lời khuyên', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'percent', type: 'adv', meaning: 'phần trăm', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'financial', type: 'adj', meaning: 'về mặt tài chính', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'cheque', type: 'noun', meaning: 'séc', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'manage', type: 'verb', meaning: 'quản lý', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'transfer', type: 'verb', meaning: 'chuyển', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'goods', type: 'noun', meaning: 'hàng hoá', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'currency', type: 'noun', meaning: 'tiền tệ', unit: '5d09b95b0805b64d5d33fc9d' },
+    { unitName: 'hkb49', word: 'product', type: 'noun', meaning: 'sản phẩm', unit: '5d09b95b0805b64d5d33fc9d' },
+  ]
+};

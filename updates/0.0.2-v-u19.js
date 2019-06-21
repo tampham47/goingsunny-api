@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb19', word: 'follow', type: 'verb', meaning: 'tuân theo', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'strict', type: 'adj', meaning: 'nghiêm ngặt', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'diet', type: 'noun', meaning: 'chế độ ăn', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'stay', type: 'verb', meaning: 'giữ nguyên', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'crappy', type: 'adj', meaning: 'dở tệ', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'ingredient', type: 'noun', meaning: 'nguyên liệu', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'amount', type: 'noun', meaning: 'lượng', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'sugar', type: 'noun', meaning: 'đường', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'ageing', type: 'adj', meaning: 'lão hoá', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'eficient', type: 'adj', meaning: 'năng suất cao', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'tiring', type: 'adj', meaning: 'gây mệt mỏi', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'home-cooked', type: 'adj', meaning: 'được nấu tại nhà', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'snack', type: 'verb', meaning: 'ăn vặt', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'breathe', type: 'verb', meaning: 'thở', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'allergic', type: 'adj', meaning: 'bị dị ứng', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'peanut', type: 'noun', meaning: 'đậu phộng', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'useful', type: 'adj', meaning: 'hữu ích', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'benefit', type: 'noun', meaning: 'lợi ích', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'crop', type: 'noun', meaning: 'cây trồng', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'mix', type: 'verb', meaning: 'trộn', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'pea', type: 'noun', meaning: 'hạt đậu hà lan', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'variety', type: 'noun', meaning: 'đa dạng', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'peel', type: 'noun', meaning: 'vỏ', unit: '5d09b95b0805b64d5d33fc7f' },
+    { unitName: 'hkb19', word: 'leaf', type: 'noun', meaning: 'lá', unit: '5d09b95b0805b64d5d33fc7f' },
+  ]
+};

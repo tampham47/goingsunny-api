@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb10', word: 'inform', type: 'verb', meaning: 'báo tín', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'block', type: 'noun', meaning: 'khu nhà', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'develop', type: 'verb', meaning: 'phát triển', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'safe', type: 'adj', meaning: 'an toàn', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'vibrant', type: 'adj', meaning: 'sôi động', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'area', type: 'noun', meaning: 'khu vực', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'friendly', type: 'adj', meaning: 'thân thiện', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'invite', type: 'verb', meaning: 'mời', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'one-way', type: 'adj', meaning: 'một chiều', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'clinic', type: 'noun', meaning: 'phòng khám', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'ground', type: 'noun', meaning: 'mặt đất', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'complicated', type: 'adj', meaning: 'phức tạp', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'gym', type: 'noun', meaning: 'phòng tập thể dục', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'chilled', type: 'adj', meaning: 'thư giãn', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'noisy', type: 'adj', meaning: 'ồn', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'vibe', type: 'noun', meaning: 'bầu khí nóng', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'always', type: 'adv', meaning: 'luôn luôn', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'property', type: 'noun', meaning: 'tài sản', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'comfy', type: 'adj', meaning: 'dễ chịu', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'cosy', type: 'adj', meaning: 'ấm cúng', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'playground', type: 'noun', meaning: 'sân chơi', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'pool', type: 'noun', meaning: 'bể bơi', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'mostly', type: 'adv', meaning: 'hầu như', unit: '5d09b95b0805b64d5d33fc76' },
+    { unitName: 'hkb10', word: 'everywhere', type: 'adv', meaning: 'khắp mọi nơi', unit: '5d09b95b0805b64d5d33fc76' },
+  ]
+};

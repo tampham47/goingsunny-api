@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb21', word: 'buffalo', type: 'noun', meaning: 'con trâu', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'range', type: 'noun', meaning: 'dãy', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'steep', type: 'adj', meaning: 'dốc', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'explore', type: 'verb', meaning: 'khám phá', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'leisurely', type: 'adv', meaning: 'một cách thong thả', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'custom', type: 'noun', meaning: 'phong tục', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'permission', type: 'noun', meaning: 'sự cho phép', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'grow', type: 'verb', meaning: 'lớn lên', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'quite', type: 'adj', meaning: 'yên tĩnh', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'neighbour', type: 'noun', meaning: 'hàng xóm', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'dangerous', type: 'adj', meaning: 'nguy hiểm', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'part', type: 'noun', meaning: 'phần', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'bug', type: 'noun', meaning: 'bọ', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'brave', type: 'adj', meaning: 'dũng cảm', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'protect', type: 'verb', meaning: 'bảo vệ', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'architecture', type: 'noun', meaning: 'kiến trúc', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'rainforest', type: 'noun', meaning: 'rừng nhiệt đới', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'handicraft', type: 'noun', meaning: 'nghề thủ công', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'satisfied', type: 'adj', meaning: 'hài lòng', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'rely', type: 'verb', meaning: 'dựa dẫm', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'hardly', type: 'adv', meaning: 'hầu như không', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'hill', type: 'noun', meaning: 'đồi', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'valley', type: 'noun', meaning: 'thung lũng', unit: '5d09b95b0805b64d5d33fc81' },
+    { unitName: 'hkb21', word: 'nature', type: 'noun', meaning: 'thiên nhiên', unit: '5d09b95b0805b64d5d33fc81' },
+  ]
+};

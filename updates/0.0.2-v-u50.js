@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb50', word: 'earth', type: 'noun', meaning: 'trái đất', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'planet', type: 'noun', meaning: 'hành tinh', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'observatory', type: 'noun', meaning: 'đài thiên văn', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'star', type: 'noun', meaning: 'ngôi sao', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'space', type: 'noun', meaning: 'không gian', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'galaxy', type: 'noun', meaning: 'ngân hà', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'object', type: 'noun', meaning: 'vật thể', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'moon', type: 'noun', meaning: 'mặt trăng', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'dust', type: 'noun', meaning: 'bụi', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'travel', type: 'verb', meaning: 'di chuyển', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'mind-blowing', type: 'adj', meaning: 'làm sững sờ', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'life', type: 'noun', meaning: 'sự sống', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'freeze', type: 'verb', meaning: 'đóng băng', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'alien', type: 'noun', meaning: 'người ngoài hành tinh', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'shine', type: 'verb', meaning: 'toả sáng', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'direction', type: 'noun', meaning: 'phương hướng', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'spacecraft', type: 'noun', meaning: 'tàu vũ trụ', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'liveable', type: 'adj', meaning: 'có thể sống được', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'death', type: 'noun', meaning: 'cái chết', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'amaza', type: 'verb', meaning: 'kinh ngạc', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'explode', type: 'verb', meaning: 'nổ tung', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'stellar', type: 'adj', meaning: 'sao', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'lunar', type: 'adj', meaning: 'thuộc về mặt trăng', unit: '5d09b95b0805b64d5d33fc9e' },
+    { unitName: 'hkb50', word: 'cluster', type: 'noun', meaning: 'cụm', unit: '5d09b95b0805b64d5d33fc9e' },
+  ]
+};
