@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb40', word: 'pop', type: 'noun', meaning: 'nhạc pop', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'leave', type: 'verb', meaning: 'rời đi', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'excellent', type: 'adj', meaning: 'xuất sắc', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'party', type: 'noun', meaning: 'bữa tiệc', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'dance', type: 'noun', meaning: 'điệu nhảy', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'bar', type: 'noun', meaning: 'quán bar', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'series', type: 'noun', meaning: 'phim bộ', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'silly', type: 'adj', meaning: 'ngớ ngẩn', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'show', type: 'noun', meaning: 'chương trình', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'review', type: 'noun', meaning: 'ý kiến đánh giá', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'engaging', type: 'adj', meaning: 'lôi cuốn', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'drink', type: 'noun', meaning: 'đồ uống', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'character', type: 'noun', meaning: 'nhân vật', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'scene', type: 'noun', meaning: 'phân cảnh', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'barman', type: 'noun', meaning: 'người phục vụ quầy bar', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'snack', type: 'noun', meaning: 'đồ ăn vặt', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'magic', type: 'noun', meaning: 'ảo thuật', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'punish', type: 'verb', meaning: 'trừng phạt', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'particularly', type: 'adv', meaning: 'đặc biệt là', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'circus', type: 'noun', meaning: 'gánh xiếc', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'enjoyable', type: 'adj', meaning: 'làm thú vị', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'comic', type: 'noun', meaning: 'truyện tranh', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'hero', type: 'noun', meaning: 'người hùng', unit: '5d09b95b0805b64d5d33fc94' },
+    { unitName: 'hkb40', word: 'entertain', type: 'verb', meaning: 'giải trí', unit: '5d09b95b0805b64d5d33fc94' },
+  ]
+};
