@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb47', word: 'criminal', type: 'noun', meaning: 'tội phạm', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'murder', type: 'noun', meaning: 'tội giết người', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'steal', type: 'verb', meaning: 'lấy trộm', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'gun', type: 'noun', meaning: 'súng', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'arrest', type: 'verb', meaning: 'bắt giữ', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'jail', type: 'noun', meaning: 'phòng giam', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'guard', type: 'noun', meaning: 'người bảo vệ', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'thief', type: 'noun', meaning: 'kẻ trộm', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'attack', type: 'verb', meaning: 'tấn công', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'policeman', type: 'noun', meaning: 'cảnh sát nam', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'stop', type: 'verb', meaning: 'ngăn chặn', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'tax', type: 'noun', meaning: 'thuế', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'prove', type: 'verb', meaning: 'chứng minh', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'guilty', type: 'adj', meaning: 'tội lỗi', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'prisoner', type: 'noun', meaning: 'tù nhân', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'prison', type: 'noun', meaning: 'nhà tù', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'outlaw', type: 'verb', meaning: 'khiến (cái gì) bất hợp pháp', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'handcuffs', type: 'noun', meaning: 'cái còng tay', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'defence', type: 'noun', meaning: 'lời biện hộ', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'law', type: 'noun', meaning: 'luật', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'serious', type: 'adj', meaning: 'nghiêm trọng', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'trick', type: 'noun', meaning: 'trò gian trá', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'blame', type: 'verb', meaning: 'đổ lỗi', unit: '5d09b95b0805b64d5d33fc9b' },
+    { unitName: 'hkb47', word: 'spy', type: 'noun', meaning: 'gián điệp', unit: '5d09b95b0805b64d5d33fc9b' },
+  ]
+};

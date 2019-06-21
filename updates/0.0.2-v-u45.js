@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb45', word: 'confide', type: 'verb', meaning: 'thổ lộ', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'pleasure', type: 'noun', meaning: 'niềm vui thích', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'hobby', type: 'noun', meaning: 'sở thích', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'musical', type: 'adj', meaning: 'về âm nhạc', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'chess', type: 'noun', meaning: 'cờ vua', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'champion', type: 'noun', meaning: 'nhà vô địch', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'indoor', type: 'adj', meaning: 'trong nhà', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'gateway', type: 'noun', meaning: 'chuyến du lịch tự phát', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'connect', type: 'verb', meaning: 'kết nối', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'camping', type: 'noun', meaning: 'hoạt động cắm trại', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'enjoy', type: 'verb', meaning: 'tận hưởng', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'bake', type: 'verb', meaning: 'nướng', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'social', type: 'adj', meaning: 'mang tính xã hội', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'event', type: 'noun', meaning: 'sự kiện', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'get-together', type: 'noun', meaning: 'buổi họp mặt', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'stuff', type: 'noun', meaning: 'các thứ', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'news', type: 'noun', meaning: 'tin tức', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'championships', type: 'noun', meaning: 'giải vô địch', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'destroy', type: 'verb', meaning: 'phá huỷ', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'ace', type: 'noun', meaning: 'con át chủ bài', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'manicure', type: 'noun', meaning: 'chăm sóc móng tay', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'afford', type: 'verb', meaning: 'đủ khả năng chi trả', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'sew', type: 'verb', meaning: 'khâu', unit: '5d09b95b0805b64d5d33fc99' },
+    { unitName: 'hkb45', word: 'knit', type: 'verb', meaning: 'đan', unit: '5d09b95b0805b64d5d33fc99' },
+  ]
+};

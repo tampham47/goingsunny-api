@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb46', word: 'professor', type: 'noun', meaning: 'giáo sư', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'warn', type: 'verb', meaning: 'cảnh cáo', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'complete', type: 'verb', meaning: 'hoàn thành', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'provide', type: 'verb', meaning: 'cung cấp', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'application', type: 'noun', meaning: 'đơn xin', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'degree', type: 'noun', meaning: 'bằng đại học', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'advanced', type: 'adj', meaning: 'nâng cao', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'stress', type: 'noun', meaning: 'căng thẳng', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'poetry', type: 'noun', meaning: 'thơ ca', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'lecture', type: 'noun', meaning: 'bài giảng', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'further', type: 'adj', meaning: 'thêm', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'qualification', type: 'noun', meaning: 'bằng cấp', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'instructor', type: 'noun', meaning: 'người hướng dẫn', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'session', type: 'noun', meaning: 'buổi họp', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'plan', type: 'noun', meaning: 'kế hoạch', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'achieve', type: 'verb', meaning: 'đạt được', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'term', type: 'noun', meaning: 'kỳ học', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'presentation', type: 'noun', meaning: 'bài thuyết trình', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'major', type: 'noun', meaning: 'chuyên ngành', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'university', type: 'noun', meaning: 'trường đại học', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'exam', type: 'noun', meaning: 'bài kiểm tra', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'fail', type: 'verb', meaning: 'trượt', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'score', type: 'verb', meaning: 'đạt điểm', unit: '5d09b95b0805b64d5d33fc9a' },
+    { unitName: 'hkb46', word: 'focused', type: 'adj', meaning: 'tập trung', unit: '5d09b95b0805b64d5d33fc9a' },
+  ]
+};

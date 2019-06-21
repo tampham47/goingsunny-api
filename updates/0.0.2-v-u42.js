@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb42', word: 'well', type: 'adv', meaning: 'tốt', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'stylish', type: 'adj', meaning: 'kiểu cách', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'handbag', type: 'noun', meaning: 'túi xách tay', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'notice', type: 'verb', meaning: 'để ý', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'trainer', type: 'noun', meaning: 'giày thể thao', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'colourful', type: 'adj', meaning: 'nhiều màu sắc', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'flip-flop', type: 'noun', meaning: 'dép tông', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'sandal', type: 'noun', meaning: 'dép xăng đan', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'sunglesses', type: 'noun', meaning: 'kính râm', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'metal', type: 'noun', meaning: 'kim loại', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'bracelet', type: 'noun', meaning: 'vòng tay', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'hairband', type: 'noun', meaning: 'băng đô', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'lipstick', type: 'noun', meaning: 'son môi', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'necklace', type: 'noun', meaning: 'vòng cổ', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'fur', type: 'noun', meaning: 'da lông thú', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'basket', type: 'noun', meaning: 'giỏ đựng', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'silver', type: 'noun', meaning: 'bạc', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'ring', type: 'noun', meaning: 'nhẫn', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'hair dryer', type: 'noun', meaning: 'máy sấy tóc', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'fasten', type: 'verb', meaning: 'thắt chặt', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'belt', type: 'noun', meaning: 'thắt lưng', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'cap', type: 'noun', meaning: 'mũ lưỡi trai', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'tie', type: 'noun', meaning: 'cà vạt', unit: '5d09b95b0805b64d5d33fc96' },
+    { unitName: 'hkb42', word: 'sock', type: 'noun', meaning: 'tất', unit: '5d09b95b0805b64d5d33fc96' },
+  ]
+};

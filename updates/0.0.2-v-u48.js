@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'hkb48', word: 'power', type: 'noun', meaning: 'quyền hạn', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'request', type: 'verb', meaning: 'yêu cầu', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'issue', type: 'noun', meaning: 'vấn đề', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'allow', type: 'verb', meaning: 'cho phép', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'decision', type: 'noun', meaning: 'sự quyết định', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'agree', type: 'verb', meaning: 'đồng ý', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'case', type: 'noun', meaning: 'trường hợp', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'uninterested', type: 'adj', meaning: 'hờ hững', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'goal', type: 'noun', meaning: 'mục tiêu', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'leader', type: 'noun', meaning: 'người đứng đầu', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'government', type: 'noun', meaning: 'chính phủ', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'president', type: 'noun', meaning: 'tổng thống', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'politician', type: 'noun', meaning: 'chính trị gia', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'soldier', type: 'noun', meaning: 'quân nhân', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'independence', type: 'noun', meaning: 'sự độc lập', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'vote', type: 'verb', meaning: 'bầu cử', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'demand', type: 'verb', meaning: 'yêu cầu', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'suitable', type: 'adj', meaning: 'phù hợp', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'nationality', type: 'noun', meaning: 'quốc tịch', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'party', type: 'noun', meaning: 'đảng', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'change', type: 'noun', meaning: 'sự thay đổi', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'patriot', type: 'noun', meaning: 'người yêu nước', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'state', type: 'noun', meaning: 'bang', unit: '5d09b95b0805b64d5d33fc9c' },
+    { unitName: 'hkb48', word: 'conference', type: 'noun', meaning: 'hội nghị', unit: '5d09b95b0805b64d5d33fc9c' },
+  ]
+};
