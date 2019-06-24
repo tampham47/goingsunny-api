@@ -120,10 +120,12 @@ exports = module.exports = function(app) {
       const target = req.body.target;
       const body = req.body;
       const orgObjectAuthorId = body.orgObject.author._id;
+      const object = target === 'essay' ? essayId : postId;
+
       const activity = {
         actor: userId,
-        verb: `comment:${target}-${essayId}`,
-        object: target === 'essay' ? essayId : postId,
+        verb: `comment:${target}-${object}`,
+        object,
         author: getEssentialUserInfo(req.user),
         body: body,
       };
@@ -131,13 +133,13 @@ exports = module.exports = function(app) {
       console.log('activity', activity);
 
       const notificationFeed = client.feed('notification', userId);
-      const essayFeed = client.feed(target, target === 'essay' ? essayId : postId);
+      const essayFeed = client.feed(target, object);
 
       // the user who leave a comment on an essay will follow the essay
       // the owner of the essay dont need to follow
       if (userId !== orgObjectAuthorId) {
         activity.to = [`notification:${orgObjectAuthorId}`];
-        notificationFeed.follow(target, target === 'essay' ? essayId : postId);
+        notificationFeed.follow(target, object);
       }
       // add an activity to trigger notification to all followers
       essayFeed
