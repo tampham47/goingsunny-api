@@ -116,24 +116,28 @@ exports = module.exports = function(app) {
     preCreate: (req, res, next) => {
       const userId = req.user._id;
       const essayId = req.body.essay;
+      const postId = req.body.post;
+      const target = req.body.target;
       const body = req.body;
-      const essayOwnerId = body.orgObject.author._id;
+      const orgObjectAuthorId = body.orgObject.author._id;
       const activity = {
-        verb: `comment:${essayId}`,
         actor: userId,
-        object: essayId,
+        verb: `comment:${target}-${essayId}`,
+        object: target === 'essay' ? essayId : postId,
         author: getEssentialUserInfo(req.user),
         body: body,
       };
 
+      console.log('activity', activity);
+
       const notificationFeed = client.feed('notification', userId);
-      const essayFeed = client.feed('essay', essayId);
+      const essayFeed = client.feed(target, target === 'essay' ? essayId : postId);
 
       // the user who leave a comment on an essay will follow the essay
       // the owner of the essay dont need to follow
-      if (userId !== essayOwnerId) {
-        activity.to = [`notification:${essayOwnerId}`];
-        notificationFeed.follow('essay', essayId);
+      if (userId !== orgObjectAuthorId) {
+        activity.to = [`notification:${orgObjectAuthorId}`];
+        notificationFeed.follow(target, target === 'essay' ? essayId : postId);
       }
       // add an activity to trigger notification to all followers
       essayFeed
