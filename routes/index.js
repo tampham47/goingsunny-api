@@ -92,6 +92,7 @@ exports = module.exports = function(app) {
         object,
         author: getEssentialUserInfo(req.user),
         body: body,
+        target,
       };
 
       const notificationFeed = client.feed('notification', userId);
@@ -132,6 +133,7 @@ exports = module.exports = function(app) {
         object,
         author: getEssentialUserInfo(req.user),
         body: body,
+        target,
       };
 
       const notificationFeed = client.feed('notification', userId);
