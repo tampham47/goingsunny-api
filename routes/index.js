@@ -30,6 +30,8 @@ var router = keystone.express.Router();
 
 var KEssayModel = keystone.list('KEssay').model;
 var UserCommentModel = keystone.list('UserComment').model;
+var UserReactionModel = keystone.list('UserReaction').model;
+var OrgPostModel = keystone.list('OrgPost').model;
 
 // Import Route Controllers
 var views = importRoutes('./views');
@@ -119,7 +121,36 @@ exports = module.exports = function(app) {
 
       next();
     },
+    postCreate: (req, res, next) => {
+      const body = req.body;
+
+      if (body.target === 'essay') {
+        const essay = body.essay;
+        UserReactionModel.find({ essay }, (err, reactionList) => {
+          if (err) { return; }
+          KEssayModel.findOneAndUpdate(
+            { _id: essay },
+            { numberOfReaction: reactionList.length }
+          );
+        });
+      }
+
+      if (body.target === 'post') {
+        const post = body.post;
+        UserReactionModel.find({ post }, (err, reactionList) => {
+          if (err) { return; }
+          OrgPostModel.findOneAndUpdate(
+            { _id: post },
+            { numberOfReaction: reactionList.length }
+          );
+        });
+      }
+
+      // just continue anyway
+      next();
+    },
   });
+
   restify.serve(router, keystone.mongoose.model('UserComment'), {
     preCreate: (req, res, next) => {
       const userId = req.user._id;
@@ -162,21 +193,27 @@ exports = module.exports = function(app) {
     },
     postCreate: (req, res, next) => {
       const body = req.body;
-      console.log('post create', body);
 
       if (body.target === 'essay') {
         const essay = body.essay;
 
-        UserCommentModel.find({ essay }, (err, usercommentBody) => {
+        UserCommentModel.find({ essay }, (err, commentList) => {
           if (err) { return; }
-          console.log('usercommentBody', usercommentBody.length);
+          KEssayModel.findOneAndUpdate(
+            { _id: essay },
+            { numberOfComment: commentList.length }
+          );
+        });
+      }
 
-          KEssayModel.findOneAndUpdate({ _id: essay },
-            { numberOfComment: usercommentBody.length },
-            (err, essayBody) => {
-            console.log('essay body', essayBody);
-            return;
-          })
+      if (body.target === 'post') {
+        const post = body.post;
+        UserCommentModel.find({ post }, (err, commentList) => {
+          if (err) { return; }
+          OrgPostModel.findOneAndUpdate(
+            { _id: post },
+            { numberOfComment: commentList.length }
+          );
         });
       }
 
@@ -184,6 +221,7 @@ exports = module.exports = function(app) {
       next();
     },
   });
+
   app.use(router);
 
   // custom apis
