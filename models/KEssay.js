@@ -75,5 +75,5 @@ KEssay.schema.pre('save', function(next) {
   return next();
 });
 
-KEssay.defaultColumns = 'title, state|20%, author|20%, createdAt|20%';
+KEssay.defaultColumns = 'title, state|15%, numberOfReaction, numberOfComment, author|15%, createdAt|15%';
 KEssay.register();
