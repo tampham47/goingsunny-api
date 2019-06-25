@@ -159,6 +159,7 @@ exports = module.exports = function(app) {
     },
     postCreate: (req, res, next) => {
       console.log('post create');
+      next();
     },
   });
   app.use(router);
