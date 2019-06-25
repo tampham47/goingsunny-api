@@ -158,7 +158,8 @@ exports = module.exports = function(app) {
       next();
     },
     postCreate: (req, res, next) => {
-      console.log('post create');
+      const body = req.body;
+      console.log('post create', body);
       next();
     },
   });
