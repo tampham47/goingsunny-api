@@ -28,6 +28,9 @@ var getEssentialUserInfo = require('./utils/getEssentialUserInfo');
 var importRoutes = keystone.importer(__dirname);
 var router = keystone.express.Router();
 
+var KEssayModel = keystone.list('KEssay').model;
+var UserCommentModel = keystone.list('UserComment').model;
+
 // Import Route Controllers
 var views = importRoutes('./views');
 var apis = importRoutes('./apis');
@@ -160,6 +163,24 @@ exports = module.exports = function(app) {
     postCreate: (req, res, next) => {
       const body = req.body;
       console.log('post create', body);
+
+      if (body.target === 'essay') {
+        const essay = body.essay;
+
+        UserCommentModel.find({ essay }, (err, usercommentBody) => {
+          if (err) { return; }
+          console.log('usercommentBody', usercommentBody);
+
+          KEssayModel.findOneAndUpdate({ _id: essay },
+            { numberOfComment: usercommentBody.length },
+            (err, essayBody) => {
+            console.log('essay body', essayBody);
+            return;
+          })
+        });
+      }
+
+      // just continue anyway
       next();
     },
   });
