@@ -28,6 +28,11 @@ var getEssentialUserInfo = require('./utils/getEssentialUserInfo');
 var importRoutes = keystone.importer(__dirname);
 var router = keystone.express.Router();
 
+var KEssayModel = keystone.list('KEssay').model;
+var UserCommentModel = keystone.list('UserComment').model;
+var UserReactionModel = keystone.list('UserReaction').model;
+var OrgPostModel = keystone.list('OrgPost').model;
+
 // Import Route Controllers
 var views = importRoutes('./views');
 var apis = importRoutes('./apis');
@@ -116,7 +121,36 @@ exports = module.exports = function(app) {
 
       next();
     },
+    postCreate: (req, res, next) => {
+      const body = req.body;
+
+      if (body.target === 'essay') {
+        const essay = body.essay;
+        UserReactionModel.find({ essay }, (err, reactionList) => {
+          if (err) { return; }
+          KEssayModel.findOneAndUpdate(
+            { _id: essay },
+            { numberOfReaction: reactionList.length }
+          ).exec();
+        });
+      }
+
+      if (body.target === 'post') {
+        const post = body.post;
+        UserReactionModel.find({ post }, (err, reactionList) => {
+          if (err) { return; }
+          OrgPostModel.findOneAndUpdate(
+            { _id: post },
+            { numberOfReaction: reactionList.length }
+          ).exec();
+        });
+      }
+
+      // just continue anyway
+      next();
+    },
   });
+
   restify.serve(router, keystone.mongoose.model('UserComment'), {
     preCreate: (req, res, next) => {
       const userId = req.user._id;
@@ -157,7 +191,37 @@ exports = module.exports = function(app) {
 
       next();
     },
+    postCreate: (req, res, next) => {
+      const body = req.body;
+
+      if (body.target === 'essay') {
+        const essay = body.essay;
+
+        UserCommentModel.find({ essay }, (err, commentList) => {
+          if (err) { return; }
+          KEssayModel.findOneAndUpdate(
+            { _id: essay },
+            { numberOfComment: commentList.length }
+          ).exec();
+        });
+      }
+
+      if (body.target === 'post') {
+        const post = body.post;
+        UserCommentModel.find({ post }, (err, commentList) => {
+          if (err) { return; }
+          OrgPostModel.findOneAndUpdate(
+            { _id: post },
+            { numberOfComment: commentList.length }
+          ).exec();
+        });
+      }
+
+      // just continue anyway
+      next();
+    },
   });
+
   app.use(router);
 
   // custom apis

@@ -65,5 +65,5 @@ OrgPost.schema.pre('save', function(next) {
   return next();
 });
 
-OrgPost.defaultColumns = 'title, state|20%, author|20%, createdAt|20%';
+OrgPost.defaultColumns = 'title, state|15%, numberOfReaction, numberOfComment, author|15%, createdAt|15%';
 OrgPost.register();
