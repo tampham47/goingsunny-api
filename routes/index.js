@@ -193,7 +193,6 @@ exports = module.exports = function(app) {
     },
     postCreate: (req, res, next) => {
       const body = req.body;
-      console.log('postCreate', body.target);
 
       if (body.target === 'essay') {
         const essay = body.essay;
@@ -209,10 +208,8 @@ exports = module.exports = function(app) {
 
       if (body.target === 'post') {
         const post = body.post;
-        console.log('post', post);
         UserCommentModel.find({ post }, (err, commentList) => {
           if (err) { return; }
-          console.log('post', post);
           OrgPostModel.findOneAndUpdate(
             { _id: post },
             { numberOfComment: commentList.length }
