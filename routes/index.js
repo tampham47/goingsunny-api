@@ -169,7 +169,7 @@ exports = module.exports = function(app) {
 
         UserCommentModel.find({ essay }, (err, usercommentBody) => {
           if (err) { return; }
-          console.log('usercommentBody', usercommentBody);
+          console.log('usercommentBody', usercommentBody.length);
 
           KEssayModel.findOneAndUpdate({ _id: essay },
             { numberOfComment: usercommentBody.length },
