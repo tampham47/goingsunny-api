@@ -37,6 +37,12 @@ Group.add({
     initial: true,
     required: true,
   },
+  org: {
+    type: Types.Relationship,
+    ref: 'Org',
+    initial: true,
+    required: true,
+  },
   createdAt: {
     type: Types.Datetime,
     default: Date.now,
