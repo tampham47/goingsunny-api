@@ -81,6 +81,13 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('Org'));
   restify.serve(router, keystone.mongoose.model('OrgMember'));
   restify.serve(router, keystone.mongoose.model('OrgPost'));
+
+  restify.serve(router, keystone.mongoose.model('Group'));
+  restify.serve(router, keystone.mongoose.model('GroupMember'));
+  restify.serve(router, keystone.mongoose.model('GroupMessage'));
+
+  restify.serve(router, keystone.mongoose.model('UserLog'));
+  restify.serve(router, keystone.mongoose.model('UserRating'));
   restify.serve(router, keystone.mongoose.model('UserReaction'), {
     preCreate: (req, res, next) => {
       const userId = req.user._id;
