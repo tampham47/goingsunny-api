@@ -31,5 +31,5 @@ GroupMember.add({
   },
 });
 
-GroupMember.defaultColumns = 'name, limit, isPublic, admin|20%, createdAt|15%';
+GroupMember.defaultColumns = 'group, user, role, createdAt|15%';
 GroupMember.register();
