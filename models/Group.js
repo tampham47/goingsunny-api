@@ -13,7 +13,7 @@ Group.add({
     initial: true,
     required: true,
   },
-  icon: { type: Types.Url, default: '---' },
+  banner: { type: Types.Url, default: '---' },
   state: {
     type: Types.Select,
     options: 'draft, published, archived',
