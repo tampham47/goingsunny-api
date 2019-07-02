@@ -31,5 +31,5 @@ GroupMessage.add({
   },
 });
 
-GroupMessage.defaultColumns = 'name, limit, isPublic, admin|20%, createdAt|15%';
+GroupMessage.defaultColumns = 'group, user, createdAt|15%';
 GroupMessage.register();
