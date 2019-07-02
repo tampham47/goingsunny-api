@@ -46,7 +46,8 @@ User.add({
 
   zoomApp: {
     installed: { type: Boolean, default: false },
-    verified: { type: Boolean }
+    verified: { type: Boolean },
+    PMI: { type: String },
   },
 
   roles: { type: Types.TextArray }, // `tutor,admin`
