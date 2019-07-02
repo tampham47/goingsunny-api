@@ -29,6 +29,8 @@ Group.add({
     currency: { type: String, default: 'VND' },
   },
   tags: { type: Types.TextArray }, //[`speaking`]
+  start: { type: Types.Date },
+  end: { type: Types.Date },
   admin: {
     type: Types.Relationship,
     ref: 'User',
