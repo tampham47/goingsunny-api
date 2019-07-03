@@ -84,7 +84,11 @@ exports = module.exports = function(app) {
 
   restify.serve(router, keystone.mongoose.model('Group'));
   restify.serve(router, keystone.mongoose.model('GroupMember'));
-  restify.serve(router, keystone.mongoose.model('GroupMessage'));
+  restify.serve(router, keystone.mongoose.model('GroupMessage', {
+    postCreate: (req, res, next) => {
+      console.log('postCreate body', req.body);
+    }
+  }));
 
   restify.serve(router, keystone.mongoose.model('UserLog'));
   restify.serve(router, keystone.mongoose.model('UserRating'));
