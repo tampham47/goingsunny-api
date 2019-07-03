@@ -23,6 +23,7 @@ var middleware = require('./middleware');
 var restify = require('express-restify-mongoose');
 var expressJwt = require('express-jwt');
 var stream = require('getstream');
+var Pusher = require('pusher');
 var getEssentialUserInfo = require('./utils/getEssentialUserInfo');
 
 var importRoutes = keystone.importer(__dirname);
@@ -42,6 +43,18 @@ const client = stream.connect(
   'dej3nmnkctchbre2sbdfsm2bs739md8rfu7g68nvbtrnncvsrh7bbqvwwbpkjqf3',
   '53752',
 );
+
+const APP_ID = '785498';
+const APP_KEY = '8f85cf855404679e71fd';
+const APP_SECRET = 'e9b94f0a0fe46ecbfda2';
+const APP_CLUSTER = 'ap1';
+const pusher = new Pusher({
+  appId: APP_ID,
+  key: APP_KEY,
+  secret: APP_SECRET,
+  cluster: APP_CLUSTER,
+});
+
 
 // Setup Route Bindings
 exports = module.exports = function(app) {
@@ -87,6 +100,7 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('GroupMessage'), {
     postCreate: (req, res, next) => {
       console.log('postCreate body', req.body);
+      pusher.trigger('my-channel', 'message', req.body);
       next();
     }
   });
