@@ -102,7 +102,11 @@ exports = module.exports = function(app) {
       console.log('postCreate body', req.body);
       console.log('data', req.erm.result);
       const body = req.body;
-      pusher.trigger(`group-${body.group}`, 'new-message', req.body);
+      const payload = {
+        ...req.body,
+        ...req.erm.result,
+      }
+      pusher.trigger(`group-${body.group}`, 'new-message', payload);
       next();
     }
   });
