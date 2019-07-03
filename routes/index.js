@@ -104,7 +104,7 @@ exports = module.exports = function(app) {
       const body = req.body;
       const payload = {
         ...req.body,
-        ...req.erm.result,
+        ...JSON.parse(req.erm.result),
       }
       pusher.trigger(`group-${body.group}`, 'new-message', payload);
       next();
