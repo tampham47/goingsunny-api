@@ -100,6 +100,7 @@ exports = module.exports = function(app) {
   restify.serve(router, keystone.mongoose.model('GroupMessage'), {
     postCreate: (req, res, next) => {
       console.log('postCreate body', req.body);
+      console.log('data', req.erm.result);
       const body = req.body;
       pusher.trigger(`group-${body.group}`, 'new-message', req.body);
       next();
