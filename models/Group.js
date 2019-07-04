@@ -3,7 +3,7 @@ var Types = keystone.Field.Types;
 
 var Group = new keystone.List('Group', {
   map: { name: 'name' },
-  autokey: { path: 'slug', from: 'name', unique: true },
+  autokey: { path: 'slug', from: 'name', unique: true, fixed: true },
   defaultSort: '-createdAt'
 });
 
