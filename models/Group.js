@@ -50,5 +50,5 @@ Group.add({
   },
 });
 
-Group.defaultColumns = 'name, limit, isPublic, admin|20%, createdAt|15%';
+Group.defaultColumns = 'name, limit, isPublic, admin|20%, state, createdAt|15%';
 Group.register();
