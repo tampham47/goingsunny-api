@@ -20,7 +20,7 @@ Group.add({
     default: 'draft',
     index: true,
   },
-  brief: { type: Types.Html, wysiwyg: true, height: 150 },
+  brief: { type: Types.Textarea, wysiwyg: true, height: 150 },
   content: { type: Types.Html, wysiwyg: true, height: 400, require: true },
   limit: { type: Number, default: 6 },
   isPublic: { type: Boolean, default: false },
