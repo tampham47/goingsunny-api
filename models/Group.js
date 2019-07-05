@@ -13,7 +13,7 @@ Group.add({
     initial: true,
     required: true,
   },
-  banner: { type: Types.Url, default: '---' },
+  banner: { type: Types.Url },
   state: {
     type: Types.Select,
     options: 'draft, published, archived',
@@ -29,6 +29,10 @@ Group.add({
     currency: { type: String, default: 'VND' },
   },
   tags: { type: Types.TextArray }, //[`speaking`]
+  readyForChat: {
+    type: Boolean,
+    default: true,
+  },
   start: { type: Types.Date },
   end: { type: Types.Date },
   admin: {
