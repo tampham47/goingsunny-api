@@ -31,7 +31,6 @@ Group.add({
   tags: { type: Types.TextArray }, //[`speaking`]
   readyForChat: {
     type: Boolean,
-    default: true,
   },
   start: { type: Types.Date },
   end: { type: Types.Date },
