@@ -26,10 +26,16 @@ User.add({
   displayName: { type: String, default: 'Thành viên mới' },
   username: { type: String },
   phoneNumber: { type: String },
-  roles: { type: Types.TextArray }, // `tutor,admin`
+
   facebookProfile: { type: Types.Url },
   hacknaoPoint: { type: Number },
   hacknaoRanking: { type: Number },
+
+  interests: { type: Types.TextArray }, // `xem phim, nghe nhạc, đọc sách`
+  rating: {
+    value: { type: Number, noedit: true },
+    amount: { type: Number, default: 0, noedit: true },
+  },
 
   provider: { type: String, noedit: true },
   providerId: { type: String, noedit: true },
@@ -38,6 +44,15 @@ User.add({
   refreshToken: { type: String, noedit: true, access: 'protected' },
   avatar: { type: String, noedit: true },
 
+  zoomApp: {
+    installed: { type: Boolean, default: false },
+    verified: { type: Boolean },
+    PMI: { type: String },
+  },
+
+  roles: { type: Types.TextArray }, // `tutor,admin`
+  displayRole: { type: String },
+  isVerified: { type: Boolean, default: false },
   lastAccessedAt: { type: Types.Datetime, noedit: true },
   createdAt: { type: Types.Datetime, default: Date.now, noedit: true },
 
