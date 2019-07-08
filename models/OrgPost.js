@@ -8,7 +8,7 @@ var Types = keystone.Field.Types;
 
 var OrgPost = new keystone.List('OrgPost', {
   map: { name: 'title' },
-  autokey: { path: 'slug', from: 'title', unique: true },
+  autokey: { path: 'slug', from: 'title', unique: true, fixed: true },
   defaultSort: '-createdAt'
 });
 
