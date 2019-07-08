@@ -100,7 +100,6 @@ exports = module.exports = function(app) {
     preCreate: (req, res, next) => {
       const userId = req.user._id;
       const groupId = req.body.group;
-      console.log('groupmember', userId, groupId);
       const notificationFeed = client.feed('notification', userId);
       // follow groupId to trigger nofication then
       notificationFeed.follow('group', groupId);
