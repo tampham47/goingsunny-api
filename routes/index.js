@@ -97,13 +97,14 @@ exports = module.exports = function(app) {
 
   restify.serve(router, keystone.mongoose.model('Group'));
   restify.serve(router, keystone.mongoose.model('GroupMember'), {
-    postCreate: (req, res, next) => {
+    preCreate: (req, res, next) => {
       const userId = req.user._id;
       const groupId = req.body.group;
       console.log('groupmember', userId, groupId);
       const notificationFeed = client.feed('notification', userId);
       // follow groupId to trigger nofication then
       notificationFeed.follow('group', groupId);
+      next();
     },
   });
   restify.serve(router, keystone.mongoose.model('GroupMessage'), {
