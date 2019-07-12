@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts21', word: 'bookworm', type: 'noun', meaning: 'mọt sách', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'storytelling', type: 'noun', meaning: 'việc kể chuyện', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'character', type: 'noun', meaning: 'nhân vật', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'plot', type: 'noun', meaning: 'cốt truyện', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'storyline', type: 'noun', meaning: 'tình tiết truyện', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'villain', type: 'noun', meaning: 'nhân vật phản diện', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'hero', type: 'noun', meaning: 'anh hùng', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'title', type: 'noun', meaning: 'tiêu đề', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'subtitle', type: 'noun', meaning: 'phụ đề', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'writer', type: 'noun', meaning: 'tác giả', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'fake', type: 'adj', meaning: 'giả mạo', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'fantasy', type: 'noun', meaning: 'hình ảnh tưởng tượng', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'weird', type: 'adj', meaning: 'khó hiểu', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'disappear', type: 'verb', meaning: 'biến mất', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'cheat', type: 'verb', meaning: 'sự lừa dối', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'plagiarism', type: 'noun', meaning: 'sự đạo văn', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'scam', type: 'noun', meaning: 'sự lừa đảo', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'error', type: 'noun', meaning: 'lỗi', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'tale', type: 'noun', meaning: 'truyện', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'good', type: 'adj', meaning: 'mẫu mực', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'battle', type: 'noun', meaning: 'cuộc chiến', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'evil', type: 'adj', meaning: 'xấu xa', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'ending', type: 'noun', meaning: 'kết thúc', unit: '5d26a7fd878544089e049251' },
+    { unitName: 'ielts21', word: 'moral', type: 'adj', meaning: 'có đạo đức', unit: '5d26a7fd878544089e049251' },
+  ]
+};
