@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts1', word: 'wardrobe', type: 'noun', meaning: 'tủ quần áo', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'loose', type: 'adj', meaning: 'rộng', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'stylist', type: 'adj', meaning: 'phong cách', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'button', type: 'noun', meaning: 'cúc áo', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'pattern', type: 'noun', meaning: 'mẫu', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'tight', type: 'adj', meaning: 'chặt', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'faded', type: 'adj', meaning: 'phai màu', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'creased', type: 'adj', meaning: 'nhàu', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'shrink', type: 'verb', meaning: 'rút lại', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'bikini', type: 'noun', meaning: 'áo tắm hai mảnh', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'casual', type: 'adj', meaning: 'bình thường', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'formal', type: 'adj', meaning: 'trang trọng', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'outfit', type: 'noun', meaning: 'bộ đồ', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'appearance', type: 'noun', meaning: 'diện mạo', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'light', type: 'adj', meaning: 'nhạt', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'stretchy', type: 'adj', meaning: 'co giãn', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'fit', type: 'verb', meaning: 'vừa', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'underwear', type: 'noun', meaning: 'đồ lót', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'collar', type: 'noun', meaning: 'cổ áo', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'demand', type: 'noun', meaning: 'nhu cầu', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'manufacture', type: 'verb', meaning: 'sản xuất', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'supply', type: 'verb', meaning: 'cung cấp', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'cotton', type: 'noun', meaning: 'miếng vải bông', unit: '5d26a66f878544089e04923b' },
+    { unitName: 'ielts1', word: 'designer', type: 'noun', meaning: 'nhà thiết kế', unit: '5d26a66f878544089e04923b' },
+  ]
+};

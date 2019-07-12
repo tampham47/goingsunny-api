@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts8', word: 'reject', type: 'verb', meaning: 'từ chối', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'companion', type: 'noun', meaning: 'đồng hành', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'date', type: 'noun', meaning: 'buổi hẹn hò', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'acquainted', type: 'adj', meaning: 'quen biết', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'bachelor', type: 'noun', meaning: 'đàn ông độc thân', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'relationship', type: 'noun', meaning: 'mối quan hệ', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'engaged', type: 'adj', meaning: 'đính hôn', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'wedding', type: 'noun', meaning: 'đám cưới', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'connection', type: 'noun', meaning: 'sự kết nối', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'household', type: 'noun', meaning: 'hộ gia đình', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'married', type: 'adj', meaning: 'kết hôn', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'separated', type: 'adj', meaning: 'ly thân', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'quarrel', type: 'verb', meaning: 'cãi vã', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'faithful', type: 'adj', meaning: 'chung thuỷ', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'stable', type: 'adj', meaning: 'ổn định', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'divorce', type: 'noun', meaning: 'ly hôn', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'counsellor', type: 'noun', meaning: 'cố vẫn tâm lý', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'twin', type: 'noun', meaning: 'sinh đôi', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'triplet', type: 'noun', meaning: 'sinh ba', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'identical', type: 'adj', meaning: 'giống hệt nhau', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'spinster', type: 'noun', meaning: 'bà cô độc thân', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'unsteady', type: 'adj', meaning: 'bất ổn', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'adoption', type: 'noun', meaning: 'nhận làm con nuôi', unit: '5d26a720878544089e049243' },
+    { unitName: 'ielts8', word: 'relative', type: 'noun', meaning: 'họ hàng', unit: '5d26a720878544089e049243' },
+  ]
+};

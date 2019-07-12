@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts13', word: 'penthouse', type: 'noun', meaning: 'căn hộ áp mái', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'plush', type: 'adj', meaning: 'sang trọng', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'resident', type: 'noun', meaning: 'cư dân', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'safe', type: 'adj', meaning: 'an toàn', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'location', type: 'noun', meaning: 'vị trí', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'remote', type: 'adj', meaning: 'xa xôi', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'secure', type: 'adj', meaning: 'an ninh', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'detached', type: 'adj', meaning: 'riêng biệt', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'terraced', type: 'adj', meaning: 'chung tường', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'balcony', type: 'noun', meaning: 'ban công', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'porch', type: 'noun', meaning: 'hiên nhà', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'garden', type: 'noun', meaning: 'vườn', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'antique', type: 'adj', meaning: 'cổ, cũ xưa', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'cushion', type: 'noun', meaning: 'gối nệm', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'bathtub', type: 'noun', meaning: 'bồn tắm', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'construct', type: 'verb', meaning: 'xây dựng', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'marble', type: 'noun', meaning: 'đá hoa', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'jacuzzi', type: 'noun', meaning: 'bể tắm sục', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'artwork', type: 'noun', meaning: 'tác phẩm nghệ thuật', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'switch', type: 'noun', meaning: 'công tắc điện', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'lock', type: 'noun', meaning: 'khoá', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'backward', type: 'noun', meaning: 'sân sau', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'garage', type: 'noun', meaning: 'ga ra ô tô', unit: '5d26a770878544089e049249' },
+    { unitName: 'ielts13', word: 'flat', type: 'noun', meaning: 'căn hộ', unit: '5d26a770878544089e049249' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts2', word: 'appearance', type: 'noun', meaning: 'vẻ bề ngoài', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'item', type: 'noun', meaning: 'đồ vật', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'drape', type: 'verb', meaning: 'phủ', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'mannnequin', type: 'noun', meaning: 'man đơ canh', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'velvet', type: 'noun', meaning: 'vải nhung', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'cloak', type: 'noun', meaning: 'áo choàng không tay', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'fasten', type: 'verb', meaning: 'thắt, buộc', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'cane', type: 'noun', meaning: 'gậy ba tong', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'mogul', type: 'noun', meaning: 'người có thế lực', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'hanger', type: 'noun', meaning: 'móc treo', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'showcase', type: 'verb', meaning: 'trưng bày', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'grace', type: 'noun', meaning: 'vẻ duyên dáng', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'trend', type: 'noun', meaning: 'xu hướng', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'catwalk', type: 'noun', meaning: 'sàn catwalk', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'vibrant', type: 'adj', meaning: 'rực rỡ', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'enticing', type: 'adj', meaning: 'lôi cuốn, hấp dẫn', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'tight', type: 'adj', meaning: 'chặt', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'waist', type: 'noun', meaning: 'eo', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'sleeve', type: 'noun', meaning: 'tay áo', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'seam', type: 'noun', meaning: 'đường may', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'remove', type: 'verb', meaning: 'bỏ ra', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'knit', type: 'verb', meaning: 'đan len', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'rip', type: 'verb', meaning: 'xé rách', unit: '5d26a6bf878544089e04923d' },
+    { unitName: 'ielts2', word: 'sew', type: 'verb', meaning: 'khâu', unit: '5d26a6bf878544089e04923d' },
+  ]
+};

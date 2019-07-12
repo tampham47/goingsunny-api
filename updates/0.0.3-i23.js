@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts23', word: 'festival', type: 'noun', meaning: 'lễ hội', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'masterpiece', type: 'noun', meaning: 'tuyệt tác', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'model', type: 'noun', meaning: 'người mẫu', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'inspiration', type: 'noun', meaning: 'nguồn cảm hứng', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'style', type: 'noun', meaning: 'phong cách', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'highlight', type: 'verb', meaning: 'nổi bật', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'shape', type: 'noun', meaning: 'hình dáng', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'impressive', type: 'adj', meaning: 'ấn tượng', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'structure', type: 'noun', meaning: 'kết cấu', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'transparent', type: 'adj', meaning: 'trong suốt', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'exhibition', type: 'noun', meaning: 'buổi triển lãm', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'creative', type: 'adj', meaning: 'sáng tạo', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'display', type: 'noun', meaning: 'đồ trưng bày', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'pottery', type: 'noun', meaning: 'đồ gốm', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'sculpture', type: 'noun', meaning: 'tượng điêu khắc', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'sketch', type: 'noun', meaning: 'phác thảo', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'portrait', type: 'noun', meaning: 'vẽ chân dung', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'tapestry', type: 'noun', meaning: 'tấm thảm', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'craft', type: 'noun', meaning: 'đồ thủ công', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'abstract', type: 'adj', meaning: 'trừu tượng', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'architecture', type: 'noun', meaning: 'kiến trúc', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'culture', type: 'noun', meaning: 'văn hoá', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'performance', type: 'noun', meaning: 'màn biểu diễn', unit: '5d26a816878544089e049253' },
+    { unitName: 'ielts23', word: 'elegant', type: 'adj', meaning: 'thanh lịch, tao nhã', unit: '5d26a816878544089e049253' },
+  ]
+};

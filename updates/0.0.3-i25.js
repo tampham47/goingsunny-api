@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts25', word: 'search', type: 'noun', meaning: 'nghiên cứu', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'dance', type: 'noun', meaning: 'khiêu vũ', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'manage', type: 'verb', meaning: 'quản lý', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'dispose', type: 'verb', meaning: 'vứt bỏ', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'waste', type: 'noun', meaning: 'đồ bỏ đi', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'strength', type: 'noun', meaning: 'điểm mạnh', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'well-educated', type: 'adj', meaning: 'được giáo dục', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'science', type: 'noun', meaning: 'khoa học', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'field', type: 'noun', meaning: 'lĩnh vực', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'serious', type: 'adj', meaning: 'nghiêm túc', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'discussion', type: 'noun', meaning: 'cuộc thảo luận', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'genuine', type: 'adj', meaning: 'thành thật', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'fascinating', type: 'adj', meaning: 'hấp dẫn', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'free-spirited', type: 'adj', meaning: 'phóng khoáng', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'study', type: 'noun', meaning: 'học hành', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'tough', type: 'adj', meaning: 'khó khăn', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'astrophysics', type: 'noun', meaning: 'vật lý học thiên thể', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'atom', type: 'noun', meaning: 'nguyên tử', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'calculation', type: 'noun', meaning: 'tính toán', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'distance', type: 'noun', meaning: 'khoảng cách', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'yawn', type: 'verb', meaning: 'ngáp', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'decide', type: 'verb', meaning: 'quyết định', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'graduate', type: 'verb', meaning: 'tốt nghiệp', unit: '5d26a83d878544089e049255' },
+    { unitName: 'ielts25', word: 'schedule', type: 'verb', meaning: 'lên lịch', unit: '5d26a83d878544089e049255' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts6', word: 'skip', type: 'verb', meaning: 'bỏ qua', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'peckish', type: 'adj', meaning: 'đói bụng', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'ravenous', type: 'adj', meaning: 'rất đói', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'famished', type: 'adj', meaning: 'đói cồn cào', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'parents-in-law', type: 'noun', meaning: 'bố mẹ chồng', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'potential', type: 'noun', meaning: 'khả năng', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'daughter-in-law', type: 'noun', meaning: 'con dâu', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'sparkling', type: 'adj', meaning: 'sủi bọt', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'prepare', type: 'verb', meaning: 'chuẩn bị', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'buffet', type: 'noun', meaning: 'tiệc đứng', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'mouth-watering', type: 'adj', meaning: 'bắt mắt', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'saliva', type: 'noun', meaning: 'nước bọt', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'habit', type: 'noun', meaning: 'thói quen', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'addicted', type: 'adj', meaning: 'nghiện', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'homemade', type: 'adj', meaning: 'nhà làm', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'quality', type: 'adj', meaning: 'hảo hạng', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'ingredient', type: 'noun', meaning: 'nguyên liệu', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'vitamin', type: 'noun', meaning: 'vitamin', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'mineral', type: 'noun', meaning: 'khoáng chất', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'additive', type: 'noun', meaning: 'phụ gia', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'portion', type: 'noun', meaning: 'khẩu phần ăn', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'recipe', type: 'noun', meaning: 'công thức nấu ăn', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'bakery', type: 'noun', meaning: 'tiệm bánh', unit: '5d26a6fe878544089e049241' },
+    { unitName: 'ielts6', word: 'starter', type: 'noun', meaning: 'khai vị', unit: '5d26a6fe878544089e049241' },
+  ]
+};

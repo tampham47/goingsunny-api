@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts24', word: 'report', type: 'noun', meaning: 'bài báo cáo', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'review', type: 'noun', meaning: 'ôn tập', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'pass', type: 'verb', meaning: 'đỗ, vượt qua', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'fail', type: 'verb', meaning: 'trượt', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'qualify', type: 'verb', meaning: 'đủ khả năng', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'enroll', type: 'verb', meaning: 'đăng ký', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'high-ranking', type: 'adj', meaning: 'được xếp thứ hạng cao', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'certificate', type: 'noun', meaning: 'chứng chỉ', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'award', type: 'noun', meaning: 'phần thưởng', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'education', type: 'noun', meaning: 'sự giáo dục', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'major', type: 'noun', meaning: 'chuyên ngành', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'research', type: 'noun', meaning: 'bài nghiên cứu', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'essay', type: 'noun', meaning: 'bài tiểu luận', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'thesis', type: 'noun', meaning: 'bài luận văn', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'lecture', type: 'noun', meaning: 'bài giảng', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'professor', type: 'noun', meaning: 'giáo sư', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'expert', type: 'noun', meaning: 'chuyên gia', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'praise', type: 'verb', meaning: 'tán dương', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'out-of-date', type: 'adj', meaning: 'lỗi thời', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'present', type: 'verb', meaning: 'trình bày', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'theory', type: 'noun', meaning: 'lý thuyết', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'practice', type: 'noun', meaning: 'bài thực hành', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'degree', type: 'noun', meaning: 'bằng cấp', unit: '5d26a830878544089e049254' },
+    { unitName: 'ielts24', word: 'academic', type: 'adj', meaning: 'học thuật', unit: '5d26a830878544089e049254' },
+  ]
+};

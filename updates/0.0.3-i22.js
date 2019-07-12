@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts22', word: 'argue', type: 'verb', meaning: 'tranh luận', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'translate', type: 'verb', meaning: 'dịch', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'communicate', type: 'verb', meaning: 'giao tiếp', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'foreign', type: 'verb', meaning: 'nước ngoài', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'nag', type: 'verb', meaning: 'rầy la', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'suggestion', type: 'noun', meaning: 'lời gợi ý', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'text', type: 'noun', meaning: 'đoạn văn', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'conprehend', type: 'verb', meaning: 'hiểu', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'acquire', type: 'verb', meaning: 'giành được', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'meaning', type: 'noun', meaning: 'ý nghĩa', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'pronounciation', type: 'noun', meaning: 'phiên âm', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'native', type: 'adj', meaning: 'bản địa', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'joke', type: 'adj', meaning: 'đùa', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'basic', type: 'adj', meaning: 'cơ bản', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'advanced', type: 'adj', meaning: 'nâng cao', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'academic', type: 'adj', meaning: 'học thuật', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'technical', type: 'adj', meaning: 'kỹ thuật', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'fluent', type: 'adj', meaning: 'trôi chảy', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'elementary', type: 'adj', meaning: 'căn bản', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'intermediate', type: 'adj', meaning: 'trung cấp', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'oral', type: 'noun', meaning: 'bằng lời nói', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'verbal', type: 'noun', meaning: 'bằng lời nói', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'expression', type: 'noun', meaning: 'thành ngữ', unit: '5d26a809878544089e049252' },
+    { unitName: 'ielts22', word: 'phrase', type: 'noun', meaning: 'cụm từ', unit: '5d26a809878544089e049252' },
+  ]
+};

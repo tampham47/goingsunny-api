@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts7', word: 'appearance', type: 'noun', meaning: 'diện mạo', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'personality', type: 'noun', meaning: 'tính cách', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'well-built', type: 'adj', meaning: 'lực lưỡng', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'gorgerous', type: 'adj', meaning: 'lộng lẫy', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'overweight', type: 'adj', meaning: 'thừa cân', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'ugly', type: 'adj', meaning: 'xấu xí', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'naughty', type: 'adj', meaning: 'hư đốn, nghịch ngợm', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'stubborn', type: 'adj', meaning: 'bướng bỉnh', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'dimple', type: 'noun', meaning: 'lúm đồng tiền', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'mole', type: 'noun', meaning: 'nốt ruồi', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'charming', type: 'adj', meaning: 'duyên dáng', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'jealous', type: 'adj', meaning: 'ghen tị', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'pale', type: 'adj', meaning: 'nhợt nhạt', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'nasty', type: 'adj', meaning: 'tục tĩu', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'selfish', type: 'adj', meaning: 'ích kỷ', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'chest', type: 'noun', meaning: 'ngực', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'make-up', type: 'noun', meaning: 'đồ trang điểm', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'sharp', type: 'adj', meaning: 'sắc', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'jaw', type: 'noun', meaning: 'cằm', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'rude', type: 'adj', meaning: 'thô lỗ', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'shave', type: 'verb', meaning: 'cạo râu', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'casual', type: 'adj', meaning: 'không trịnh trọng', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'thoughtful', type: 'adj', meaning: 'chu đáo, biết suy nghĩ', unit: '5d26a70b878544089e049242' },
+    { unitName: 'ielts7', word: 'elderly', type: 'noun', meaning: 'như người già', unit: '5d26a70b878544089e049242' },
+  ]
+};
