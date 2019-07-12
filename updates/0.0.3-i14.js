@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts14', word: 'getaway', type: 'noun', meaning: 'nơi nghỉ dưỡng', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'honeymoon', type: 'noun', meaning: 'tuần trăng mật', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'marry', type: 'verb', meaning: 'kết hôn', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'joyful', type: 'adj', meaning: 'vui', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'significant', type: 'adj', meaning: 'quan trọng', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'event', type: 'noun', meaning: 'sự kiện', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'service', type: 'noun', meaning: 'buổi lễ', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'traditional', type: 'adj', meaning: 'truyền thống', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'formal', type: 'adj', meaning: 'trang trọng', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'reunite', type: 'verb', meaning: 'đoàn tụ', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'celebration', type: 'noun', meaning: 'lễ ăn mừng', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'custume', type: 'noun', meaning: 'trang phục', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'festival', type: 'noun', meaning: 'lễ hội', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'performance', type: 'noun', meaning: 'màn biểu diễn', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'host', type: 'noun', meaning: 'chủ chương trình', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'bonfire', type: 'noun', meaning: 'lửa trại', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'camp', type: 'noun', meaning: 'trại', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'excitement', type: 'noun', meaning: 'náo nhiệt', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'religious', type: 'adj', meaning: 'tôn giáo', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'embrace', type: 'verb', meaning: 'ghì chặt', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'momentous', type: 'adj', meaning: 'quan trọng', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'tremendous', type: 'adj', meaning: 'lớn lao', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'unforgettable', type: 'adj', meaning: 'không thể quên được', unit: '5d26a786878544089e04924a' },
+    { unitName: 'ielts14', word: 'unique', type: 'adj', meaning: 'đặc biệt', unit: '5d26a786878544089e04924a' },
+  ]
+};

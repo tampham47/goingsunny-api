@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts17', word: 'superstar', type: 'noun', meaning: 'siêu sao', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'spectator', type: 'noun', meaning: 'khán giả', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'audience', type: 'noun', meaning: 'người xem', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'league', type: 'noun', meaning: 'liên đoàn', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'final', type: 'noun', meaning: 'chung kết', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'compete', type: 'verb', meaning: 'tranh đấu', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'train', type: 'verb', meaning: 'luyện tập', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'win', type: 'verb', meaning: 'thắng', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'side', type: 'noun', meaning: 'bên', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'draw', type: 'noun', meaning: 'trận hoà', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'defeat', type: 'verb', meaning: 'đánh bại', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'lose', type: 'verb', meaning: 'thua', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'bounce', type: 'verb', meaning: 'bật lên', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'court', type: 'noun', meaning: 'sân', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'cheer', type: 'verb', meaning: 'cỗ vũ', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'victory', type: 'noun', meaning: 'chiến thắng', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'block', type: 'verb', meaning: 'phong toả', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'accurate', type: 'adj', meaning: 'chính xác', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'unfair', type: 'adj', meaning: 'không công bằng', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'condition', type: 'noun', meaning: 'tình cảnh', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'swollen', type: 'adj', meaning: 'sưng vù', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'injury', type: 'noun', meaning: 'chấn thương', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'whistle', type: 'noun', meaning: 'tiếng còi', unit: '5d26a7bc878544089e04924d' },
+    { unitName: 'ielts17', word: 'champion', type: 'noun', meaning: 'vô địch', unit: '5d26a7bc878544089e04924d' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts12', word: 'duvet', type: 'noun', meaning: 'chăn lông vũ', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'semi-detached', type: 'adj', meaning: 'chung tường', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'unoccupied', type: 'adj', meaning: 'còn trống', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'damp', type: 'adj', meaning: 'ẩm ướt', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'attic', type: 'noun', meaning: 'gác mái', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'landlord', type: 'noun', meaning: 'chủ nhà', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'fix', type: 'verb', meaning: 'sửa', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'equipment', type: 'noun', meaning: 'trang bị', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'accommodation', type: 'noun', meaning: 'chỗ ở', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'shelter', type: 'noun', meaning: 'chỗ ẩn nấp', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'furnish', type: 'verb', meaning: 'trang bị nội thất', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'decorate', type: 'verb', meaning: 'trang trí', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'houseplant', type: 'noun', meaning: 'chậu cây', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'basement', type: 'noun', meaning: 'tầng hầm', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'en-suite', type: 'adj', meaning: 'phòng tắm riêng', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'occupied', type: 'adj', meaning: 'được sử dụng', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'dishwasher', type: 'noun', meaning: 'máy rửa bát', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'laundry', type: 'noun', meaning: 'quần áo cần được giặt', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'housework', type: 'noun', meaning: 'việc nhà', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'sweep', type: 'verb', meaning: 'quét', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'rubbish', type: 'noun', meaning: 'rác', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'tiny', type: 'adj', meaning: 'rất nhỏ', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'luxury', type: 'noun', meaning: 'xa hoa', unit: '5d26a761878544089e049248' },
+    { unitName: 'ielts12', word: 'communal', type: 'adj', meaning: 'công cộng', unit: '5d26a761878544089e049248' },
+  ]
+};

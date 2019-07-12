@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts15', word: 'backpacker', type: 'noun', meaning: 'người đi du lịch bụi', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'destination', type: 'noun', meaning: 'điểm đến', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'faraway', type: 'adj', meaning: 'rất xa', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'flexible', type: 'adj', meaning: 'linh hoạt', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'adventure', type: 'noun', meaning: 'cuộc phiêu lưu', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'itinerary', type: 'noun', meaning: 'lịch trình', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'desire', type: 'noun', meaning: 'sự khao khát', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'magical', type: 'adj', meaning: 'phép thuật', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'peace', type: 'noun', meaning: 'yên bình', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'absolutely', type: 'adv', meaning: 'hoàn toàn', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'relax', type: 'verb', meaning: 'thư giãn', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'guide', type: 'noun', meaning: 'hướng dẫn viên', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'local', type: 'noun', meaning: 'người dân địa phương', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'bay', type: 'noun', meaning: 'vịnh', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'curious', type: 'adj', meaning: 'tò mò', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'arrive', type: 'verb', meaning: 'đi đến', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'transit', type: 'noun', meaning: 'trung chuyển', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'hospitality', type: 'noun', meaning: 'lòng mến khách', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'respect', type: 'verb', meaning: 'tôn trọng', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'season', type: 'noun', meaning: 'mùa', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'exclusive', type: 'adj', meaning: 'độc quyền', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'resort', type: 'noun', meaning: 'khu nghỉ dưỡng', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'reserve', type: 'verb', meaning: 'đặt chỗ', unit: '5d26a798878544089e04924b' },
+    { unitName: 'ielts15', word: 'fare', type: 'noun', meaning: 'phí', unit: '5d26a798878544089e04924b' },
+  ]
+};

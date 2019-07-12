@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts11', word: 'display', type: 'verb', meaning: 'bộc lộ', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'overcome', type: 'verb', meaning: 'vượt qua', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'fear', type: 'noun', meaning: 'nỗi sợ', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'desperately', type: 'adv', meaning: 'dữ dội', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'nausea', type: 'noun', meaning: 'buồn nôn', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'vertigo', type: 'noun', meaning: 'chóng mặt', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'nervousness', type: 'noun', meaning: 'bồn chồn, lo lắng', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'weakness', type: 'noun', meaning: 'điểm yếu', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'secure', type: 'adj', meaning: 'an toàn', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'emotion', type: 'noun', meaning: 'cảm xúc', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'shock', type: 'noun', meaning: 'cú sốc', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'elation', type: 'noun', meaning: 'hoan hỉ', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'absently', type: 'adv', meaning: 'lơ đãng', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'embarrassed', type: 'adj', meaning: 'lúng túng', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'greedy', type: 'adj', meaning: 'tham lam', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'realistic', type: 'adj', meaning: 'thực tế', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'obsessed', type: 'adj', meaning: 'ám ảnh', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'urge', type: 'noun', meaning: 'thúc giục', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'depressed', type: 'adj', meaning: 'chán nản', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'sensitive', type: 'adj', meaning: 'nhạy cảm', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'jealous', type: 'adj', meaning: 'ghen tị', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'comfort', type: 'verb', meaning: 'an ủi', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'sympathy', type: 'noun', meaning: 'đồng cảm', unit: '5d26a74b878544089e049247' },
+    { unitName: 'ielts11', word: 'appreciate', type: 'verb', meaning: 'cảm kích', unit: '5d26a74b878544089e049247' },
+  ]
+};

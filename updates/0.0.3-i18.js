@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts18', word: 'patient', type: 'noun', meaning: 'bệnh nhân', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'sevể', type: 'adj', meaning: 'nghiêm trọng', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'check-up', type: 'noun', meaning: 'kiểm tra sức khoẻ', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'infection', type: 'noun', meaning: 'bệnh truyền nhiễm', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'contagious', type: 'adj', meaning: 'lây nhiễm', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'epidemic', type: 'noun', meaning: 'bệnh dịch', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'symtom', type: 'noun', meaning: 'triệu chứng', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'prescription', type: 'noun', meaning: 'đơn thuốc', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'medicine', type: 'noun', meaning: 'đơn thuốc', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'operation', type: 'noun', meaning: 'phẫu thuật', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'cure', type: 'verb', meaning: 'cứu chữa', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'coma', type: 'noun', meaning: 'hôn mê', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'appointment', type: 'noun', meaning: 'cuộc hẹn', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'temperature', type: 'noun', meaning: 'nhiệt độ', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'emergency', type: 'noun', meaning: 'ca cấp cứu', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'disease', type: 'noun', meaning: 'bệnh', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'swallow', type: 'verb', meaning: 'nuốt', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'treat', type: 'verb', meaning: 'điều trị', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'chemist', type: 'noun', meaning: 'quầy thuốc', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'dose', type: 'noun', meaning: 'liều lượng thuốc', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'recover', type: 'verb', meaning: 'hồi phục ', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'inject', type: 'verb', meaning: 'tiêm ', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'suffer', type: 'verb', meaning: 'chịu đựng ', unit: '5d26a7cb878544089e04924e' },
+    { unitName: 'ielts18', word: 'bandage', type: 'noun', meaning: 'vết băng thương ', unit: '5d26a7cb878544089e04924e' },
+  ]
+};

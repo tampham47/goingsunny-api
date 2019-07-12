@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts20', word: 'library', type: 'noun', meaning: 'thư viện', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'librarian', type: 'noun', meaning: 'quản thư', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'author', type: 'noun', meaning: 'tác giả', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'historical', type: 'adj', meaning: 'thuộc về lịch sử', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'content', type: 'noun', meaning: 'nội dung', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'complicated', type: 'adj', meaning: 'phức tạp', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'non-fiction', type: 'adj', meaning: 'phi tiểu thuyết', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'heartbreaking', type: 'adj', meaning: 'đau lòng', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'fiction', type: 'noun', meaning: 'tiểu thuyết', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'novel', type: 'noun', meaning: 'tiểu thuyết', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'reference', type: 'noun', meaning: 'tài liệu tham khảo', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'criticize', type: 'verb', meaning: 'phê bình', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'knowledge', type: 'noun', meaning: 'kiến thức', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'creative', type: 'adj', meaning: 'sáng tạo', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'romantic', type: 'adj', meaning: 'lãng mạn', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'entertaining', type: 'adj', meaning: 'giải trí', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'suggest', type: 'verb', meaning: 'đề nghị', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'paperback', type: 'noun', meaning: 'sách bìa mềm', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'inspirational', type: 'adj', meaning: 'truyền cảm hứng', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'genre', type: 'noun', meaning: 'thể loại', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'e-book', type: 'noun', meaning: 'sách điện tử', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'recommend', type: 'verb', meaning: 'gợi ý', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'source', type: 'noun', meaning: 'nguồn thông tin', unit: '5d26a7f2878544089e049250' },
+    { unitName: 'ielts20', word: 'emphasize', type: 'verb', meaning: 'nhấn mạnh', unit: '5d26a7f2878544089e049250' },
+  ]
+};
