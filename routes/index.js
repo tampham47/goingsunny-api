@@ -237,9 +237,10 @@ exports = module.exports = function(app) {
         ...req.body,
         ...req.erm.result.toJSON(),
       }
-      console.log('payload', payload);
+      const channelName = `${body.target}-${payload._id}`;
+      console.log('payload', channelName);
       // trigger notification to all clients
-      pusher.trigger(`${body.target}-${payload._id}`, 'new-comment', payload);
+      pusher.trigger(channelName, 'new-comment', payload);
 
       if (body.target === 'essay') {
         const essay = body.essay;
