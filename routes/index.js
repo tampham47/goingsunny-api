@@ -163,6 +163,14 @@ exports = module.exports = function(app) {
     postCreate: (req, res, next) => {
       const body = req.body;
 
+      // trigger notification to all clients
+      const payload = {
+        ...req.body,
+        ...req.erm.result.toJSON(),
+      }
+      const channelName = `${body.target}-${payload.__object._id}`;
+      pusher.trigger(channelName, 'new-reaction', payload);
+
       if (body.target === 'essay') {
         const essay = body.essay;
         UserReactionModel.find({ essay }, (err, reactionList) => {
@@ -233,6 +241,15 @@ exports = module.exports = function(app) {
     postCreate: (req, res, next) => {
       const body = req.body;
 
+      // trigger notification to all clients
+      const payload = {
+        ...req.body,
+        ...req.erm.result.toJSON(),
+      }
+      const channelName = `${body.target}-${payload.__object._id}`;
+      pusher.trigger(channelName, 'new-comment', payload);
+
+      // update numberOfComment prop on the target entity
       if (body.target === 'essay') {
         const essay = body.essay;
 
@@ -245,6 +262,7 @@ exports = module.exports = function(app) {
         });
       }
 
+      // update numberOfComment prop on the target entity
       if (body.target === 'post') {
         const post = body.post;
         UserCommentModel.find({ post }, (err, commentList) => {
