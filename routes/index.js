@@ -233,15 +233,15 @@ exports = module.exports = function(app) {
     postCreate: (req, res, next) => {
       const body = req.body;
 
+      // trigger notification to all clients
       const payload = {
         ...req.body,
         ...req.erm.result.toJSON(),
       }
       const channelName = `${body.target}-${payload.__object._id}`;
-      console.log('payload', channelName);
-      // trigger notification to all clients
       pusher.trigger(channelName, 'new-comment', payload);
 
+      // update numberOfComment prop on the target entity
       if (body.target === 'essay') {
         const essay = body.essay;
 
@@ -254,6 +254,7 @@ exports = module.exports = function(app) {
         });
       }
 
+      // update numberOfComment prop on the target entity
       if (body.target === 'post') {
         const post = body.post;
         UserCommentModel.find({ post }, (err, commentList) => {
