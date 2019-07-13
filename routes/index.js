@@ -237,6 +237,7 @@ exports = module.exports = function(app) {
         ...req.body,
         ...req.erm.result.toJSON(),
       }
+      console.log('payload', payload);
       // trigger notification to all clients
       pusher.trigger(`${body.target}-${payload._id}`, 'new-comment', payload);
 
