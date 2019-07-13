@@ -233,6 +233,13 @@ exports = module.exports = function(app) {
     postCreate: (req, res, next) => {
       const body = req.body;
 
+      const payload = {
+        ...req.body,
+        ...req.erm.result.toJSON(),
+      }
+      // trigger notification to all clients
+      pusher.trigger(`${body.target}-${payload._id}`, 'new-comment', payload);
+
       if (body.target === 'essay') {
         const essay = body.essay;
 
