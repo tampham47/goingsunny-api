@@ -237,7 +237,7 @@ exports = module.exports = function(app) {
         ...req.body,
         ...req.erm.result.toJSON(),
       }
-      const channelName = `${body.target}-${payload._id}`;
+      const channelName = `${body.target}-${payload.__object._id}`;
       console.log('payload', channelName);
       // trigger notification to all clients
       pusher.trigger(channelName, 'new-comment', payload);
