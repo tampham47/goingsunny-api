@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts27', word: 'cruise', type: 'noun', meaning: 'chuyến đi chơi biển bằng tàu', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'coach', type: 'noun', meaning: 'xe khách', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'harbour', type: 'noun', meaning: 'bến cảng', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'ferry', type: 'noun', meaning: 'phà', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'confirm', type: 'verb', meaning: 'xác nhận', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'transportation', type: 'noun', meaning: 'hệ thống vận tải', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'windscreen', type: 'noun', meaning: 'kính chắn gió', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'baggage', type: 'noun', meaning: 'hành lý', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'crash', type: 'verb', meaning: 'đâm', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'lorry', type: 'noun', meaning: 'xe tải', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'gear', type: 'noun', meaning: 'cần số', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'honk', type: 'verb', meaning: 'bóp còi', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'horn', type: 'noun', meaning: 'còi', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'pedestrian', type: 'noun', meaning: 'khách bộ hành', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'airplane', type: 'noun', meaning: 'máy bay', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'jet', type: 'noun', meaning: 'máy bay phản lực', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'airline', type: 'noun', meaning: 'hãng hàng không', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'deplayed', type: 'adj', meaning: 'hoãn lại', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'land', type: 'verb', meaning: 'hạ cánh', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'tunnel', type: 'noun', meaning: 'đường hầm', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'refuel', type: 'verb', meaning: 'tiếp nhiên liệu', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'currency', type: 'noun', meaning: 'tiền tệ', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'speed', type: 'verb', meaning: 'tốc độ', unit: '5d414cf24f0b5a3bd094bd83' },
+    { unitName: 'ielts27', word: 'yacht', type: 'noun', meaning: 'du thuyền', unit: '5d414cf24f0b5a3bd094bd83' },
+  ]
+};
