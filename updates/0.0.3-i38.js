@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts38', word: 'attractive', type: 'adj', meaning: 'hấp dẫn', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'celebrity', type: 'noun', meaning: 'người nổi tiếng', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'cast', type: 'noun', meaning: 'diễn viên', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'famous', type: 'adj', meaning: 'nổi tiếng', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'show', type: 'noun', meaning: 'buổi biểu diễn', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'scene', type: 'noun', meaning: 'phân cảnh', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'recording', type: 'noun', meaning: 'bản thu', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'attention', type: 'noun', meaning: 'sự chú ý', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'talented', type: 'adj', meaning: 'tài năng', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'sensation', type: 'noun', meaning: 'hiện tượng', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'heartthrob', type: 'noun', meaning: 'tài tử', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'stylish', type: 'adj', meaning: 'kiểu cách', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'icon', type: 'noun', meaning: 'thần tượng', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'advert', type: 'noun', meaning: 'bài quảng cáo', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'paparazi', type: 'noun', meaning: 'thợ săn ảnh', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'lifestyle', type: 'noun', meaning: 'lối sống', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'stage', type: 'noun', meaning: 'sân khấu', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'autograph', type: 'noun', meaning: 'chữ ký', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'entertainment', type: 'noun', meaning: 'giải trí', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'arrogant', type: 'adj', meaning: 'ngạo mạn', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'thrilling', type: 'adj', meaning: 'li kỳ', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'alcoholic', type: 'noun', meaning: 'người nghiện rượu', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'tragic', type: 'adj', meaning: 'bi kịch', unit: '5d414d8e4f0b5a3bd094bd8e' },
+    { unitName: 'ielts38', word: 'perform', type: 'verb', meaning: 'biểu diễn', unit: '5d414d8e4f0b5a3bd094bd8e' },
+  ]
+};
