@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts34', word: 'harmful', type: 'adj', meaning: 'có hại', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'species', type: 'noun', meaning: 'giống loài', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'planet', type: 'noun', meaning: 'hành tinh', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'individual', type: 'noun', meaning: 'cá nhân', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'invade', type: 'verb', meaning: 'xâm chiếm', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'energy', type: 'noun', meaning: 'năng lượng', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'industry', type: 'noun', meaning: 'ngành công nghiệp', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'crop', type: 'noun', meaning: 'vụ mùa', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'urban', type: 'adj', meaning: 'thuộc thành phố', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'globe', type: 'noun', meaning: 'trái đất', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'responsibility', type: 'noun', meaning: 'trách nhiệm', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'disapear', type: 'verb', meaning: 'biến mất', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'pollute', type: 'verb', meaning: 'gây ô nhiễm', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'environment', type: 'noun', meaning: 'môi trường', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'dangerous', type: 'adj', meaning: 'không an toàn', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'ecological', type: 'adj', meaning: 'sinh thái học', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'recycle', type: 'verb', meaning: 'tái chế', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'reuse', type: 'verb', meaning: 'tái sử dụng', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'deforestation', type: 'noun', meaning: 'sự phá rừng', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'preserve', type: 'verb', meaning: 'bảo tồn', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'likely', type: 'adj', meaning: 'có thể', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'extreme', type: 'adj', meaning: 'quá nhiều', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'atmosphere', type: 'noun', meaning: 'khí quyển', unit: '5d414d614f0b5a3bd094bd8a' },
+    { unitName: 'ielts34', word: 'effect', type: 'noun', meaning: 'kết quả', unit: '5d414d614f0b5a3bd094bd8a' },
+  ]
+};

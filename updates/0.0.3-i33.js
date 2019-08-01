@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts33', word: 'rainbow', type: 'noun', meaning: 'cầu vồng', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'sunset', type: 'noun', meaning: 'hoàng hôn', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'sunrise', type: 'noun', meaning: 'bình minh', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'clear', type: 'adj', meaning: 'trời quang, không mây', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'misty', type: 'adj', meaning: 'sương mù', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'natural', type: 'adj', meaning: 'tự nhiên', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'climate', type: 'noun', meaning: 'khí hậu', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'tropical', type: 'adj', meaning: 'nhiệt đới', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'temperate', type: 'adj', meaning: 'nhiệt độ', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'polar', type: 'adj', meaning: 'thuộc về địa cực', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'zone', type: 'noun', meaning: 'vùng đất', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'droplet', type: 'noun', meaning: 'giọt (nước)', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'moisture', type: 'noun', meaning: 'hơi ẩm', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'horizon', type: 'noun', meaning: 'chân trời', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'chilly', type: 'adj', meaning: 'lạnh lẽo', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'cool', type: 'adj', meaning: 'mát mẻ', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'celsius', type: 'noun', meaning: 'độ C', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'fahrenheit', type: 'noun', meaning: 'độ F', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'crisp', type: 'adj', meaning: 'sảng khoái', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'fresh', type: 'adj', meaning: 'tươi mát', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'smog', type: 'noun', meaning: 'sương khói', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'haze', type: 'noun', meaning: 'sương mù', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'visibility', type: 'noun', meaning: 'tầm nhìn tốt', unit: '5d414d524f0b5a3bd094bd89' },
+    { unitName: 'ielts33', word: 'high-pressure', type: 'adj', meaning: 'áp suất cao', unit: '5d414d524f0b5a3bd094bd89' },
+  ]
+};
