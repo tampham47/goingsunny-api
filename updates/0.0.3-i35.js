@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts35', word: 'judge', type: 'noun', meaning: 'thẩm phán', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'mugger', type: 'noun', meaning: 'tên trộm', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'criminal', type: 'noun', meaning: 'tội phạm', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'prosecutor', type: 'noun', meaning: 'người khởi tố', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'defendant', type: 'noun', meaning: 'người bị kiện', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'evidence', type: 'noun', meaning: 'bằng chứng', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'jury', type: 'noun', meaning: 'ban hội thẩm', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'victim', type: 'noun', meaning: 'nạn nhân', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'court', type: 'noun', meaning: 'toà án', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'witness', type: 'noun', meaning: 'nhân chứng', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'intentionally', type: 'adv', meaning: 'cố ý', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'act', type: 'verb', meaning: 'hành động', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'decision', type: 'noun', meaning: 'quyết định', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'necessary', type: 'adj', meaning: 'cần thiết', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'purpose', type: 'noun', meaning: 'mục đích', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'accuse', type: 'verb', meaning: 'buộc tội', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'prove', type: 'verb', meaning: 'chứng minh', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'truth', type: 'noun', meaning: 'sự thật', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'suspect', type: 'verb', meaning: 'nghi ngờ', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'fine', type: 'noun', meaning: 'tiền phạt', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'jail', type: 'noun', meaning: 'trại giam', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'rule', type: 'noun', meaning: 'điều luật', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'prohibit', type: 'verb', meaning: 'ngăn cấm', unit: '5d414d6c4f0b5a3bd094bd8b' },
+    { unitName: 'ielts35', word: 'argue', type: 'verb', meaning: 'tranh luận', unit: '5d414d6c4f0b5a3bd094bd8b' },
+  ]
+};

@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts39', word: 'infamous', type: 'adj', meaning: 'đáng hổ thẹn', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'transform', type: 'verb', meaning: 'thay đổi', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'nobody', type: 'noun', meaning: 'người vô dụng', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'naked', type: 'adj', meaning: 'khoả thân', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'publicity', type: 'noun', meaning: 'công khai', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'leak', type: 'verb', meaning: 'rò rỉ', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'post', type: 'verb', meaning: 'đăng lên', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'share', type: 'verb', meaning: 'chia sẻ', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'scandal', type: 'noun', meaning: 'vụ bê bối', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'guide', type: 'noun', meaning: 'điều chỉ dẫn', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'drug', type: 'noun', meaning: 'ma tuý', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'journalist', type: 'noun', meaning: 'nhà báo', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'editor', type: 'noun', meaning: 'biên tập viên', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'article', type: 'noun', meaning: 'bài báo', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'headline', type: 'noun', meaning: 'tiêu đề', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'act', type: 'verb', meaning: 'diễn', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'award', type: 'noun', meaning: 'phần thưởng', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'sober', type: 'adj', meaning: 'tỉnh táo', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'host', type: 'noun', meaning: 'dẫn chương trình', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'songwriter', type: 'noun', meaning: 'nhạc sĩ', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'musician', type: 'noun', meaning: 'nhạc công', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'insult', type: 'verb', meaning: 'lăng mạ', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'public', type: 'noun', meaning: 'công chúng', unit: '5d414d9f4f0b5a3bd094bd8f' },
+    { unitName: 'ielts39', word: 'live', type: 'adj', meaning: 'phát trực tiếp', unit: '5d414d9f4f0b5a3bd094bd8f' },
+  ]
+};

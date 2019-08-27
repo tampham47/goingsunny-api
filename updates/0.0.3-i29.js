@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts29', word: 'solution', type: 'noun', meaning: 'giải pháp', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'advantage', type: 'noun', meaning: 'sự thuận lợi', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'disadvantage', type: 'noun', meaning: 'sự bất lợi', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'public', type: 'adj', meaning: 'công chúng', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'private', type: 'adj', meaning: 'cá nhân', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'pollution', type: 'noun', meaning: 'sự ô nhiễm', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'green', type: 'adj', meaning: 'màu xanh', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'balance', type: 'noun', meaning: 'cân bằng', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'narrow', type: 'adj', meaning: 'chật hẹp', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'freedom', type: 'noun', meaning: 'tự do', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'nip', type: 'verb', meaning: 'ghé qua', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'pause', type: 'verb', meaning: 'tạm ngừng', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'zip', type: 'verb', meaning: 'chạy vụt qua', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'dash', type: 'verb', meaning: 'lao tới', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'avoid', type: 'verb', meaning: 'né, tránh xa', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'cruise', type: 'verb', meaning: 'đi chơi biển', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'helmet', type: 'noun', meaning: 'mũ bảo hiểm', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'steady', type: 'adj', meaning: 'vững chắc', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'charge', type: 'verb', meaning: 'sạc điện', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'license', type: 'noun', meaning: 'bằng cấp', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'full-face', type: 'adj', meaning: 'toàn khuôn mặt', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'protect', type: 'verb', meaning: 'bảo vệ', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'chin', type: 'noun', meaning: 'cằm', unit: '5d414d194f0b5a3bd094bd85' },
+    { unitName: 'ielts29', word: 'visor', type: 'noun', meaning: 'vành mũi', unit: '5d414d194f0b5a3bd094bd85' },
+  ]
+};

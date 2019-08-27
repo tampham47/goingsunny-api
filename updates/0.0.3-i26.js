@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts26', word: 'sprawl', type: 'verb', meaning: 'ngổn ngang', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'queue', type: 'noun', meaning: 'hàng', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'downtown', type: 'noun', meaning: 'khu trung tâm', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'hectic', type: 'adj', meaning: 'sôi nổi, náo nhiệt', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'construct', type: 'verb', meaning: 'xây dựng', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'luxury', type: 'noun', meaning: 'xa hoa', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'high-rise', type: 'noun', meaning: 'toà nhà nhiều tầng', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'district', type: 'noun', meaning: 'quận', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'overtake', type: 'verb', meaning: 'vượt qua', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'multistorey', type: 'adj', meaning: 'nhiều tầng', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'lane', type: 'noun', meaning: 'con đường làng', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'outskirts', type: 'noun', meaning: 'ngoại ô', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'region', type: 'noun', meaning: 'vùng', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'skyscraper', type: 'noun', meaning: 'nhà chọc trời', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'retail', type: 'adj', meaning: 'bán lẻ', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'agency', type: 'noun', meaning: 'đại lý', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'sidewalk', type: 'noun', meaning: 'vỉa hè', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'underground', type: 'adv', meaning: 'dưới lòng đất', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'authority', type: 'noun', meaning: 'nhà chức trách', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'monument', type: 'noun', meaning: 'tượng đài', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'sewer', type: 'noun', meaning: 'cống rãnh', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'wholesale', type: 'adj', meaning: 'buôn', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'landmark', type: 'noun', meaning: 'địa danh nổi tiếng', unit: '5d414cac4f0b5a3bd094bd7f' },
+    { unitName: 'ielts26', word: 'chain', type: 'noun', meaning: 'chuỗi', unit: '5d414cac4f0b5a3bd094bd7f' },
+  ]
+};

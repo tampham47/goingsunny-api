@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts37', word: 'politician', type: 'noun', meaning: 'chính trị gia', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'govern', type: 'verb', meaning: 'cầm quyền', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'mayor', type: 'noun', meaning: 'thị trưởng', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'county', type: 'noun', meaning: 'quận', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'authority', type: 'noun', meaning: 'quyền lực', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'president', type: 'noun', meaning: 'tổng thống', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'elect', type: 'verb', meaning: 'bầu cử', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'term', type: 'noun', meaning: 'nhiệm kỳ', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'immigration', type: 'noun', meaning: 'nhập cư', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'issue', type: 'noun', meaning: 'vấn đề', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'opponent', type: 'noun', meaning: 'đối thủ', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'parliament', type: 'noun', meaning: 'nghị viện', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'party', type: 'noun', meaning: 'đảng phái', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'domestic', type: 'adj', meaning: 'trong nước', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'dominate', type: 'verb', meaning: 'chiếm ưu thế', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'loyal', type: 'adj', meaning: 'trung thành', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'leader', type: 'noun', meaning: 'lãnh đạo', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'nationalist', type: 'adj', meaning: 'chủ nghĩa dân tộc', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'debate', type: 'verb', meaning: 'tranh cãi', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'state', type: 'noun', meaning: 'quốc gia', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'independent', type: 'adj', meaning: 'độc lập', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'participate', type: 'verb', meaning: 'tham gia', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'strict', type: 'adj', meaning: 'ràng buộc chặt chẽ', unit: '5d414d834f0b5a3bd094bd8d' },
+    { unitName: 'ielts37', word: 'democratic', type: 'adj', meaning: 'dân chủ', unit: '5d414d834f0b5a3bd094bd8d' },
+  ]
+};

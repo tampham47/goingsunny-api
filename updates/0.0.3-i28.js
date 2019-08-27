@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts28', word: 'cart', type: 'noun', meaning: 'xe đẩy', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'carriage', type: 'noun', meaning: 'xe ngựa kéo', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'canoe', type: 'noun', meaning: 'xuồng', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'boat', type: 'noun', meaning: 'thuyền', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'paddle', type: 'noun', meaning: 'mái chèo', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'sail', type: 'verb', meaning: 'lái thuyền buồm', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'ship', type: 'noun', meaning: 'tàu thuỷ', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'motor', type: 'noun', meaning: 'động cơ', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'direction', type: 'noun', meaning: 'phương hướng', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'ascend', type: 'verb', meaning: 'đi lên', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'glide', type: 'verb', meaning: 'trượt', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'ride', type: 'verb', meaning: 'lái', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'current', type: 'noun', meaning: 'dòng nước, luồng khí', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'aircraft', type: 'noun', meaning: 'phi cơ', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'engine', type: 'noun', meaning: 'động cơ', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'supersonic', type: 'adj', meaning: 'siêu âm', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'charter', type: 'verb', meaning: 'thuê', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'exchange', type: 'verb', meaning: 'trao đổi', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'revolve', type: 'verb', meaning: 'xoay quanh', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'altitude', type: 'noun', meaning: 'độ cao', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'depth', type: 'noun', meaning: 'độ sâu', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'fare', type: 'noun', meaning: 'giá vé', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'metro', type: 'noun', meaning: 'tàu điện ngầm', unit: '5d414d024f0b5a3bd094bd84' },
+    { unitName: 'ielts28', word: 'tram', type: 'noun', meaning: 'tàu điện', unit: '5d414d024f0b5a3bd094bd84' },
+  ]
+};

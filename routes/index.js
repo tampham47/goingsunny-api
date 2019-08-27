@@ -83,6 +83,7 @@ exports = module.exports = function(app) {
   app.get('/', views.index);
 
   // restify mongoose
+  restify.serve(router, keystone.mongoose.model('CrawlWriting'));
   restify.serve(router, keystone.mongoose.model('User'));
   restify.serve(router, keystone.mongoose.model('KUnit'));
   restify.serve(router, keystone.mongoose.model('KVocab'));

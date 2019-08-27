@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts36', word: 'lawyer', type: 'noun', meaning: 'luật sư', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'charge', type: 'verb', meaning: 'buộc tội', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'convene', type: 'verb', meaning: 'triệu tập', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'settle', type: 'verb', meaning: 'dàn xếp', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'claim', type: 'verb', meaning: 'bồi thường', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'crime', type: 'noun', meaning: 'tội phạm', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'commit', type: 'verb', meaning: 'phạm tội', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'robbery', type: 'noun', meaning: 'vụ ăn trộm', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'security', type: 'noun', meaning: 'an ninh', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'thief', type: 'noun', meaning: 'tên trộm', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'right', type: 'noun', meaning: 'quyền', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'revenge', type: 'noun', meaning: 'sự trả thù', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'admit', type: 'verb', meaning: 'thú nhận', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'conspiracy', type: 'noun', meaning: 'âm mưu', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'assault', type: 'noun', meaning: 'sự hành hung', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'cruel', type: 'adj', meaning: 'tàn nhẫn', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'punishment', type: 'noun', meaning: 'trừng phạt', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'stab', type: 'verb', meaning: 'đâm', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'arrest', type: 'verb', meaning: 'bắt giữ', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'procedure', type: 'noun', meaning: 'thủ tục', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'sentence', type: 'noun', meaning: 'bản án', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'deny', type: 'verb', meaning: 'phủ nhận', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'assasinate', type: 'verb', meaning: 'ám sát', unit: '5d414d754f0b5a3bd094bd8c' },
+    { unitName: 'ielts36', word: 'investigate', type: 'verb', meaning: 'điều tra', unit: '5d414d754f0b5a3bd094bd8c' },
+  ]
+};

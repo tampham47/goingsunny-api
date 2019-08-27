@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts40', word: 'experiment', type: 'noun', meaning: 'thí nghiệm', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'technological', type: 'adj', meaning: 'kỹ thuật', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'innovation', type: 'noun', meaning: 'sự cải tiến', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'artificial', type: 'adj', meaning: 'nhân tạo', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'blogger', type: 'noun', meaning: 'người viết blog', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'upgrade', type: 'verb', meaning: 'nâng cấp', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'breakthrough', type: 'noun', meaning: 'đột phá', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'install', type: 'verb', meaning: 'lắp đặt', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'software', type: 'noun', meaning: 'phần mềm', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'megabyte', type: 'noun', meaning: 'megabyte (thuộc về máy tính)', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'automatic', type: 'adj', meaning: 'tự động', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'essential', type: 'adj', meaning: 'thiết yếu', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'delete', type: 'verb', meaning: 'xoá bỏ', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'routine', type: 'noun', meaning: 'đoạn mã chương trình', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'updated', type: 'adj', meaning: ' đã cập nhật', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'device', type: 'noun', meaning: 'thiết bị, máy móc', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'accurate', type: 'adj', meaning: 'chính xác', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'invention', type: 'noun', meaning: 'phát minh', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'program', type: 'noun', meaning: 'chương trình', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'advance', type: 'noun', meaning: 'tiến bộ', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'achieve', type: 'verb', meaning: 'đạt được', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'engineer', type: 'noun', meaning: 'kỹ sư', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'connect', type: 'verb', meaning: 'kết nối', unit: '5d414db24f0b5a3bd094bd90' },
+    { unitName: 'ielts40', word: 'operator', type: 'noun', meaning: 'người vận hành', unit: '5d414db24f0b5a3bd094bd90' },
+  ]
+};

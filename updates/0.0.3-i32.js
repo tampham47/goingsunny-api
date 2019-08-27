@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts32', word: 'litter', type: 'noun', meaning: 'rác thải', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'environment', type: 'noun', meaning: 'môi trường', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'heatwave', type: 'noun', meaning: 'đợt nóng', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'dusty', type: 'adj', meaning: 'bụi bặm', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'drought', type: 'noun', meaning: 'hạn hán', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'humidity', type: 'noun', meaning: 'độ ẩm', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'drizzle', type: 'noun', meaning: 'mưa phùn', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'shower', type: 'noun', meaning: 'mưa rào', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'pour', type: 'verb', meaning: 'mưa nặng hạt', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'downpour', type: 'noun', meaning: 'trận mưa như trút nước', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'soaked', type: 'adj', meaning: 'ướt sũng', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'puddle', type: 'noun', meaning: 'vũng nước', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'pond', type: 'noun', meaning: 'ao hồ', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'freezing', type: 'adj', meaning: 'lạnh cóng', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'shiver', type: 'verb', meaning: 'run cầm cập', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'blizzard', type: 'noun', meaning: 'bão tuyết', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'tornado', type: 'noun', meaning: 'cơn lốc', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'earthquake', type: 'noun', meaning: 'trận động đất', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'flood', type: 'noun', meaning: 'lũ lụt', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'volcano', type: 'noun', meaning: 'núi lửa', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'thunder', type: 'noun', meaning: 'sấm chớp', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'lightning', type: 'noun', meaning: 'tia sét', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'calm', type: 'adj', meaning: 'tĩnh lặng', unit: '5d414d444f0b5a3bd094bd88' },
+    { unitName: 'ielts32', word: 'bright', type: 'adj', meaning: 'tươi sáng', unit: '5d414d444f0b5a3bd094bd88' },
+  ]
+};

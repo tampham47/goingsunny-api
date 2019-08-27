@@ -1,0 +1,28 @@
+exports.create = {
+  KVocab: [
+    { unitName: 'ielts30', word: 'society', type: 'noun', meaning: 'xã hội', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'volunteer', type: 'verb', meaning: 'tình nguyện', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'charity', type: 'noun', meaning: 'hội từ thiện', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'unemployment', type: 'noun', meaning: 'thất nghiệp', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'standard', type: 'noun', meaning: 'tiêu chuẩn', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'maintain', type: 'verb', meaning: 'duy trì', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'poverty', type: 'noun', meaning: 'sự nghèo khó', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'civilization', type: 'noun', meaning: 'nền văn minh', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'population', type: 'noun', meaning: 'dân số', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'class', type: 'noun', meaning: 'giai cấp', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'benefit', type: 'noun', meaning: 'lợi ích', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'opinion', type: 'noun', meaning: 'ý kiến', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'develop', type: 'verb', meaning: 'phát triển', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'social', type: 'adj', meaning: 'mang tính xã hội', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'prevent', type: 'verb', meaning: 'ngăn ngừa', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'religion', type: 'noun', meaning: 'tôn giáo', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'community', type: 'noun', meaning: 'cộng đồng', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'service', type: 'noun', meaning: 'dịch vụ', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'religious', type: 'adj', meaning: 'tôn giáo', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'diverse', type: 'adj', meaning: 'đa dạng', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'facility', type: 'noun', meaning: 'cơ sở vật chất', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'oppotunity', type: 'noun', meaning: 'cơ hội', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'industrial', type: 'adj', meaning: 'thuộc khu công nghiệp', unit: '5d414d2e4f0b5a3bd094bd86' },
+    { unitName: 'ielts30', word: 'voluntary', type: 'adj', meaning: 'tình nguyện', unit: '5d414d2e4f0b5a3bd094bd86' },
+  ]
+};
